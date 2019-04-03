@@ -1,0 +1,155 @@
+DESIGN char@to@morse
+VIEW struct.bd
+NO_GRAPHIC 0
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 123,0 9 0 
+DESIGN char@to@morse
+VIEW struct.bd
+NO_GRAPHIC 12
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 0,0 15 2 
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 1,0 18 0 
+DESIGN char@to@morse
+VIEW struct.bd
+NO_GRAPHIC 18
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 365,0 21 0 
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 371,0 22 0 
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 377,0 23 0 
+DESIGN char@to@morse
+VIEW struct.bd
+NO_GRAPHIC 24
+DESIGN char@to@morse
+VIEW struct.bd
+NO_GRAPHIC 25
+LIBRARY Morse
+DESIGN char@to@morse@controller
+VIEW @r@t@l
+GRAPHIC 469,0 27 0 
+DESIGN char@to@morse@controller
+VIEW symbol.sb
+GRAPHIC 14,0 28 1 
+DESIGN char@to@morse@controller
+VIEW symbol.sb
+GRAPHIC 204,0 33 0 
+DESIGN char@to@morse@controller
+VIEW symbol.sb
+GRAPHIC 310,0 34 0 
+DESIGN char@to@morse@controller
+VIEW symbol.sb
+GRAPHIC 315,0 35 0 
+DESIGN char@to@morse@controller
+VIEW symbol.sb
+GRAPHIC 348,0 36 0 
+DESIGN char@to@morse@controller
+VIEW symbol.sb
+GRAPHIC 457,0 37 0 
+DESIGN char@to@morse@controller
+VIEW symbol.sb
+GRAPHIC 671,0 38 0 
+DESIGN char@to@morse@controller
+VIEW symbol.sb
+GRAPHIC 676,0 39 0 
+DESIGN char@to@morse@controller
+VIEW symbol.sb
+GRAPHIC 681,0 40 0 
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 427,0 43 0 
+DESIGN unit@counter
+VIEW symbol.sb
+GRAPHIC 14,0 44 1 
+DESIGN unit@counter
+VIEW symbol.sb
+GRAPHIC 310,0 49 0 
+DESIGN unit@counter
+VIEW symbol.sb
+GRAPHIC 315,0 50 0 
+DESIGN unit@counter
+VIEW symbol.sb
+GRAPHIC 671,0 51 0 
+DESIGN unit@counter
+VIEW symbol.sb
+GRAPHIC 676,0 52 0 
+DESIGN unit@counter
+VIEW symbol.sb
+GRAPHIC 681,0 53 0 
+LIBRARY Morse
+DESIGN char@to@morse
+VIEW struct.bd
+NO_GRAPHIC 56
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 469,0 59 0 
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 427,0 60 0 
+DESIGN char@to@morse
+VIEW struct.bd
+NO_GRAPHIC 63
+DESIGN char@to@morse
+VIEW struct.bd
+NO_GRAPHIC 65
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 469,0 67 0 
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 476,0 68 1 
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 15,0 73 0 
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 29,0 74 0 
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 43,0 75 0 
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 57,0 76 0 
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 71,0 77 0 
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 367,0 78 0 
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 379,0 79 0 
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 373,0 80 0 
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 427,0 82 0 
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 434,0 83 1 
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 397,0 88 0 
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 389,0 89 0 
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 367,0 90 0 
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 379,0 91 0 
+DESIGN char@to@morse
+VIEW struct.bd
+GRAPHIC 373,0 92 0 
+DESIGN char@to@morse
+VIEW struct.bd
+NO_GRAPHIC 95

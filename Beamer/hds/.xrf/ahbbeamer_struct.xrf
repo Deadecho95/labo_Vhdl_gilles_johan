@@ -1,0 +1,269 @@
+DESIGN ahb@beamer
+VIEW struct.bd
+NO_GRAPHIC 0
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 42,0 9 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+NO_GRAPHIC 14
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 0,0 17 2 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 1,0 20 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+NO_GRAPHIC 20
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 14974,0 24 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 15201,0 25 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 15207,0 26 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 15213,0 27 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 15462,0 28 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 15468,0 29 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 16103,0 30 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+NO_GRAPHIC 31
+DESIGN ahb@beamer
+VIEW struct.bd
+NO_GRAPHIC 32
+LIBRARY Beamer
+DESIGN ahb@beamer@operator
+VIEW struct
+GRAPHIC 16624,0 34 0 
+DESIGN ahb@beamer@operator
+VIEW symbol.sb
+GRAPHIC 14,0 35 1 
+DESIGN ahb@beamer@operator
+VIEW symbol.sb
+GRAPHIC 67,0 40 0 
+DESIGN ahb@beamer@operator
+VIEW symbol.sb
+GRAPHIC 57,0 41 0 
+DESIGN ahb@beamer@operator
+VIEW symbol.sb
+GRAPHIC 52,0 42 0 
+DESIGN ahb@beamer@operator
+VIEW symbol.sb
+GRAPHIC 76,0 43 0 
+DESIGN ahb@beamer@operator
+VIEW symbol.sb
+GRAPHIC 82,0 44 0 
+DESIGN ahb@beamer@operator
+VIEW symbol.sb
+GRAPHIC 125,0 45 0 
+DESIGN ahb@beamer@operator
+VIEW symbol.sb
+GRAPHIC 524,0 46 0 
+DESIGN ahb@beamer@operator
+VIEW symbol.sb
+GRAPHIC 529,0 47 0 
+DESIGN ahb@beamer@operator
+VIEW symbol.sb
+GRAPHIC 534,0 48 0 
+DESIGN ahb@beamer@operator
+VIEW symbol.sb
+GRAPHIC 648,0 49 0 
+DESIGN ahb@beamer@operator
+VIEW symbol.sb
+GRAPHIC 726,0 50 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 17233,0 53 0 
+DESIGN ahb@beamer@registers
+VIEW symbol.sb
+GRAPHIC 14,0 54 1 
+DESIGN ahb@beamer@registers
+VIEW symbol.sb
+GRAPHIC 120,0 61 0 
+DESIGN ahb@beamer@registers
+VIEW symbol.sb
+GRAPHIC 544,0 62 0 
+DESIGN ahb@beamer@registers
+VIEW symbol.sb
+GRAPHIC 549,0 63 0 
+DESIGN ahb@beamer@registers
+VIEW symbol.sb
+GRAPHIC 534,0 64 0 
+DESIGN ahb@beamer@registers
+VIEW symbol.sb
+GRAPHIC 539,0 65 0 
+DESIGN ahb@beamer@registers
+VIEW symbol.sb
+GRAPHIC 554,0 66 0 
+DESIGN ahb@beamer@registers
+VIEW symbol.sb
+GRAPHIC 841,0 67 0 
+DESIGN ahb@beamer@registers
+VIEW symbol.sb
+GRAPHIC 52,0 68 0 
+DESIGN ahb@beamer@registers
+VIEW symbol.sb
+GRAPHIC 113,0 69 0 
+DESIGN ahb@beamer@registers
+VIEW symbol.sb
+GRAPHIC 57,0 70 0 
+DESIGN ahb@beamer@registers
+VIEW symbol.sb
+GRAPHIC 761,0 71 0 
+DESIGN ahb@beamer@registers
+VIEW symbol.sb
+GRAPHIC 940,0 72 0 
+DESIGN ahb@beamer@registers
+VIEW symbol.sb
+GRAPHIC 945,0 73 0 
+DESIGN ahb@beamer@registers
+VIEW symbol.sb
+GRAPHIC 950,0 74 0 
+DESIGN ahb@beamer@registers
+VIEW symbol.sb
+GRAPHIC 955,0 75 0 
+DESIGN ahb@beamer@registers
+VIEW symbol.sb
+GRAPHIC 960,0 76 0 
+DESIGN ahb@beamer@registers
+VIEW symbol.sb
+GRAPHIC 965,0 77 0 
+LIBRARY Beamer
+DESIGN ahb@beamer
+VIEW struct.bd
+NO_GRAPHIC 80
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 16624,0 83 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 17233,0 84 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+NO_GRAPHIC 87
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 16006,0 90 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+NO_GRAPHIC 100
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 17109,0 101 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+NO_GRAPHIC 103
+DESIGN ahb@beamer
+VIEW struct.bd
+NO_GRAPHIC 104
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 16624,0 106 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 16631,0 107 1 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 115,0 112 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 15203,0 113 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 17242,0 114 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 17126,0 115 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 129,0 116 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 5086,0 117 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 15209,0 118 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 15215,0 119 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 15464,0 120 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 15470,0 121 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 16105,0 122 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 17233,0 124 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 17240,0 125 1 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 15576,0 132 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 15464,0 133 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 15470,0 134 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 15203,0 135 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 15215,0 136 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 15209,0 137 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 16105,0 138 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 16939,0 139 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 16749,0 140 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 16672,0 141 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 16953,0 142 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 16735,0 143 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 16763,0 144 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 16777,0 145 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 16791,0 146 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 16805,0 147 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+GRAPHIC 16819,0 148 0 
+DESIGN ahb@beamer
+VIEW struct.bd
+NO_GRAPHIC 151

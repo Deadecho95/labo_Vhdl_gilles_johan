@@ -1,0 +1,75 @@
+[Concat]
+Board = $HDS_PROJECT_DIR/../Board/concat
+[ModelSim]
+AhbLite = $SCRATCH_DIR/Libs/AhbLite/work
+AhbLite_test = $SCRATCH_DIR/Libs/AhbLite_test/work
+AhbLiteComponents = $SCRATCH_DIR/Libs/AhbLiteComponents/work
+AhbLiteComponents_test = $SCRATCH_DIR/Libs/AhbLiteComponents_test/work
+Beamer = $SCRATCH_DIR/SEm/Beamer/work
+Beamer_test = $SCRATCH_DIR/SEm/Beamer_test/work
+Board = $SCRATCH_DIR/SEm/Board/work
+Common = $SCRATCH_DIR/Libs/Common/work
+Common_test = $SCRATCH_DIR/Libs/Common_test/work
+NanoBlaze = $SCRATCH_DIR/SEm/NanoBlaze/work
+NanoBlaze_test = $SCRATCH_DIR/SEm/NanoBlaze_test/work
+RS232 = $SCRATCH_DIR/SEm/RS232/work
+RS232_test = $SCRATCH_DIR/SEm/RS232_test/work
+SineInterpolator = $SCRATCH_DIR/Sem/SineInterpolator/work
+SineInterpolator_test = $SCRATCH_DIR/Sem/SineInterpolator_test/work
+UVM = $SCRATCH_DIR/SEm/UVM/work
+UVM_test = $SCRATCH_DIR/SEm/UVM_test/work
+WaveformGenerator = $SCRATCH_DIR/SEm/WaveformGenerator/work
+WaveformGenerator_test = $SCRATCH_DIR/Sem/WaveformGenerator_test/work
+[hdl]
+AhbLite = $HEI_LIBS_DIR/AhbLite/hdl
+AhbLite_test = $HEI_LIBS_DIR/AhbLite_test/hdl
+AhbLiteComponents = $HDS_PROJECT_DIR/../AhbLiteComponents/hdl
+AhbLiteComponents_test = $HDS_PROJECT_DIR/../AhbLiteComponents_test/hdl
+Beamer = $HDS_PROJECT_DIR/../Beamer/hdl
+Beamer_test = $HDS_PROJECT_DIR/../Beamer_test/hdl
+Board = $HDS_PROJECT_DIR/../Board/hdl
+Common = $HEI_LIBS_DIR/Common/hdl
+Common_test = $HEI_LIBS_DIR/Common_test/hdl
+ieee = $HDS_HOME/hdl_libs/ieee/hdl
+NanoBlaze = $HEI_LIBS_DIR/NanoBlaze/hdl
+NanoBlaze_test = $HEI_LIBS_DIR/NanoBlaze_test/hdl
+RS232 = $HEI_LIBS_DIR/RS232/hdl
+RS232_test = $HEI_LIBS_DIR/RS232_test/hdl
+SineInterpolator = $HDS_PROJECT_DIR/../SineInterpolator/hdl
+SineInterpolator_test = $HDS_PROJECT_DIR/../SineInterpolator_test/hdl
+std = $HDS_HOME/hdl_libs/std/hdl
+UVM = $HEI_LIBS_DIR/UVM/hdl
+UVM_test = $HEI_LIBS_DIR/UVM_test/hdl
+WaveformGenerator = $HDS_PROJECT_DIR/../WaveformGenerator/hdl
+WaveformGenerator_test = $HDS_PROJECT_DIR/../WaveformGenerator_test/hdl
+[hds]
+AhbLite = $HEI_LIBS_DIR/AhbLite/hds
+AhbLite_test = $HEI_LIBS_DIR/AhbLite_test/hds
+AhbLiteComponents = $HDS_PROJECT_DIR/../AhbLiteComponents/hds
+AhbLiteComponents_test = $HDS_PROJECT_DIR/../AhbLiteComponents_test/hds
+Beamer = $HDS_PROJECT_DIR/../Beamer/hds
+Beamer_test = $HDS_PROJECT_DIR/../Beamer_test/hds
+Board = $HDS_PROJECT_DIR/../Board/hds
+Common = $HEI_LIBS_DIR/Common/hds
+Common_test = $HEI_LIBS_DIR/Common_test/hds
+ieee = $HDS_HOME/hdl_libs/ieee/hds
+RS232 = $HEI_LIBS_DIR/RS232/hds
+RS232_test = $HEI_LIBS_DIR/RS232_test/hds
+NanoBlaze = $HEI_LIBS_DIR/NanoBlaze/hds
+NanoBlaze_test = $HEI_LIBS_DIR/NanoBlaze_test/hds
+SineInterpolator = $HDS_PROJECT_DIR/../SineInterpolator/hds
+SineInterpolator_test = $HDS_PROJECT_DIR/../SineInterpolator_test/hds
+std = $HDS_HOME/hdl_libs/std/hds
+UVM = $HEI_LIBS_DIR/UVM/hds
+UVM_test = $HEI_LIBS_DIR/UVM_test/hds
+WaveformGenerator = $HDS_PROJECT_DIR/../WaveformGenerator/hds
+WaveformGenerator_test = $HDS_PROJECT_DIR/../WaveformGenerator_test/hds
+[hds_settings]
+design_root = Chronometer_test.motorControl_tb(struct)motor@control_tb/struct.bd
+[library_type]
+Board = regular
+ieee = standard
+moduleware = standard
+std = standard
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

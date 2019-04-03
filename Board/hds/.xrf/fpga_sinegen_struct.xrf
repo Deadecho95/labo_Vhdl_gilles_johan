@@ -1,0 +1,280 @@
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+NO_GRAPHIC 0
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 84,0 9 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+NO_GRAPHIC 12
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 0,0 17 2 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1,0 20 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+NO_GRAPHIC 20
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 895,0 24 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 49,0 25 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 893,0 26 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 897,0 27 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 617,0 28 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1631,0 29 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1652,0 30 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1633,0 31 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1635,0 32 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+NO_GRAPHIC 33
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+NO_GRAPHIC 34
+LIBRARY Beamer
+DESIGN @d@a@c
+VIEW order2
+GRAPHIC 1505,0 36 0 
+DESIGN @d@a@c
+VIEW symbol.sb
+GRAPHIC 14,0 37 1 
+DESIGN @d@a@c
+VIEW symbol.sb
+GRAPHIC 67,0 41 0 
+DESIGN @d@a@c
+VIEW symbol.sb
+GRAPHIC 57,0 42 0 
+DESIGN @d@a@c
+VIEW symbol.sb
+GRAPHIC 52,0 43 0 
+DESIGN @d@a@c
+VIEW symbol.sb
+GRAPHIC 76,0 44 0 
+LIBRARY Board
+DESIGN @d@f@f
+VIEW sim
+GRAPHIC 1071,0 47 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 57,0 49 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 63,0 50 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 51,0 51 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 69,0 52 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1806,0 55 0 
+DESIGN inverter@in
+VIEW symbol.sb
+GRAPHIC 16,0 57 0 
+DESIGN inverter@in
+VIEW symbol.sb
+GRAPHIC 22,0 58 0 
+LIBRARY SineInterpolator
+DESIGN sine@gen
+VIEW struct
+GRAPHIC 1542,0 61 0 
+DESIGN sine@gen
+VIEW symbol.sb
+GRAPHIC 14,0 62 1 
+DESIGN sine@gen
+VIEW symbol.sb
+GRAPHIC 52,0 67 0 
+DESIGN sine@gen
+VIEW symbol.sb
+GRAPHIC 88,0 68 0 
+DESIGN sine@gen
+VIEW symbol.sb
+GRAPHIC 128,0 69 0 
+DESIGN sine@gen
+VIEW symbol.sb
+GRAPHIC 98,0 70 0 
+DESIGN sine@gen
+VIEW symbol.sb
+GRAPHIC 103,0 71 0 
+DESIGN sine@gen
+VIEW symbol.sb
+GRAPHIC 108,0 72 0 
+DESIGN sine@gen
+VIEW symbol.sb
+GRAPHIC 118,0 73 0 
+LIBRARY Board
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+NO_GRAPHIC 76
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1505,0 79 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1071,0 80 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1806,0 81 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1542,0 82 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+NO_GRAPHIC 85
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 443,0 88 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+NO_GRAPHIC 90
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1324,0 91 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+NO_GRAPHIC 93
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1637,0 94 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+NO_GRAPHIC 96
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 818,0 97 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+NO_GRAPHIC 99
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+NO_GRAPHIC 100
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1505,0 102 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1512,0 103 1 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 575,0 107 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 579,0 108 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 583,0 109 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 589,0 110 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1588,0 112 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1595,0 113 1 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 29,0 117 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1613,0 118 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1617,0 119 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1623,0 120 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1071,0 122 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 873,0 124 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 879,0 125 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 887,0 126 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 883,0 127 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1806,0 129 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 883,0 131 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 245,0 132 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1817,0 134 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 43,0 136 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 879,0 137 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1542,0 139 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1549,0 140 1 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 15,0 145 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 245,0 146 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1335,0 147 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 579,0 149 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1551,0 153 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1558,0 154 1 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 603,0 159 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 595,0 160 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1341,0 161 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 1613,0 163 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+GRAPHIC 450,0 164 0 
+DESIGN @f@p@g@a_sine@gen
+VIEW struct.bd
+NO_GRAPHIC 168

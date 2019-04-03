@@ -1,0 +1,25 @@
+[Concat]
+Board = $HDS_PROJECT_DIR/../Board/concat
+[ModelSim]
+Board = $SCRATCH_DIR/SEm/pipelinedOperators/work
+pipelinedOperators = $SCRATCH_DIR/SEm/pipelinedOperators/work
+pipelinedOperators_test = $SCRATCH_DIR/SEm/pipelinedOperators_test/work
+[hdl]
+Board = $HDS_PROJECT_DIR/../Board/hdl
+ieee = $HDS_HOME/hdl_libs/ieee/hdl
+pipelinedOperators = $HDS_PROJECT_DIR/../pipelinedOperators/hdl
+pipelinedOperators_test = $HDS_PROJECT_DIR/../pipelinedOperators_test/hdl
+std = $HDS_HOME/hdl_libs/std/hdl
+[hds]
+Board = $HDS_PROJECT_DIR/../Board/hds
+ieee = $HDS_HOME/hdl_libs/ieee/hds
+pipelinedOperators = $HDS_PROJECT_DIR/../pipelinedOperators/hds
+pipelinedOperators_test = $HDS_PROJECT_DIR/../pipelinedOperators_test/hds
+std = $HDS_HOME/hdl_libs/std/hds
+[hds_settings]
+design_root = Chronometer_test.motorControl_tb(struct)motor@control_tb/struct.bd
+[library_type]
+ieee = standard
+std = standard
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

@@ -1,0 +1,551 @@
+DESIGN beamer@periph@registers
+VIEW struct.bd
+NO_GRAPHIC 0
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 42,0 9 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+NO_GRAPHIC 12
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 0,0 15 2 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 1,0 18 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+NO_GRAPHIC 18
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 16716,0 22 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 2776,0 23 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3890,0 24 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 2850,0 25 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3827,0 26 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 16705,0 27 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 1589,0 28 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 2854,0 29 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3894,0 30 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 2852,0 31 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3892,0 32 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 1470,0 33 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 990,0 34 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 1055,0 35 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 1063,0 36 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 1071,0 37 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 1356,0 38 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 17505,0 39 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 17162,0 40 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+NO_GRAPHIC 41
+DESIGN beamer@periph@registers
+VIEW struct.bd
+NO_GRAPHIC 42
+LIBRARY Beamer
+DESIGN block@r@a@m
+VIEW @spartan3@e
+GRAPHIC 19217,0 44 0 
+DESIGN block@r@a@m
+VIEW symbol.sb
+GRAPHIC 14,0 45 1 
+DESIGN block@r@a@m
+VIEW symbol.sb
+GRAPHIC 83,0 51 0 
+DESIGN block@r@a@m
+VIEW symbol.sb
+GRAPHIC 109,0 52 0 
+DESIGN block@r@a@m
+VIEW symbol.sb
+GRAPHIC 120,0 53 0 
+DESIGN block@r@a@m
+VIEW symbol.sb
+GRAPHIC 125,0 54 0 
+DESIGN block@r@a@m
+VIEW symbol.sb
+GRAPHIC 130,0 55 0 
+DESIGN block@r@a@m
+VIEW symbol.sb
+GRAPHIC 135,0 56 0 
+DESIGN block@r@a@m
+VIEW symbol.sb
+GRAPHIC 140,0 57 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 18179,0 60 0 
+DESIGN block@r@a@m@address@counter
+VIEW symbol.sb
+GRAPHIC 14,0 61 1 
+DESIGN block@r@a@m@address@counter
+VIEW symbol.sb
+GRAPHIC 120,0 65 0 
+DESIGN block@r@a@m@address@counter
+VIEW symbol.sb
+GRAPHIC 125,0 66 0 
+DESIGN block@r@a@m@address@counter
+VIEW symbol.sb
+GRAPHIC 130,0 67 0 
+DESIGN block@r@a@m@address@counter
+VIEW symbol.sb
+GRAPHIC 135,0 68 0 
+DESIGN block@r@a@m@address@counter
+VIEW symbol.sb
+GRAPHIC 140,0 69 0 
+DESIGN block@r@a@m@address@counter
+VIEW symbol.sb
+GRAPHIC 155,0 70 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 11639,0 73 0 
+DESIGN block@r@a@m@control
+VIEW symbol.sb
+GRAPHIC 57,0 75 0 
+DESIGN block@r@a@m@control
+VIEW symbol.sb
+GRAPHIC 83,0 76 0 
+DESIGN block@r@a@m@control
+VIEW symbol.sb
+GRAPHIC 89,0 77 0 
+DESIGN block@r@a@m@control
+VIEW symbol.sb
+GRAPHIC 94,0 78 0 
+DESIGN block@r@a@m@control
+VIEW symbol.sb
+GRAPHIC 104,0 79 0 
+DESIGN block@r@a@m@control
+VIEW symbol.sb
+GRAPHIC 109,0 80 0 
+DESIGN block@r@a@m@control
+VIEW symbol.sb
+GRAPHIC 119,0 81 0 
+DESIGN block@r@a@m@control
+VIEW symbol.sb
+GRAPHIC 124,0 82 0 
+DESIGN block@r@a@m@control
+VIEW symbol.sb
+GRAPHIC 129,0 83 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 17547,0 86 0 
+DESIGN periph@address@decoder
+VIEW symbol.sb
+GRAPHIC 14,0 87 1 
+DESIGN periph@address@decoder
+VIEW symbol.sb
+GRAPHIC 57,0 91 0 
+DESIGN periph@address@decoder
+VIEW symbol.sb
+GRAPHIC 83,0 92 0 
+DESIGN periph@address@decoder
+VIEW symbol.sb
+GRAPHIC 94,0 93 0 
+DESIGN periph@address@decoder
+VIEW symbol.sb
+GRAPHIC 99,0 94 0 
+DESIGN periph@address@decoder
+VIEW symbol.sb
+GRAPHIC 104,0 95 0 
+DESIGN periph@address@decoder
+VIEW symbol.sb
+GRAPHIC 114,0 96 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 18007,0 99 0 
+DESIGN periph@control@reg
+VIEW symbol.sb
+GRAPHIC 14,0 100 1 
+DESIGN periph@control@reg
+VIEW symbol.sb
+GRAPHIC 57,0 105 0 
+DESIGN periph@control@reg
+VIEW symbol.sb
+GRAPHIC 83,0 106 0 
+DESIGN periph@control@reg
+VIEW symbol.sb
+GRAPHIC 89,0 107 0 
+DESIGN periph@control@reg
+VIEW symbol.sb
+GRAPHIC 109,0 108 0 
+DESIGN periph@control@reg
+VIEW symbol.sb
+GRAPHIC 114,0 109 0 
+DESIGN periph@control@reg
+VIEW symbol.sb
+GRAPHIC 120,0 110 0 
+DESIGN periph@control@reg
+VIEW symbol.sb
+GRAPHIC 125,0 111 0 
+DESIGN periph@control@reg
+VIEW symbol.sb
+GRAPHIC 130,0 112 0 
+DESIGN periph@control@reg
+VIEW symbol.sb
+GRAPHIC 135,0 113 0 
+DESIGN periph@control@reg
+VIEW symbol.sb
+GRAPHIC 248,0 114 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 18249,0 117 0 
+DESIGN periph@speed@reg
+VIEW symbol.sb
+GRAPHIC 14,0 118 1 
+DESIGN periph@speed@reg
+VIEW symbol.sb
+GRAPHIC 57,0 123 0 
+DESIGN periph@speed@reg
+VIEW symbol.sb
+GRAPHIC 83,0 124 0 
+DESIGN periph@speed@reg
+VIEW symbol.sb
+GRAPHIC 109,0 125 0 
+DESIGN periph@speed@reg
+VIEW symbol.sb
+GRAPHIC 120,0 126 0 
+DESIGN periph@speed@reg
+VIEW symbol.sb
+GRAPHIC 125,0 127 0 
+DESIGN periph@speed@reg
+VIEW symbol.sb
+GRAPHIC 130,0 128 0 
+DESIGN periph@speed@reg
+VIEW symbol.sb
+GRAPHIC 135,0 129 0 
+LIBRARY Beamer
+DESIGN beamer@periph@registers
+VIEW struct.bd
+NO_GRAPHIC 132
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 19217,0 135 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 18179,0 136 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 11639,0 137 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 17547,0 138 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 18007,0 139 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 18249,0 140 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+NO_GRAPHIC 143
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 4055,0 146 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+NO_GRAPHIC 165
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 16707,0 166 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+NO_GRAPHIC 170
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 17145,0 171 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+NO_GRAPHIC 173
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 17860,0 174 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+NO_GRAPHIC 183
+DESIGN beamer@periph@registers
+VIEW struct.bd
+NO_GRAPHIC 184
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 19217,0 186 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 19224,0 187 1 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 17156,0 193 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3907,0 194 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3769,0 195 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3757,0 196 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3751,0 197 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3773,0 198 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3777,0 199 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 19180,0 201 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 19187,0 202 1 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 17164,0 208 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3146,0 209 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 2644,0 210 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 2478,0 211 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 2486,0 212 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 2638,0 213 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 2772,0 214 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 18179,0 216 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 18186,0 217 1 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3793,0 221 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3866,0 222 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3874,0 223 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3809,0 224 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3777,0 225 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3803,0 226 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 18212,0 228 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 18219,0 229 1 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 2844,0 233 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 2786,0 234 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 2778,0 235 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3094,0 236 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 2772,0 237 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 2866,0 238 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 11639,0 240 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3773,0 242 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 1073,0 243 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3769,0 244 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3763,0 245 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 7907,0 246 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3793,0 247 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3797,0 248 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3815,0 249 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3882,0 250 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 11714,0 252 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 2638,0 254 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 1065,0 255 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 2644,0 256 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 2648,0 257 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 7915,0 258 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 2844,0 259 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 2919,0 260 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 3004,0 261 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 2996,0 262 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 17547,0 264 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 17554,0 265 1 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 1332,0 269 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 16718,0 270 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 1057,0 271 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 1065,0 272 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 1073,0 273 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 18007,0 276 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 18014,0 277 1 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 1350,0 282 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 1534,0 283 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 1358,0 284 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 2860,0 285 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 1340,0 286 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 1332,0 287 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 73,0 288 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 157,0 289 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 8150,0 290 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 1472,0 291 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 18249,0 293 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 18256,0 294 1 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 1778,0 299 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 1732,0 300 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 1738,0 301 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 1057,0 302 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 1752,0 303 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 1744,0 304 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+GRAPHIC 18258,0 305 0 
+DESIGN beamer@periph@registers
+VIEW struct.bd
+NO_GRAPHIC 308

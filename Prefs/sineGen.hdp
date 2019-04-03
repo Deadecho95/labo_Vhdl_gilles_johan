@@ -1,0 +1,48 @@
+[Concat]
+Board = $HDS_PROJECT_DIR/../Board/concat
+[ModelSim]
+AhbLite = $HEI_LIBS_DIR\AhbLite\work
+Beamer = $SCRATCH_DIR/SEm/Beamer/work
+Beamer_test = $SCRATCH_DIR/SEm/Beamer_test/work
+Board = $SCRATCH_DIR/SEm/Board/work
+SineInterpolator = $SCRATCH_DIR/Sem/SineInterpolator/work
+SineInterpolator_test = $SCRATCH_DIR/Sem/SineInterpolator_test/work
+WaveformGenerator = $SCRATCH_DIR/SEm/WaveformGenerator/work
+WaveformGenerator_test = $SCRATCH_DIR/Sem/WaveformGenerator_test/work
+[QuestaSim]
+Board = $HDS_PROJECT_DIR/../Board/work
+[SvAssistant]
+Board = $HDS_PROJECT_DIR/../Board/svassistant
+[hdl]
+AhbLite = $HEI_LIBS_DIR\AhbLite\hdl
+Beamer = $HDS_PROJECT_DIR/../Beamer/hdl
+Beamer_test = $HDS_PROJECT_DIR/../Beamer_test/hdl
+Board = $HDS_PROJECT_DIR/../Board/hdl
+ieee = $HDS_HOME/hdl_libs/ieee/hdl
+SineInterpolator = $HDS_PROJECT_DIR/../SineInterpolator/hdl
+SineInterpolator_test = $HDS_PROJECT_DIR/../SineInterpolator_test/hdl
+std = $HDS_HOME/hdl_libs/std/hdl
+WaveformGenerator = $HDS_PROJECT_DIR/../WaveformGenerator/hdl
+WaveformGenerator_test = $HDS_PROJECT_DIR/../WaveformGenerator_test/hdl
+[hds]
+AhbLite = $HEI_LIBS_DIR\AhbLite\hds
+Beamer = $HDS_PROJECT_DIR/../Beamer/hds
+Beamer_test = $HDS_PROJECT_DIR/../Beamer_test/hds
+Board = $HDS_PROJECT_DIR/../Board/hds
+ieee = $HDS_HOME/hdl_libs/ieee/hds
+SineInterpolator = $HDS_PROJECT_DIR/../SineInterpolator/hds
+SineInterpolator_test = $HDS_PROJECT_DIR/../SineInterpolator_test/hds
+std = $HDS_HOME/hdl_libs/std/hds
+WaveformGenerator = $HDS_PROJECT_DIR/../WaveformGenerator/hds
+WaveformGenerator_test = $HDS_PROJECT_DIR/../WaveformGenerator_test/hds
+[hds_settings]
+design_root = Chronometer_test.motorControl_tb(struct)motor@control_tb/struct.bd
+[library_files_inclusion]
+AhbLite = all
+[library_type]
+AhbLite = regular
+Board = regular
+ieee = standard
+std = standard
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

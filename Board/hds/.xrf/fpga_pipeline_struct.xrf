@@ -1,0 +1,153 @@
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+NO_GRAPHIC 0
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 84,0 9 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+NO_GRAPHIC 12
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 0,0 16 2 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 895,0 21 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 49,0 22 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 893,0 23 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 897,0 24 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+NO_GRAPHIC 25
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+NO_GRAPHIC 26
+LIBRARY Board
+DESIGN @d@f@f
+VIEW sim
+GRAPHIC 1071,0 28 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 57,0 30 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 63,0 31 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 51,0 32 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 69,0 33 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 1806,0 36 0 
+DESIGN inverter@in
+VIEW symbol.sb
+GRAPHIC 16,0 38 0 
+DESIGN inverter@in
+VIEW symbol.sb
+GRAPHIC 22,0 39 0 
+LIBRARY pipelinedOperators
+DESIGN sinewave@generator
+VIEW @r@t@l
+GRAPHIC 1900,0 42 0 
+DESIGN sinewave@generator
+VIEW symbol.sb
+GRAPHIC 14,0 43 1 
+DESIGN sinewave@generator
+VIEW symbol.sb
+GRAPHIC 57,0 47 0 
+DESIGN sinewave@generator
+VIEW symbol.sb
+GRAPHIC 204,0 48 0 
+DESIGN sinewave@generator
+VIEW symbol.sb
+GRAPHIC 310,0 49 0 
+DESIGN sinewave@generator
+VIEW symbol.sb
+GRAPHIC 315,0 50 0 
+LIBRARY Board
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+NO_GRAPHIC 53
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 1071,0 56 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 1806,0 57 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 1900,0 58 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+NO_GRAPHIC 61
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 818,0 64 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+NO_GRAPHIC 66
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+NO_GRAPHIC 67
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 1071,0 69 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 873,0 71 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 879,0 72 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 887,0 73 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 883,0 74 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 1806,0 76 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 883,0 78 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 245,0 79 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 1817,0 81 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 43,0 83 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 879,0 84 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 1900,0 86 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 1907,0 87 1 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 1919,0 91 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 1911,0 92 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 15,0 93 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+GRAPHIC 245,0 94 0 
+DESIGN @f@p@g@a_pipeline
+VIEW struct.bd
+NO_GRAPHIC 97

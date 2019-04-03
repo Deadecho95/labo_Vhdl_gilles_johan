@@ -1,0 +1,216 @@
+DESIGN beamer@system_tb
+VIEW struct.bd
+NO_GRAPHIC 0
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 142,0 9 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+NO_GRAPHIC 14
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 0,0 18 2 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1,0 21 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+NO_GRAPHIC 21
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1886,0 32 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1878,0 33 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 53,0 34 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1033,0 35 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1035,0 36 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 798,0 37 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 790,0 38 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 45,0 39 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1876,0 40 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1290,0 41 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+NO_GRAPHIC 42
+DESIGN beamer@system_tb
+VIEW struct.bd
+NO_GRAPHIC 43
+LIBRARY Beamer
+DESIGN beamer@periph
+VIEW struct
+GRAPHIC 2122,0 45 0 
+DESIGN beamer@periph
+VIEW symbol.sb
+GRAPHIC 14,0 46 1 
+DESIGN beamer@periph
+VIEW symbol.sb
+GRAPHIC 67,0 53 0 
+DESIGN beamer@periph
+VIEW symbol.sb
+GRAPHIC 57,0 54 0 
+DESIGN beamer@periph
+VIEW symbol.sb
+GRAPHIC 76,0 55 0 
+DESIGN beamer@periph
+VIEW symbol.sb
+GRAPHIC 82,0 56 0 
+DESIGN beamer@periph
+VIEW symbol.sb
+GRAPHIC 113,0 57 0 
+DESIGN beamer@periph
+VIEW symbol.sb
+GRAPHIC 125,0 58 0 
+DESIGN beamer@periph
+VIEW symbol.sb
+GRAPHIC 52,0 59 0 
+DESIGN beamer@periph
+VIEW symbol.sb
+GRAPHIC 549,0 60 0 
+LIBRARY Beamer_test
+DESIGN beamer@system_tb
+VIEW struct
+GRAPHIC 1616,0 63 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1623,0 64 1 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1880,0 70 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 800,0 71 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 792,0 72 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1888,0 73 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 55,0 74 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1021,0 75 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 47,0 76 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1191,0 77 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+NO_GRAPHIC 78
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1550,0 80 0 
+DESIGN testlowpass
+VIEW symbol.sb
+GRAPHIC 14,0 81 1 
+DESIGN testlowpass
+VIEW symbol.sb
+GRAPHIC 57,0 86 0 
+DESIGN testlowpass
+VIEW symbol.sb
+GRAPHIC 52,0 87 0 
+DESIGN testlowpass
+VIEW symbol.sb
+GRAPHIC 76,0 88 0 
+DESIGN testlowpass
+VIEW symbol.sb
+GRAPHIC 83,0 89 0 
+LIBRARY Beamer_test
+DESIGN beamer@system_tb
+VIEW struct.bd
+NO_GRAPHIC 92
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 2122,0 95 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1616,0 96 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1550,0 97 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+NO_GRAPHIC 100
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 975,0 103 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+NO_GRAPHIC 105
+DESIGN beamer@system_tb
+VIEW struct.bd
+NO_GRAPHIC 106
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 2122,0 108 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 2129,0 109 1 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 800,0 116 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1888,0 117 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 47,0 118 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 792,0 119 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1880,0 120 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1191,0 121 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 55,0 122 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1616,0 125 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1623,0 126 1 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1550,0 141 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1557,0 142 1 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1027,0 147 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1015,0 148 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1021,0 149 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+GRAPHIC 1009,0 150 0 
+DESIGN beamer@system_tb
+VIEW struct.bd
+NO_GRAPHIC 153

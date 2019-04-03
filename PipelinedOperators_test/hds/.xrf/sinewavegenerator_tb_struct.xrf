@@ -1,0 +1,117 @@
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+NO_GRAPHIC 0
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+GRAPHIC 142,0 9 0 
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+NO_GRAPHIC 12
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+GRAPHIC 0,0 16 2 
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+GRAPHIC 1,0 19 0 
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+NO_GRAPHIC 19
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+GRAPHIC 2571,0 22 0 
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+GRAPHIC 2587,0 23 0 
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+GRAPHIC 2579,0 24 0 
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+GRAPHIC 2595,0 25 0 
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+NO_GRAPHIC 26
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+NO_GRAPHIC 27
+LIBRARY pipelinedOperators
+DESIGN sinewave@generator
+VIEW @r@t@l
+GRAPHIC 2562,0 29 0 
+DESIGN sinewave@generator
+VIEW symbol.sb
+GRAPHIC 14,0 30 1 
+DESIGN sinewave@generator
+VIEW symbol.sb
+GRAPHIC 57,0 34 0 
+DESIGN sinewave@generator
+VIEW symbol.sb
+GRAPHIC 204,0 35 0 
+DESIGN sinewave@generator
+VIEW symbol.sb
+GRAPHIC 310,0 36 0 
+DESIGN sinewave@generator
+VIEW symbol.sb
+GRAPHIC 315,0 37 0 
+LIBRARY pipelinedOperators_test
+DESIGN sinewave@generator_tester
+VIEW test
+GRAPHIC 2178,0 40 0 
+DESIGN sinewave@generator_tester
+VIEW interface
+GRAPHIC 14,0 41 1 
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+GRAPHIC 2589,0 45 0 
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+GRAPHIC 2597,0 46 0 
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+GRAPHIC 2573,0 47 0 
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+GRAPHIC 2581,0 48 0 
+LIBRARY pipelinedOperators_test
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+NO_GRAPHIC 51
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+GRAPHIC 2562,0 54 0 
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+GRAPHIC 2178,0 55 0 
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+NO_GRAPHIC 58
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+NO_GRAPHIC 60
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+GRAPHIC 2562,0 62 0 
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+GRAPHIC 2569,0 63 1 
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+GRAPHIC 2589,0 67 0 
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+GRAPHIC 2597,0 68 0 
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+GRAPHIC 2573,0 69 0 
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+GRAPHIC 2581,0 70 0 
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+GRAPHIC 2178,0 72 0 
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+GRAPHIC 2185,0 73 1 
+DESIGN sinewave@generator_tb
+VIEW struct.bd
+NO_GRAPHIC 83

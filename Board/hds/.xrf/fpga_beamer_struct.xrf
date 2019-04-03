@@ -1,0 +1,255 @@
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+NO_GRAPHIC 0
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 84,0 9 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+NO_GRAPHIC 12
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 0,0 16 2 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 1,0 19 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+NO_GRAPHIC 19
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 5011,0 24 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 1765,0 25 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 49,0 26 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 4405,0 27 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 4407,0 28 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 4885,0 29 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 3964,0 30 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 3962,0 31 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 4010,0 32 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+NO_GRAPHIC 33
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+NO_GRAPHIC 34
+LIBRARY Beamer
+DESIGN beamer@soc
+VIEW struct
+GRAPHIC 5487,0 36 0 
+DESIGN beamer@soc
+VIEW symbol.sb
+GRAPHIC 14,0 37 1 
+DESIGN beamer@soc
+VIEW symbol.sb
+GRAPHIC 901,0 43 0 
+DESIGN beamer@soc
+VIEW symbol.sb
+GRAPHIC 906,0 44 0 
+DESIGN beamer@soc
+VIEW symbol.sb
+GRAPHIC 67,0 45 0 
+DESIGN beamer@soc
+VIEW symbol.sb
+GRAPHIC 82,0 46 0 
+DESIGN beamer@soc
+VIEW symbol.sb
+GRAPHIC 125,0 47 0 
+DESIGN beamer@soc
+VIEW symbol.sb
+GRAPHIC 800,0 48 0 
+DESIGN beamer@soc
+VIEW symbol.sb
+GRAPHIC 52,0 49 0 
+DESIGN beamer@soc
+VIEW symbol.sb
+GRAPHIC 1009,0 50 0 
+DESIGN beamer@soc
+VIEW symbol.sb
+GRAPHIC 1014,0 51 0 
+DESIGN beamer@soc
+VIEW symbol.sb
+GRAPHIC 1019,0 52 0 
+DESIGN beamer@soc
+VIEW symbol.sb
+GRAPHIC 1127,0 53 0 
+LIBRARY Board
+DESIGN @d@f@f
+VIEW sim
+GRAPHIC 4904,0 56 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 57,0 58 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 63,0 59 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 51,0 60 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 69,0 61 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 2944,0 64 0 
+DESIGN inverter@in
+VIEW symbol.sb
+GRAPHIC 16,0 66 0 
+DESIGN inverter@in
+VIEW symbol.sb
+GRAPHIC 22,0 67 0 
+LIBRARY Board
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+NO_GRAPHIC 70
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 4904,0 73 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 5487,0 74 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 2944,0 75 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+NO_GRAPHIC 78
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 1185,0 81 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+NO_GRAPHIC 86
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 1748,0 87 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+NO_GRAPHIC 89
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+NO_GRAPHIC 90
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 5487,0 92 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 5494,0 93 1 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 946,0 99 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 900,0 100 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 575,0 101 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 29,0 102 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 3831,0 103 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 3994,0 104 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 15,0 105 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 5013,0 108 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 4004,0 109 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 4904,0 111 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 1421,0 113 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 1413,0 114 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 1403,0 115 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 900,0 116 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 3795,0 118 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 3821,0 120 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 4397,0 121 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 3837,0 122 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 3831,0 123 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 3013,0 125 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 1722,0 127 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 1716,0 128 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 1759,0 129 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 3988,0 130 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 2944,0 132 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 43,0 134 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 1716,0 135 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 3968,0 137 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 3988,0 139 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 3994,0 140 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 3775,0 142 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 3827,0 144 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+GRAPHIC 3837,0 145 0 
+DESIGN @f@p@g@a_beamer
+VIEW struct.bd
+NO_GRAPHIC 148

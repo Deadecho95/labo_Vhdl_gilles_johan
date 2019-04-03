@@ -1,0 +1,51 @@
+#-------------------------------------------------------------------------------
+# Clock and reset
+#
+NET     "reset_n"       LOC = "D3" | PULLUP;
+NET     "clock"         LOC = "A10";
+
+#-------------------------------------------------------------------------------
+# Buttons & LEDs
+#
+NET     "selSinCos_n"   LOC = "A15" | PULLUP;
+#NET     "button2_n"     LOC = "D3"  | PULLUP;
+NET     "button2"        LOC = "T10";
+NET     "LED1"          LOC = "B16";
+NET     "LED2"          LOC = "A16";
+
+#-------------------------------------------------------------------------------
+# Sigma-delta outputs
+#
+#NET "xOut"        LOC = "G4"   | IOSTANDARD = LVTTL | DRIVE = 2  | SLEW = SLOW ;
+#NET "yOut"        LOC = "G5"   | IOSTANDARD = LVTTL | DRIVE = 2  | SLEW = SLOW ;
+NET "xOut"        LOC = "G4" ;
+NET "yOut"        LOC = "G5" ;
+
+#-------------------------------------------------------------------------------
+# Serial ports, Rx, Tx defined with FPGA as master
+#
+NET     "rxd0"          LOC = "V2" ;    # female DB9 on J9
+NET     "txd0"          LOC = "T1" ;
+#NET     "rxd1"          LOC = "U1" ;    # male DB9 on J10
+#NET     "txd1"          LOC = "P1" ;
+
+#-------------------------------------------------------------------------------
+# Debug
+#
+NET     "spare<1>"              LOC = "F8" ;
+NET     "spare<2>"              LOC = "F7" ;
+NET     "spare<3>"              LOC = "F9" ;
+NET     "spare<4>"              LOC = "G9" ;
+NET     "spare<5>"              LOC = "E8" ;
+NET     "spare<6>"              LOC = "E7" ;
+NET     "spare<7>"              LOC = "B14";
+NET     "spare<8>"              LOC = "B13";
+NET     "spare<9>"              LOC = "B11";
+NET     "spare<10>"             LOC = "A8" ;
+NET     "spare<11>"             LOC = "C7" ;
+NET     "spare<12>"             LOC = "A14";
+NET     "spare<13>"             LOC = "A11";
+NET     "spare<14>"             LOC = "A13";
+NET     "spare<15>"             LOC = "D7" ;
+NET     "spare<16>"             LOC = "E9" ;
+NET     "spare<17>"             LOC = "F11";

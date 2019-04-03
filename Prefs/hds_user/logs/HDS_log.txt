@@ -1,0 +1,690 @@
+Application HDL Designer version 2007.1a (Build 13)
+Created on 24.02.2010 16:40:46
+HDL Designer Series
+HDL Designer
+Version 2007.1a (Build 13) 
+Built on Mon Feb 25 2008 at 12:15
+Verilog parser dynamic library version 2004.3.31.c (2008/02/12)
+Running on Microsoft Windows XP Professional Service Pack 2 (Build 2600)
+
+Loading HDS Project file via -hdpfile hds.hdp
+Loading prefs from command line user_home U:\ELN_board\Prefs/hds_user
+Loading teamprefs from current directory C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team
+Loading user Task files from 'U:\ELN_board\Prefs\hds_user\v2007.1a\tasks'.
+Loading team Task files from 'C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team\v2007.1a\tasks'.
+The timezone environment variable is set : TZ=GMT-1:0
+
+Setting HDS_HOME to : C:\EDA\HDS
+
+Environment variables:
+HDS_HOME set to C:\EDA\HDS
+HDS_USER_HOME set to U:\ELN_board\Prefs\hds_user
+HDS_TEAM_HOME set to C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team
+HDS_PORT set to WE3195:1175
+10 events recorded:
+RunTaskOpUSER:ModelSim FlowThruComponents
+UpdateFromSymbol
+Delete
+Copy
+Paste
+Save
+RunTaskOpUSER:ModelSim Flow
+RunTaskOpUSER:ModelSim FlowThruComponents
+RunTaskOpUSER:ModelSim Flow
+RunTaskOpUSER:ModelSim FlowThruComponents
+
+Traceback
+
+hdldesigner.exe caused a EXCEPTION_ACCESS_VIOLATION in module ntdll.dll at 001B:7C911948, RtlInitializeCriticalSection()+811 byte(s)
+EAX=065F5000  EBX=03F00000  ECX=00000000  EDX=02B21E84  ESI=065F4FF8
+EDI=065F5028  EBP=0012EE18  ESP=0012EE0C  EIP=7C911948  FLG=00210246
+CS=001B   DS=0023  SS=0023  ES=0023   FS=003B  GS=0000
+0x7C911948 ntdll.dll, RtlInitializeCriticalSection()+811 byte(s)
+0x7C91084C ntdll.dll, wcsncpy()+717 byte(s)
+0x025B41C6 hdldesigner.exe
+0x0040172D hdldesigner.exe
+0x004013B9 hdldesigner.exe
+0x00401364 hdldesigner.exe
+0x0047645D hdldesigner.exe
+0x004761EF hdldesigner.exe
+0x0047614D hdldesigner.exe
+0x00475270 hdldesigner.exe
+0x005E0393 hdldesigner.exe
+0x005DEE4A hdldesigner.exe
+0x005DE4EB hdldesigner.exe
+0x01835512 hdldesigner.exe
+0x01835FB2 hdldesigner.exe
+0x01835F72 hdldesigner.exe
+0x0190BDDA hdldesigner.exe
+0x01910C5F hdldesigner.exe
+0x018EDB30 hdldesigner.exe
+0x00DCDCB6 hdldesigner.exe
+0x00DE074F hdldesigner.exe
+0x00DE071F hdldesigner.exe
+0x0192CB62 hdldesigner.exe
+0x017DF250 hdldesigner.exe
+0x017DC13B hdldesigner.exe
+0x00DBCE4F hdldesigner.exe
+0x00DBD32F hdldesigner.exe
+0x01791F1E hdldesigner.exe
+0x01791EEA hdldesigner.exe
+0x01791A60 hdldesigner.exe
+0x0179195B hdldesigner.exe
+0x0178F65F hdldesigner.exe
+0x0178FDCF hdldesigner.exe
+0x018B8A26 hdldesigner.exe
+0x018B9AF2 hdldesigner.exe
+0x018B9AB2 hdldesigner.exe
+0x0192CB62 hdldesigner.exe
+0x017E6469 hdldesigner.exe
+0x017E1433 hdldesigner.exe
+0x017E1CAF hdldesigner.exe
+0x024F1B74 hdldesigner.exe
+0x024EFC12 hdldesigner.exe
+0x025D1E80 hdldesigner.exe
+0x7E418734 USER32.dll, GetDC()+109 byte(s)
+0x7E418816 USER32.dll, GetDC()+335 byte(s)
+0x7E41B4C0 USER32.dll, DefWindowProcW()+388 byte(s)
+0x7E41B50C USER32.dll, DefWindowProcW()+464 byte(s)
+0x7C90E473 ntdll.dll, KiUserCallbackDispatcher()+19 byte(s)
+0x7E41D598 USER32.dll, DefWindowProcA()+170 byte(s)
+0x7E41D545 USER32.dll, DefWindowProcA()+87 byte(s)
+0x025D1ECD hdldesigner.exe
+0x7E418734 USER32.dll, GetDC()+109 byte(s)
+0x7E418816 USER32.dll, GetDC()+335 byte(s)
+0x7E41B4C0 USER32.dll, DefWindowProcW()+388 byte(s)
+0x7E41B50C USER32.dll, DefWindowProcW()+464 byte(s)
+0x7C90E473 ntdll.dll, KiUserCallbackDispatcher()+19 byte(s)
+0x7E41D598 USER32.dll, DefWindowProcA()+170 byte(s)
+0x7E41D545 USER32.dll, DefWindowProcA()+87 byte(s)
+0x025D1ECD hdldesigner.exe
+0x7E418734 USER32.dll, GetDC()+109 byte(s)
+0x7E418816 USER32.dll, GetDC()+335 byte(s)
+0x7E4189CD USER32.dll, GetWindowLongW()+295 byte(s)
+0x7E4196C7 USER32.dll, DispatchMessageA()+15 byte(s)
+0x024EE785 hdldesigner.exe
+0x024EE539 hdldesigner.exe
+0x0040355D hdldesigner.exe
+0x00401AA0 hdldesigner.exe
+0x025D2A56 hdldesigner.exe
+0x025B32FE hdldesigner.exe
+0x7C816FE7 kernel32.dll, RegisterWaitForInputIdle()+73 byte(s)
+End of traceback
+
+Application HDL Designer version 2007.1a (Build 13)
+Created on 12.01.2011 11:41:40
+HDL Designer Series
+HDL Designer
+Version 2007.1a (Build 13) 
+Built on Mon Feb 25 2008 at 12:15
+Verilog parser dynamic library version 2004.3.31.c (2008/02/12)
+Running on Microsoft Windows XP Professional Service Pack 3 (Build 2600)
+
+Loading HDS Project file via -hdpfile hds.hdp
+Loading prefs from command line user_home U:\ELN_board\Prefs/hds_user
+Loading teamprefs from current directory C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team
+Loading user Task files from 'U:\ELN_board\Prefs\hds_user\v2007.1a\tasks'.
+Loading team Task files from 'C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team\v2007.1a\tasks'.
+The timezone environment variable is set : TZ=GMT-1:0
+
+Setting HDS_HOME to : C:\eda\hds
+
+Environment variables:
+HDS_HOME set to C:\eda\hds
+HDS_USER_HOME set to U:\ELN_board\Prefs\hds_user
+HDS_TEAM_HOME set to C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team
+HDS_PORT set to WE3476:1150
+3 events recorded:
+ActivateWorkTab
+ActivateWorkTab
+PrefSimulator
+
+Traceback:
+assertion failed - false
+at Language.cpp line 91
+Program : C:\EDA\HDS\bin\hdldesigner.exe
+Last Error (0x000000B7) : Cannot create a file when that file already exists.
+
+
+Failed to write traceback - triggering access violation to force output
+Application HDL Designer version 2007.1a (Build 13)
+Created on 12.01.2011 11:41:40
+HDL Designer Series
+HDL Designer
+Version 2007.1a (Build 13) 
+Built on Mon Feb 25 2008 at 12:15
+Verilog parser dynamic library version 2004.3.31.c (2008/02/12)
+Running on Microsoft Windows XP Professional Service Pack 3 (Build 2600)
+
+Loading HDS Project file via -hdpfile hds.hdp
+Loading prefs from command line user_home U:\ELN_board\Prefs/hds_user
+Loading teamprefs from current directory C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team
+Loading user Task files from 'U:\ELN_board\Prefs\hds_user\v2007.1a\tasks'.
+Loading team Task files from 'C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team\v2007.1a\tasks'.
+The timezone environment variable is set : TZ=GMT-1:0
+
+Setting HDS_HOME to : C:\eda\hds
+
+Environment variables:
+HDS_HOME set to C:\eda\hds
+HDS_USER_HOME set to U:\ELN_board\Prefs\hds_user
+HDS_TEAM_HOME set to C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team
+HDS_PORT set to WE3476:1150
+3 events recorded:
+ActivateWorkTab
+ActivateWorkTab
+PrefSimulator
+
+Traceback
+
+hdldesigner.exe caused a EXCEPTION_ACCESS_VIOLATION in module hdldesigner.exe at 001B:017218A1
+EAX=00000000  EBX=00000000  ECX=025B412F  EDX=053B97B8  ESI=044874D4
+EDI=0012E16C  EBP=0012D0AC  ESP=0012BCC0  EIP=017218A1  FLG=00210246
+CS=001B   DS=0023  SS=0023  ES=0023   FS=003B  GS=0000
+0x017218A1 hdldesigner.exe
+0x01721B15 hdldesigner.exe
+0x022F807F hdldesigner.exe
+0x022F96A2 hdldesigner.exe
+0x022F96BF hdldesigner.exe
+0x013C07CA hdldesigner.exe
+0x0138C77A hdldesigner.exe
+0x0138BCC4 hdldesigner.exe
+0x00EE5079 hdldesigner.exe
+0x00EE33D7 hdldesigner.exe
+0x00EE27DE hdldesigner.exe
+0x0131358F hdldesigner.exe
+0x0130CB39 hdldesigner.exe
+0x0130C835 hdldesigner.exe
+0x0130C65C hdldesigner.exe
+0x0130B024 hdldesigner.exe
+0x0130A9C9 hdldesigner.exe
+0x01C8799B hdldesigner.exe
+0x01C8116F hdldesigner.exe
+0x01C81701 hdldesigner.exe
+0x0149C90B hdldesigner.exe
+0x0149BD5C hdldesigner.exe
+0x014A1DF6 hdldesigner.exe
+0x0149BCC2 hdldesigner.exe
+0x0149162C hdldesigner.exe
+0x0149044F hdldesigner.exe
+0x0147FBFC hdldesigner.exe
+0x01E2CB3D hdldesigner.exe
+0x01E2D57C hdldesigner.exe
+0x0148005F hdldesigner.exe
+0x01480512 hdldesigner.exe
+0x0175506A hdldesigner.exe
+0x017568CF hdldesigner.exe
+0x024B47E1 hdldesigner.exe
+0x02542089 hdldesigner.exe
+0x024F4258 hdldesigner.exe
+0x025D27C8 hdldesigner.exe
+0x7E418734 USER32.dll, GetDC()+109 byte(s)
+0x7E419857 USER32.dll, IsChild()+329 byte(s)
+0x7E419791 USER32.dll, IsChild()+131 byte(s)
+0x7E4196C7 USER32.dll, DispatchMessageA()+15 byte(s)
+0x024EE785 hdldesigner.exe
+0x024F35B5 hdldesigner.exe
+0x025028D0 hdldesigner.exe
+0x017294CC hdldesigner.exe
+0x0175555B hdldesigner.exe
+0x01723B98 hdldesigner.exe
+0x01E61EE2 hdldesigner.exe
+0x014804BB hdldesigner.exe
+0x014782B8 hdldesigner.exe
+End of traceback
+
+Application HDL Designer version 2007.1a (Build 13)
+Created on 12.01.2011 11:42:28
+HDL Designer Series
+HDL Designer
+Version 2007.1a (Build 13) 
+Built on Mon Feb 25 2008 at 12:15
+Verilog parser dynamic library version 2004.3.31.c (2008/02/12)
+Running on Microsoft Windows XP Professional Service Pack 3 (Build 2600)
+
+Loading HDS Project file via -hdpfile hds.hdp
+Loading prefs from command line user_home U:\ELN_board\Prefs/hds_user
+Loading teamprefs from current directory C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team
+Loading user Task files from 'U:\ELN_board\Prefs\hds_user\v2007.1a\tasks'.
+Loading team Task files from 'C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team\v2007.1a\tasks'.
+The timezone environment variable is set : TZ=GMT-1:0
+
+Setting HDS_HOME to : C:\eda\hds
+
+Environment variables:
+HDS_HOME set to C:\eda\hds
+HDS_USER_HOME set to U:\ELN_board\Prefs\hds_user
+HDS_TEAM_HOME set to C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team
+HDS_PORT set to WE3476:1157
+3 events recorded:
+ActivateWorkTab
+ActivateWorkTab
+PrefSimulator
+
+Traceback:
+assertion failed - false
+at Language.cpp line 91
+Program : C:\EDA\HDS\bin\hdldesigner.exe
+Last Error (0x000000B7) : Cannot create a file when that file already exists.
+
+
+Failed to write traceback - triggering access violation to force output
+Application HDL Designer version 2007.1a (Build 13)
+Created on 12.01.2011 11:42:28
+HDL Designer Series
+HDL Designer
+Version 2007.1a (Build 13) 
+Built on Mon Feb 25 2008 at 12:15
+Verilog parser dynamic library version 2004.3.31.c (2008/02/12)
+Running on Microsoft Windows XP Professional Service Pack 3 (Build 2600)
+
+Loading HDS Project file via -hdpfile hds.hdp
+Loading prefs from command line user_home U:\ELN_board\Prefs/hds_user
+Loading teamprefs from current directory C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team
+Loading user Task files from 'U:\ELN_board\Prefs\hds_user\v2007.1a\tasks'.
+Loading team Task files from 'C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team\v2007.1a\tasks'.
+The timezone environment variable is set : TZ=GMT-1:0
+
+Setting HDS_HOME to : C:\eda\hds
+
+Environment variables:
+HDS_HOME set to C:\eda\hds
+HDS_USER_HOME set to U:\ELN_board\Prefs\hds_user
+HDS_TEAM_HOME set to C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team
+HDS_PORT set to WE3476:1157
+3 events recorded:
+ActivateWorkTab
+ActivateWorkTab
+PrefSimulator
+
+Traceback
+
+hdldesigner.exe caused a EXCEPTION_ACCESS_VIOLATION in module hdldesigner.exe at 001B:017218A1
+EAX=00000000  EBX=00000000  ECX=025B412F  EDX=054D6D50  ESI=05458C84
+EDI=0012E16C  EBP=0012D0AC  ESP=0012BCC0  EIP=017218A1  FLG=00210246
+CS=001B   DS=0023  SS=0023  ES=0023   FS=003B  GS=0000
+0x017218A1 hdldesigner.exe
+0x01721B15 hdldesigner.exe
+0x022F807F hdldesigner.exe
+0x022F96A2 hdldesigner.exe
+0x022F96BF hdldesigner.exe
+0x013C07CA hdldesigner.exe
+0x0138C77A hdldesigner.exe
+0x0138BCC4 hdldesigner.exe
+0x00EE5079 hdldesigner.exe
+0x00EE33D7 hdldesigner.exe
+0x00EE27DE hdldesigner.exe
+0x0131358F hdldesigner.exe
+0x0130CB39 hdldesigner.exe
+0x0130C835 hdldesigner.exe
+0x0130C65C hdldesigner.exe
+0x0130B024 hdldesigner.exe
+0x0130A9C9 hdldesigner.exe
+0x01C8799B hdldesigner.exe
+0x01C8116F hdldesigner.exe
+0x01C81701 hdldesigner.exe
+0x0149C90B hdldesigner.exe
+0x0149BD5C hdldesigner.exe
+0x014A1DF6 hdldesigner.exe
+0x0149BCC2 hdldesigner.exe
+0x0149162C hdldesigner.exe
+0x0149044F hdldesigner.exe
+0x0147FBFC hdldesigner.exe
+0x01E2CB3D hdldesigner.exe
+0x01E2D57C hdldesigner.exe
+0x0148005F hdldesigner.exe
+0x01480512 hdldesigner.exe
+0x0175506A hdldesigner.exe
+0x017568CF hdldesigner.exe
+0x024B47E1 hdldesigner.exe
+0x02542089 hdldesigner.exe
+0x024F4258 hdldesigner.exe
+0x025D27C8 hdldesigner.exe
+0x7E418734 USER32.dll, GetDC()+109 byte(s)
+0x7E419857 USER32.dll, IsChild()+329 byte(s)
+0x7E419791 USER32.dll, IsChild()+131 byte(s)
+0x7E4196C7 USER32.dll, DispatchMessageA()+15 byte(s)
+0x024EE785 hdldesigner.exe
+0x024F35B5 hdldesigner.exe
+0x025028D0 hdldesigner.exe
+0x017294CC hdldesigner.exe
+0x0175555B hdldesigner.exe
+0x01723B98 hdldesigner.exe
+0x01E61EE2 hdldesigner.exe
+0x014804BB hdldesigner.exe
+0x014782B8 hdldesigner.exe
+End of traceback
+
+Application HDL Designer version 2007.1a (Build 13)
+Created on 31.01.2011 09:57:02
+HDL Designer Series
+HDL Designer
+Version 2007.1a (Build 13) 
+Built on Mon Feb 25 2008 at 12:15
+Verilog parser dynamic library version 2004.3.31.c (2008/02/12)
+Running on Microsoft Windows XP Professional Service Pack 3 (Build 2600)
+
+Loading HDS Project file via -hdpfile hds.hdp
+Loading prefs from command line user_home U:\ELN_board\Prefs/hds_user
+Loading teamprefs from current directory C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team
+Loading user Task files from 'U:\ELN_board\Prefs\hds_user\v2007.1a\tasks'.
+Loading team Task files from 'C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team\v2007.1a\tasks'.
+The timezone environment variable is set : TZ=GMT-1:0
+
+Setting HDS_HOME to : C:\eda\hds
+
+Environment variables:
+HDS_HOME set to C:\eda\hds
+HDS_USER_HOME set to U:\ELN_board\Prefs\hds_user
+HDS_TEAM_HOME set to C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team
+HDS_PORT set to we3463:1085
+1 events recorded:
+ExecuteAction
+
+Traceback:
+assertion failed - false
+at Language.cpp line 91
+Program : C:\EDA\HDS\bin\hdldesigner.exe
+Last Error (0x000000B7) : Cannot create a file when that file already exists.
+
+
+Failed to write traceback - triggering access violation to force output
+Application HDL Designer version 2007.1a (Build 13)
+Created on 31.01.2011 09:57:02
+HDL Designer Series
+HDL Designer
+Version 2007.1a (Build 13) 
+Built on Mon Feb 25 2008 at 12:15
+Verilog parser dynamic library version 2004.3.31.c (2008/02/12)
+Running on Microsoft Windows XP Professional Service Pack 3 (Build 2600)
+
+Loading HDS Project file via -hdpfile hds.hdp
+Loading prefs from command line user_home U:\ELN_board\Prefs/hds_user
+Loading teamprefs from current directory C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team
+Loading user Task files from 'U:\ELN_board\Prefs\hds_user\v2007.1a\tasks'.
+Loading team Task files from 'C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team\v2007.1a\tasks'.
+The timezone environment variable is set : TZ=GMT-1:0
+
+Setting HDS_HOME to : C:\eda\hds
+
+Environment variables:
+HDS_HOME set to C:\eda\hds
+HDS_USER_HOME set to U:\ELN_board\Prefs\hds_user
+HDS_TEAM_HOME set to C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team
+HDS_PORT set to we3463:1085
+1 events recorded:
+ExecuteAction
+
+Traceback
+
+hdldesigner.exe caused a EXCEPTION_ACCESS_VIOLATION in module hdldesigner.exe at 001B:017218A1
+EAX=00000000  EBX=043629D0  ECX=025B412F  EDX=02F0CBA0  ESI=04202710
+EDI=0012F874  EBP=0012DD38  ESP=0012C94C  EIP=017218A1  FLG=00210246
+CS=001B   DS=0023  SS=0023  ES=0023   FS=003B  GS=0000
+0x017218A1 hdldesigner.exe
+0x01721B15 hdldesigner.exe
+0x022F807F hdldesigner.exe
+0x022F96A2 hdldesigner.exe
+0x022F96BF hdldesigner.exe
+0x013C07CA hdldesigner.exe
+0x0138C77A hdldesigner.exe
+0x0138BCC4 hdldesigner.exe
+0x01C86902 hdldesigner.exe
+0x01C8679B hdldesigner.exe
+0x01C8671A hdldesigner.exe
+0x01C8666E hdldesigner.exe
+0x01C8641C hdldesigner.exe
+0x01C55D2A hdldesigner.exe
+0x01C5D6F3 hdldesigner.exe
+0x01C59ED3 hdldesigner.exe
+0x00F5AEE3 hdldesigner.exe
+0x00F6187A hdldesigner.exe
+0x00F04D9F hdldesigner.exe
+0x01C86902 hdldesigner.exe
+0x01C8679B hdldesigner.exe
+0x01C8671A hdldesigner.exe
+0x01C8666E hdldesigner.exe
+0x01C8641C hdldesigner.exe
+0x01BD67D2 hdldesigner.exe
+0x00EDF28B hdldesigner.exe
+0x00ECCAA9 hdldesigner.exe
+0x00ECB7A5 hdldesigner.exe
+0x00ECAE7C hdldesigner.exe
+0x00EC624C hdldesigner.exe
+0x00EC5A18 hdldesigner.exe
+0x01C8799B hdldesigner.exe
+0x01C8116F hdldesigner.exe
+0x01C81701 hdldesigner.exe
+0x01DE93AC hdldesigner.exe
+0x01B02F7B hdldesigner.exe
+0x014E0EB6 hdldesigner.exe
+0x01DBBB9C hdldesigner.exe
+0x01B3C78D hdldesigner.exe
+0x01B347D8 hdldesigner.exe
+0x00E404F5 hdldesigner.exe
+0x01DBBB9C hdldesigner.exe
+0x01562851 hdldesigner.exe
+0x01562030 hdldesigner.exe
+0x0156133A hdldesigner.exe
+0x023B4A99 hdldesigner.exe
+0x04296798 <UNKNOWN>
+0x023E02C0 hdldesigner.exe
+0xFFFFFE38 <UNKNOWN>
+End of traceback
+
+Application HDL Designer version 2007.1a (Build 13)
+Created on 31.01.2011 09:58:17
+HDL Designer Series
+HDL Designer
+Version 2007.1a (Build 13) 
+Built on Mon Feb 25 2008 at 12:15
+Verilog parser dynamic library version 2004.3.31.c (2008/02/12)
+Running on Microsoft Windows XP Professional Service Pack 3 (Build 2600)
+
+Loading HDS Project file via -hdpfile hds.hdp
+Loading prefs from command line user_home U:\ELN_board\Prefs/hds_user
+Loading teamprefs from current directory C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team
+Loading user Task files from 'U:\ELN_board\Prefs\hds_user\v2007.1a\tasks'.
+Loading team Task files from 'C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team\v2007.1a\tasks'.
+The timezone environment variable is set : TZ=GMT-1:0
+
+Setting HDS_HOME to : C:\eda\hds
+
+Environment variables:
+HDS_HOME set to C:\eda\hds
+HDS_USER_HOME set to U:\ELN_board\Prefs\hds_user
+HDS_TEAM_HOME set to C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team
+HDS_PORT set to we3463:1105
+1 events recorded:
+ExecuteAction
+
+Traceback:
+assertion failed - false
+at Language.cpp line 91
+Program : C:\EDA\HDS\bin\hdldesigner.exe
+Last Error (0x000000B7) : Cannot create a file when that file already exists.
+
+
+Failed to write traceback - triggering access violation to force output
+Application HDL Designer version 2007.1a (Build 13)
+Created on 31.01.2011 09:58:17
+HDL Designer Series
+HDL Designer
+Version 2007.1a (Build 13) 
+Built on Mon Feb 25 2008 at 12:15
+Verilog parser dynamic library version 2004.3.31.c (2008/02/12)
+Running on Microsoft Windows XP Professional Service Pack 3 (Build 2600)
+
+Loading HDS Project file via -hdpfile hds.hdp
+Loading prefs from command line user_home U:\ELN_board\Prefs/hds_user
+Loading teamprefs from current directory C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team
+Loading user Task files from 'U:\ELN_board\Prefs\hds_user\v2007.1a\tasks'.
+Loading team Task files from 'C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team\v2007.1a\tasks'.
+The timezone environment variable is set : TZ=GMT-1:0
+
+Setting HDS_HOME to : C:\eda\hds
+
+Environment variables:
+HDS_HOME set to C:\eda\hds
+HDS_USER_HOME set to U:\ELN_board\Prefs\hds_user
+HDS_TEAM_HOME set to C:\Documents and Settings\cof\Application Data\HDL Designer Series\hds_team
+HDS_PORT set to we3463:1105
+1 events recorded:
+ExecuteAction
+
+Traceback
+
+hdldesigner.exe caused a EXCEPTION_ACCESS_VIOLATION in module hdldesigner.exe at 001B:017218A1
+EAX=00000000  EBX=01B02FB4  ECX=025B412F  EDX=02F0CBA0  ESI=0541C360
+EDI=0012EF54  EBP=0012D710  ESP=0012C324  EIP=017218A1  FLG=00210246
+CS=001B   DS=0023  SS=0023  ES=0023   FS=003B  GS=0000
+0x017218A1 hdldesigner.exe
+0x01721B15 hdldesigner.exe
+0x022F807F hdldesigner.exe
+0x022F96A2 hdldesigner.exe
+0x022F96BF hdldesigner.exe
+0x013C07CA hdldesigner.exe
+0x0138C77A hdldesigner.exe
+0x0138BCC4 hdldesigner.exe
+0x01C86902 hdldesigner.exe
+0x01C8679B hdldesigner.exe
+0x01C8671A hdldesigner.exe
+0x01C8666E hdldesigner.exe
+0x01C8641C hdldesigner.exe
+0x01C55D2A hdldesigner.exe
+0x01C5D6F3 hdldesigner.exe
+0x01C59ED3 hdldesigner.exe
+0x00F5AEE3 hdldesigner.exe
+0x00F6187A hdldesigner.exe
+0x00F04D9F hdldesigner.exe
+0x01C86902 hdldesigner.exe
+0x01C8679B hdldesigner.exe
+0x01C8671A hdldesigner.exe
+0x01C8666E hdldesigner.exe
+0x01C8641C hdldesigner.exe
+0x01BD67D2 hdldesigner.exe
+0x00EDF28B hdldesigner.exe
+0x00ECCAA9 hdldesigner.exe
+0x00ECB7A5 hdldesigner.exe
+0x00ECAE7C hdldesigner.exe
+0x00EC624C hdldesigner.exe
+0x00EC5A18 hdldesigner.exe
+0x01C8799B hdldesigner.exe
+0x01C8116F hdldesigner.exe
+0x01C81701 hdldesigner.exe
+0x01DE93AC hdldesigner.exe
+0x01B0307D hdldesigner.exe
+0x014E0EB6 hdldesigner.exe
+0x01DBBB9C hdldesigner.exe
+0x01B3C78D hdldesigner.exe
+0x01B347D8 hdldesigner.exe
+0x00B2DFD6 hdldesigner.exe
+0x00B2D73E hdldesigner.exe
+0x00B36D7B hdldesigner.exe
+0x01AB41B7 hdldesigner.exe
+0x00C8BC22 hdldesigner.exe
+0x00C8B5B5 hdldesigner.exe
+0x00C8906A hdldesigner.exe
+0x01811F03 hdldesigner.exe
+0x018138C5 hdldesigner.exe
+0x024B4815 hdldesigner.exe
+0x024DECF0 hdldesigner.exe
+0x024EFA6F hdldesigner.exe
+0x025D1E80 hdldesigner.exe
+0x7E418734 USER32.dll, GetDC()+109 byte(s)
+0x7E418816 USER32.dll, GetDC()+335 byte(s)
+0x7E4189CD USER32.dll, GetWindowLongW()+295 byte(s)
+0x7E4196C7 USER32.dll, DispatchMessageA()+15 byte(s)
+0x024EE785 hdldesigner.exe
+0x024EE539 hdldesigner.exe
+0x0040355D hdldesigner.exe
+0x00401AA0 hdldesigner.exe
+0x025D2A56 hdldesigner.exe
+0x025B32FE hdldesigner.exe
+0x7C817077 kernel32.dll, RegisterWaitForInputIdle()+73 byte(s)
+End of traceback
+
+Application HDL Designer version 2009.2 (Build 10)
+Created on 19.06.2012 10:53:34
+HDL Designer Series
+HDL Designer
+Version 2009.2 (Build 10) 
+Built on Wed Mar 3 2010 at 23:42
+Verilog parser dynamic library version 2005.1.30.c (2010/02/26 15:15:28)
+Running on Professional Service Pack 1 (Build 7601)
+
+Loading HDS Project file via Environment variable $HDS_LIBS d:\Workspaces\svn\eda\VHDL\ELN_board\Prefs\hds.hdp
+Loading prefs env variable USER_HOME d:\Workspaces\svn\eda\VHDL\ELN_board\Prefs\hds_user
+Loading teamprefs env variable TEAM_HOME d:\Workspaces\svn\eda\VHDL\ELN_board\Prefs\hds_team
+Loading user Task files from 'd:\Workspaces\svn\eda\VHDL\ELN_board\Prefs\hds_user\v2009.2\tasks'.
+Loading team Task files from 'd:\Workspaces\svn\eda\VHDL\ELN_board\Prefs\hds_team\v2009.2\tasks'.
+The timezone environment variable is set : TZ=GMT-2:0DST
+Loading user Task files from 'd:\Workspaces\svn\eda\VHDL\ELN_board\Prefs\hds_user\v2009.2\tasks'.
+Loading team Task files from 'd:\Workspaces\svn\eda\VHDL\ELN_board\Prefs\hds_team\v2009.2\tasks'.
+
+HDS_HOME is set to : C:\eda\HDS2009.2
+
+Environment variables:
+HDS_HOME set to C:\eda\HDS2009.2
+HDS_USER_HOME set to d:\Workspaces\svn\eda\VHDL\ELN_board\Prefs\hds_user
+HDS_TEAM_HOME set to d:\Workspaces\svn\eda\VHDL\ELN_board\Prefs\hds_team
+HDS_LIBS set to d:\Workspaces\svn\eda\VHDL\ELN_board\Prefs\hds.hdp
+HDS_PORT set to WE3877:49981
+10 events recorded:
+NewFlow
+BrowserCopy
+BrowserCopy
+BrowserPaste
+BrowserPaste
+BrowserRename
+BrowserRename
+BrowserDelete
+BrowserDelete
+NewTool
+
+Traceback
+
+hdldesigner.exe caused a EXCEPTION_ACCESS_VIOLATION in module hdldesigner.exe at 0023:00401936
+EAX=88000000  EBX=090503A8  ECX=88000000  EDX=0918B144  ESI=00000000
+EDI=75F81450  EBP=0028ED48  ESP=0028ED30  EIP=00401936  FLG=00210286
+CS=0023   DS=002B  SS=002B  ES=002B   FS=0053  GS=002B
+0x00401936 hdldesigner.exe
+0x004018F6 hdldesigner.exe
+0x004015EE hdldesigner.exe
+0x004065EA hdldesigner.exe
+0x004065B3 hdldesigner.exe
+0x00406859 hdldesigner.exe
+0x00406412 hdldesigner.exe
+0x0056946C hdldesigner.exe
+0x00B560E5 hdldesigner.exe
+0x00B55475 hdldesigner.exe
+0x00C82496 hdldesigner.exe
+0x00C95FAF hdldesigner.exe
+0x01816DA2 hdldesigner.exe
+0x018922E5 hdldesigner.exe
+0x75D02B79 ole32.dll, StgGetIFillLockBytesOnFile()+62198 byte(s)
+0x75D02D78 ole32.dll, StgGetIFillLockBytesOnFile()+62709 byte(s)
+0x75CDA04D ole32.dll, OleCreateFromFile()+16066 byte(s)
+0x75CD9EDE ole32.dll, OleCreateFromFile()+15699 byte(s)
+0x01890FA5 hdldesigner.exe
+0x0181AF99 hdldesigner.exe
+0x0181C465 hdldesigner.exe
+0x024ED741 hdldesigner.exe
+0x02517D96 hdldesigner.exe
+0x025271DA hdldesigner.exe
+0x0260C940 hdldesigner.exe
+0x760D62FA USER32.dll, gapfnScSendMessage()+818 byte(s)
+0x760D6D3A USER32.dll, GetThreadDesktop()+215 byte(s)
+0x760D77C4 USER32.dll, CharPrevW()+312 byte(s)
+0x760D7BCA USER32.dll, DispatchMessageA()+15 byte(s)
+0x02526505 hdldesigner.exe
+0x025262B9 hdldesigner.exe
+0x0040355D hdldesigner.exe
+0x00401AA0 hdldesigner.exe
+0x0260D516 hdldesigner.exe
+0x025EDD5E hdldesigner.exe
+0x75F8339A kernel32.dll, BaseThreadInitThunk()+18 byte(s)
+0x76FE9EF2 ntdll.dll, RtlInitializeExceptionChain()+99 byte(s)
+0x76FE9EC5 ntdll.dll, RtlInitializeExceptionChain()+54 byte(s)
+End of traceback
+

@@ -1,0 +1,17 @@
+at      50 ns
+info    setting baud rate
+write   12 64
+wait    10 ns
+info    sending AA
+write   10 AA
+
+wait    20 ns
+info    reading status register (should be 02h, sending)
+read    11
+
+at      11 us
+info    reading status register (should be 01h, data received)
+read    11
+wait    10 ns
+info    reading data register (should be 55h, uart data)
+read    10

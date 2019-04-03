@@ -1,0 +1,27 @@
+DESIGN morse@encoder
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN morse@encoder
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN morse@encoder
+VIEW symbol.sb
+GRAPHIC 13,0 13 1 
+DESIGN morse@encoder
+VIEW symbol.sb
+GRAPHIC 204,0 21 0 
+DESIGN morse@encoder
+VIEW symbol.sb
+GRAPHIC 310,0 22 0 
+DESIGN morse@encoder
+VIEW symbol.sb
+GRAPHIC 315,0 23 0 
+DESIGN morse@encoder
+VIEW symbol.sb
+GRAPHIC 348,0 24 0 
+DESIGN morse@encoder
+VIEW symbol.sb
+GRAPHIC 1,0 27 0 
+DESIGN morse@encoder
+VIEW symbol.sb
+GRAPHIC 1,0 28 0 

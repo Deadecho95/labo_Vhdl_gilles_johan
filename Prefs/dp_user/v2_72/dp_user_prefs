@@ -1,0 +1,68 @@
+[LexParser]
+[LexParser.LexVHDL'93]
+[Editor]
+recentFile0=D:/projects/SEm_labs/Prefs/../Beamer/hdl/blockRAMAddressCounter_RTL.vhd
+lastFilter=.vhd
+mark.lineImage=yellowball
+recentFile1=D:/projects/SEm_labs/Prefs/../Beamer/hdl/blockRAM_Spartan3E.vhd
+recentFile2=D:/projects/SEm_labs/Prefs/../SineInterpolator/hdl/sineTable_RTL.vhd
+recentFile3=D:/Labs/AudioAmp/Prefs/../AudioAmp/hdl/stereoToMono_RTL.vhd
+[Printer]
+[ToolbarFrames]
+geom0Group1=top H
+geom0Group2=top H
+geom0Group3=top H
+state0Search=1
+Num=0
+state0VersionManagement=1
+state0Tasks=1
+state0View=1
+state0Standard=1
+state0Edit=1
+Group1=Standard Search
+Group2=Edit Bookmarks View Macros DocumentTools Windows
+Group3=VersionManagement Tasks
+state0Macros=1
+state0Bookmarks=1
+state0Windows=1
+state0DocumentTools=1
+[LexParser.LexPSL]
+[DND]
+TrackerBg=SystemHighlight
+signalAcceptDropBg=white
+signalRefuseDropBg=red
+[General]
+[Browser]
+normalTextBg=white
+normalTextFg=black
+[Replace]
+historyMax=4
+atomicReplaceAll=No
+[Console]
+[Templates]
+Visibility=No
+[SearchInFiles]
+SearchAsRegExp=0
+MatchCase=0
+LookInSubfolders=0
+historyMax=4
+[Geometry]
+TopWindow0=1618x1008+115+174
+FrameSupp0,0=165
+[VDiff]
+[R72]
+indentType=spaces
+indentString=\#\#\#
+[TCOM]
+logTCOMActivity=No
+afterIdleHandlerTimeSlice=300
+[Menus]
+DocAndVis=
+[Help]
+default=te_guide
+[Plugins]
+userLanguages=
+[Search]
+historyMax=4
+history0=pattern
+[LexParser.LexVHDL2002]

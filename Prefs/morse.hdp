@@ -1,0 +1,37 @@
+[Concat]
+Board = $HDS_PROJECT_DIR/../Board/concat
+[ModelSim]
+Board = $SCRATCH_DIR/SEm/Board/work
+Common = $SCRATCH_DIR/Libs/Common/work
+Common_test = $SCRATCH_DIR/Libs/Common_test/work
+Morse = $SCRATCH_DIR/SEm/Morse/work
+Morse_test = $SCRATCH_DIR/SEm/Morse_test/work
+RS232 = $SCRATCH_DIR/SEm/RS232/work
+RS232_test = $SCRATCH_DIR/SEm/RS232_test/work
+[hdl]
+Board = $HDS_PROJECT_DIR/../Board/hdl
+ieee = $HDS_HOME/hdl_libs/ieee/hdl
+Common = $HEI_LIBS_DIR/Common/hdl
+Common_test = $HEI_LIBS_DIR/Common_test/hdl
+Morse = $HDS_PROJECT_DIR/../Morse/hdl
+Morse_test = $HDS_PROJECT_DIR/../Morse_test/hdl
+RS232 = $HEI_LIBS_DIR/RS232/hdl
+RS232_test = $HEI_LIBS_DIR/RS232_test/hdl
+std = $HDS_HOME/hdl_libs/std/hdl
+[hds]
+Board = $HDS_PROJECT_DIR/../Board/hds
+ieee = $HDS_HOME/hdl_libs/ieee/hds
+Common = $HEI_LIBS_DIR/Common/hds
+Common_test = $HEI_LIBS_DIR/Common_test/hds
+Morse = $HDS_PROJECT_DIR/../Morse/hds
+Morse_test = $HDS_PROJECT_DIR/../Morse_test/hds
+RS232 = $HEI_LIBS_DIR/RS232/hds
+RS232_test = $HEI_LIBS_DIR/RS232_test/hds
+std = $HDS_HOME/hdl_libs/std/hds
+[hds_settings]
+design_root = Chronometer_test.motorControl_tb(struct)motor@control_tb/struct.bd
+[library_type]
+ieee = standard
+std = standard
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

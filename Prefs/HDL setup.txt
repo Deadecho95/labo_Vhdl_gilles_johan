@@ -1,0 +1,62 @@
+Batch file
+  set DESIGN_NAME=sineGen
+  set ISE_WORK_DIR=Board\ise
+  set HDS_PROJECT_DIR=%CD%
+  set HDS_LIBS=%HDS_PROJECT_DIR%\Prefs\hds.hdp
+  set HDS_USER_HOME=%HDS_PROJECT_DIR%\Prefs\hds_user
+  set HDS_TEAM_HOME=%HDS_PROJECT_DIR%\Prefs\hds_team
+  set SIMULATION_DIR=%HDS_PROJECT_DIR:\=/%/Simulation
+  set SCRATCH_DIR=%USERPROFILE%\My Documents\Tmp
+  set HDS_HOME=C:\eda\HDS
+  set MODELSIM_HOME=C:\eda\Modelsim
+  set ISE_HOME=C:\eda\Xilinx\ISE_DS
+
+Options / Main / User Variables
+  asm_file         : beamer.asm
+  concat_file      : concatenated
+  designName       : $DESIGN_NAME
+  task_AsmPath     : $HEI_LIBS_DIR\NanoBlaze\hdl
+  task_HDSPath     : $HDS_HOME
+  task_ISEBinPath  : $ISE_HOME
+  task_ISEPath     : $SCRATCH_DIR\$DESIGN_NAME\$ISE_WORK_DIR
+  task_ModelSimPath: $MODELSIM_HOME\win32
+
+Copy trimLibs.pl in the concat directory
+
+Tasks
+
+Generate
+
+Assemble code
+  Tool name        : Assemble code
+  Tooltip          : run assembler to generate VHDL ROM description
+  Bitmap           : .../HDS/resources/bitmaps/tools/tool_compile.bmp
+  Tool does:       : Invoke a Program or run a Shell Script
+  Command          : %(task_HDSPath)\resources\perl\bin\perl.exe
+  Arguments        : %(task_AsmPath)\nanoasm.pl -v -d 16 -k %(asm_file) rom_%(view).vhd
+  Initial Directory: %(HDLDir)
+  Capture Output
+
+Trim libraries
+  Tool name        : Trim libraries
+  Tooltip          : comment out library declarations for singles file
+  Tool does:       : Invoke a Program or run a Shell Script
+  Command          : %(task_HDSPath)\resources\perl\bin\perl.exe
+  Arguments        : trimlibs.pl %(concat_file).vhd
+  Initial Directory: %(library_downstream_Concatenation)
+  Capture Output
+
+Prepare for Synthesis
+  Tool name        : Prepare for synthesis
+  Tooltip          : Generate a single file VHDL
+  Generate
+  Concatenate HDL
+  Trim libraries
+
+Xilinx Project Navigator
+  Tool name        : Xilinx ISE tool
+  Tooltip          : Invokes the Xilinx ISE tool
+  Tool does:       : Invoke a Program or run a Shell Script
+  Command          : %(task_ISEBinPath)\ISE\bin\nt\ise.exe
+  Arguments        : %(designName).xise
+  Initial Directory: %(task_ISEPath)

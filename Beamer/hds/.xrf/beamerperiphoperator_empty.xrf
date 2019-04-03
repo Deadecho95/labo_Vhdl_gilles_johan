@@ -1,0 +1,27 @@
+DESIGN beamer@periph@operator
+VIEW empty.bd
+NO_GRAPHIC 0
+DESIGN beamer@periph@operator
+VIEW empty.bd
+GRAPHIC 173,0 9 0 
+DESIGN beamer@periph@operator
+VIEW empty.bd
+NO_GRAPHIC 12
+DESIGN beamer@periph@operator
+VIEW empty.bd
+GRAPHIC 0,0 14 2 
+DESIGN beamer@periph@operator
+VIEW empty.bd
+NO_GRAPHIC 19
+DESIGN beamer@periph@operator
+VIEW empty.bd
+NO_GRAPHIC 20
+DESIGN beamer@periph@operator
+VIEW empty.bd
+NO_GRAPHIC 21
+DESIGN beamer@periph@operator
+VIEW empty.bd
+NO_GRAPHIC 23
+DESIGN beamer@periph@operator
+VIEW empty.bd
+NO_GRAPHIC 26

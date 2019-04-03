@@ -1,0 +1,27 @@
+DESIGN sinewave@generator_tester
+VIEW interface
+NO_GRAPHIC 0
+DESIGN sinewave@generator_tester
+VIEW interface
+GRAPHIC 50,0 8 0 
+DESIGN sinewave@generator_tester
+VIEW interface
+GRAPHIC 13,0 13 1 
+DESIGN sinewave@generator_tester
+VIEW interface
+GRAPHIC 189,0 17 0 
+DESIGN sinewave@generator_tester
+VIEW interface
+GRAPHIC 199,0 18 0 
+DESIGN sinewave@generator_tester
+VIEW interface
+GRAPHIC 184,0 19 0 
+DESIGN sinewave@generator_tester
+VIEW interface
+GRAPHIC 194,0 20 0 
+DESIGN sinewave@generator_tester
+VIEW interface
+GRAPHIC 1,0 23 0 
+DESIGN sinewave@generator_tester
+VIEW interface
+GRAPHIC 1,0 24 0 

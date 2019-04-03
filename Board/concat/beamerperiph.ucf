@@ -1,0 +1,85 @@
+NET     "reset_N"       LOC = "P44"  ;  # MEZ_NRESET    A-a25
+#NET     "reset_N"       LOC = "P58"  ;  # IO board S4
+NET     "clock"         LOC = "P185" ;  # CLK
+
+NET     "addr<23>"      LOC = "P108" ;  # MEZ_A23       B-b24
+NET     "addr<22>"      LOC = "P109" ;  # MEZ_A22       B-a24
+NET     "addr<21>"      LOC = "P110" ;  # MEZ_A21       B-b23
+NET     "addr<20>"      LOC = "P111" ;  # MEZ_A20       B-a23
+NET     "addr<19>"      LOC = "P112" ;  # MEZ_A19       B-b22
+NET     "addr<18>"      LOC = "P113" ;  # MEZ_A18       B-a22
+NET     "addr<17>"      LOC = "P114" ;  # MEZ_A17       B-b21
+NET     "addr<16>"      LOC = "P115" ;  # MEZ_A16       B-a21
+NET     "addr<15>"      LOC = "P119" ;  # MEZ_A15       B-b20
+NET     "addr<14>"      LOC = "P120" ;  # MEZ_A14       B-a20
+NET     "addr<13>"      LOC = "P121" ;  # MEZ_A13       B-b19
+NET     "addr<12>"      LOC = "P122" ;  # MEZ_A12       B-a19
+NET     "addr<11>"      LOC = "P123" ;  # MEZ_A11       B-b18
+NET     "addr<10>"      LOC = "P125" ;  # MEZ_A10       B-a18
+NET     "addr<9>"       LOC = "P3"   ;  # MEZ_A09       A-b6
+NET     "addr<8>"       LOC = "P206" ;  # MEZ_A08       A-a6
+NET     "addr<7>"       LOC = "P205" ;  # MEZ_A07       A-b5
+NET     "addr<6>"       LOC = "P204" ;  # MEZ_A06       A-a5
+NET     "addr<5>"       LOC = "P203" ;  # MEZ_A05       A-b4
+NET     "addr<4>"       LOC = "P202" ;  # MEZ_A04       A-a4
+NET     "addr<3>"       LOC = "P201" ;  # MEZ_A03       A-b3
+NET     "addr<2>"       LOC = "P200" ;  # MEZ_A02       A-a3
+NET     "addr<1>"       LOC = "P199" ;  # MEZ_A01       A-b2
+NET     "addr<0>"       LOC = "P195" ;  # MEZ_A00_NLB   A-a2
+
+NET     "data<15>"      LOC = "P30"  ;  # MEZ_D15       A-b18
+NET     "data<14>"      LOC = "P29"  ;  # MEZ_D14       A-a18
+NET     "data<13>"      LOC = "P27"  ;  # MEZ_D13       A-b17
+NET     "data<12>"      LOC = "P24"  ;  # MEZ_D12       A-a17
+NET     "data<11>"      LOC = "P23"  ;  # MEZ_D11       A-b16
+NET     "data<10>"      LOC = "P22"  ;  # MEZ_D10       A-a16
+NET     "data<9>"       LOC = "P21"  ;  # MEZ_D09       A-b15
+NET     "data<8>"       LOC = "P20"  ;  # MEZ_D08       A-a15
+NET     "data<7>"       LOC = "P18"  ;  # MEZ_D07       A-b14
+NET     "data<6>"       LOC = "P17"  ;  # MEZ_D06       A-a14
+NET     "data<5>"       LOC = "P16"  ;  # MEZ_D05       A-b13
+NET     "data<4>"       LOC = "P15"  ;  # MEZ_D04       A-a13
+NET     "data<3>"       LOC = "P14"  ;  # MEZ_D03       A-b12
+NET     "data<2>"       LOC = "P10"  ;  # MEZ_D02       A-a12
+NET     "data<1>"       LOC = "P9"   ;  # MEZ_D01       A-b11
+NET     "data<0>"       LOC = "P8"   ;  # MEZ_D00       A-a11
+
+# NET     "ncs"           LOC = "P4"   ;  # MEZ_NCS3      A-a8
+# NET     "ncs"           LOC = "P5"   ;  # MEZ_NCS4      A-b8
+NET     "ncs"           LOC = "P6"   ;  # MEZ_NCS5      A-a9
+# NET     "ncs"           LOC = "P7"   ;  # MEZ_NCS6      A-b9
+NET     "nrd"           LOC = "P33"  ;  # MEZ_NOE/NRD0  A-b20
+NET     "nwr0"          LOC = "P34"  ;  # MEZ_NWR/NWR0  A-a21
+NET     "nwr1"          LOC = "P35"  ;  # MEZ_NUB/NWR1  A-b21
+NET     "nwait"         LOC = "P31"  | PULLUP ;  # MEZ_NWAIT     A-a20
+
+NET     "xOut"          LOC = "P102" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 2 ;   # GIO1_02
+NET     "yOut"          LOC = "P101" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 2 ;   # GIO1_01
+NET     "zOut"          LOC = "P95"  | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 2 ;   # GIO1_08
+
+NET     "LED4"          LOC = "P194" ;  # USER2_LED
+NET     "LED2"          LOC = "P45"  ;  # USER1_LED
+NET     "button_N"      LOC = "P46"  ;  # USER_BUTTON
+
+NET     "spare<1>"      LOC = "P82"  ;  # GIO1_25
+NET     "spare<2>"      LOC = "P83"  ;  # GIO1_23
+NET     "spare<3>"      LOC = "P84"  ;  # GIO1_21
+NET     "spare<4>"      LOC = "P86"  ;  # GIO1_19
+NET     "spare<5>"      LOC = "P87"  ;  # GIO1_17
+NET     "spare<6>"      LOC = "P88"  ;  # GIO1_15
+NET     "spare<7>"      LOC = "P89"  ;  # GIO1_13
+NET     "spare<8>"      LOC = "P90"  ;  # GIO1_11
+NET     "spare<9>"      LOC = "P94"  ;  # GIO1_09
+NET     "spare<10>"     LOC = "P96"  ;  # GIO1_07
+NET     "spare<11>"     LOC = "P98"  ;  # GIO1_05
+NET     "spare<12>"     LOC = "P100" ;  # GIO1_03
+NET     "spare<13>"     LOC = "P99"  ;  # GIO1_04
+NET     "spare<14>"     LOC = "P97"  ;  # GIO1_06
+#NET     "spare<15>"     LOC = "P95"  ;  # GIO1_08
+
+NET     "CLK_X"         LOC = "P73"  | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 2 ;
+NET     "CLK_Y"         LOC = "P69"  | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 2 ;
+NET     "CS_X_n"        LOC = "P74"  | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 2 ;
+NET     "CS_Y_n"        LOC = "P70"  | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 2 ;
+NET     "SDI_X"         LOC = "P71"  | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 2 ;
+NET     "SDI_Y"         LOC = "P68"  | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 2 ;

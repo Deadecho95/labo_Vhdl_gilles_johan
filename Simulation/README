@@ -1,0 +1,28 @@
+SEm personal ram init file
+==========================
+
+copy the files with your name to
+
+    SEm_labs/Simulation
+
+make a copy and rename them to
+
+    ramXInit.txt
+    ramYInit.txt
+
+(maybe you have to delete the exitings files first)
+
+change the constants 
+
+    patternAddressBitNb
+    curvePointNb
+
+in your VHDL code to the values given in the filename
+
+    _<patternAddressBitNb>for<curvePointNb>_
+
+verify that the constant
+
+    curvePointNb
+
+has a value of about 20

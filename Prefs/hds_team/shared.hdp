@@ -1,0 +1,15 @@
+[hdl]
+ieee = $HDS_HOME/hdl_libs/ieee/hdl
+std = $HDS_HOME/hdl_libs/std/hdl
+vital2000 = $HDS_HOME/hdl_libs/vital2000/hdl
+[hds]
+ieee = $HDS_HOME/hdl_libs/ieee/hds
+std = $HDS_HOME/hdl_libs/std/hds
+vital2000 = $HDS_HOME/hdl_libs/vital2000/hds
+[hds_settings]
+project_description = The standard HDS shared project
+version = 1
+[library_type]
+ieee = standard
+std = standard
+vital2000 = standard
