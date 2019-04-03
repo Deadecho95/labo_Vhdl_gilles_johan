@@ -1,4 +1,4 @@
-version "45.1"
+version "48.1"
 SaPreferences [
 (CustomizeUserPreferences
 version "1.0"
@@ -963,18 +963,18 @@ Actions [
 )
 (FileTypeState
 Extension "svap"
-Description "SystemVerilog Assistant project file"
+Description "SVAssistant project file"
 Bitmap "$HDS_HOME\\resources\\bitmaps\\types\\svapFile.bmp"
 DefaultAction "Open"
 Actions [
 (ActionState
 Name "Open"
-Tool "USER:SystemVerilog Assistant"
+Tool "USER:SVAssistant Flow"
 Arguments "project %(p)"
 )
 (ActionState
 Name "View"
-Tool "USER:SystemVerilog Assistant"
+Tool "USER:SVAssistant Flow"
 Arguments "project %(p)"
 )
 ]
@@ -1267,6 +1267,7 @@ projectPaths [
 "C:\\Users\\oliver.gubler\\projects\\eda\\VHDL\\labs\\SEm_labs\\Prefs\\sineGen.hdp"
 "E:\\projects\\EDA\\VHDL\\labs\\SEm_labs\\Prefs\\beamer.hdp"
 "E:\\projects\\EDA\\VHDL\\labs\\SEm_labs\\Prefs\\sineGen.hdp"
+"R:\\SYND\\SEm_225\\3_Labos\\Labos_cof\\SEm_labs\\Prefs\\sineGen.hdp"
 ]
 libMappingsRootDir ""
 teamLibMappingsRootDir ""
@@ -1829,16 +1830,24 @@ tasksOrder [
 "USER:Prepare for Synthesis"
 "USER:Xilinx Project Navigator"
 "USER:Xilinx Vivado Flow"
+"USER:SVAssistant Flow"
+"USER:Quartus Prime Import"
+"USER:Quartus Synthesis"
+"USER:Quartus Synthesis Flow"
+"USER:Quartus Synthesis Invoke"
+"USER:Quartus Synthesis Prepare Data"
 ]
 tasksToolbarOrder [
 "\"USER:Assemble code\""
 "\"USER:ModelSim Flow\""
 "\"USER:Prepare for Synthesis\""
 "\"USER:Xilinx Project Navigator\""
+"\"USER:SVAssistant Flow\""
 ]
 tasksMenubarOrder [
 "\"USER:ModelSim Flow\""
 "USER:Generate"
+"\"USER:SVAssistant Flow\""
 ]
 tasksShortcutbarOrder [
 "Setup DesignChecker"
@@ -1847,6 +1856,8 @@ tasksShortcutbarOrder [
 "\"USER:ModelSim Simulate\""
 "USER:Generate"
 "\"USER:Prepare for Synthesis\""
+"\"USER:SVAssistant Flow\""
+"\"USER:Quartus Synthesis Flow\""
 ]
 taskPreferences [
 (TaskPref
@@ -3000,6 +3011,31 @@ second ""
 ]
 )
 (TaskPref
+taskName "\"USER:Quartus Prime Import\""
+taskPrefStringMap [
+(pair
+first "enabled"
+second ""
+)
+(pair
+first "hierLevel"
+second "3"
+)
+(pair
+first "onPulldownMenu"
+second ""
+)
+(pair
+first "onShortcutBar"
+second ""
+)
+(pair
+first "onToolbar"
+second ""
+)
+]
+)
+(TaskPref
 taskName "\"USER:Quartus Programmer\""
 taskPrefStringMap [
 (pair
@@ -3009,6 +3045,206 @@ second ""
 (pair
 first "hierLevel"
 second "3"
+)
+(pair
+first "onPulldownMenu"
+second ""
+)
+(pair
+first "onShortcutBar"
+second ""
+)
+(pair
+first "onToolbar"
+second ""
+)
+]
+)
+(TaskPref
+taskName "\"USER:Quartus Synthesis Flow\""
+taskPrefStringMap [
+(pair
+first "enabled"
+second ""
+)
+(pair
+first "hierLevel"
+second "1"
+)
+(pair
+first "onPulldownMenu"
+second ""
+)
+(pair
+first "onShortcutBar"
+second "true"
+)
+(pair
+first "onToolbar"
+second ""
+)
+]
+)
+(TaskPref
+taskName "\"USER:Quartus Synthesis Flow\" \"USER:Quartus Synthesis\""
+taskPrefStringMap [
+(pair
+first "enabled"
+second ""
+)
+(pair
+first "hierLevel"
+second "1"
+)
+(pair
+first "onPulldownMenu"
+second ""
+)
+(pair
+first "onShortcutBar"
+second ""
+)
+(pair
+first "onToolbar"
+second ""
+)
+]
+)
+(TaskPref
+taskName "\"USER:Quartus Synthesis Flow\" USER:Generate"
+taskPrefStringMap [
+(pair
+first "enabled"
+second ""
+)
+(pair
+first "hierLevel"
+second "2"
+)
+(pair
+first "onPulldownMenu"
+second ""
+)
+(pair
+first "onShortcutBar"
+second ""
+)
+(pair
+first "onToolbar"
+second ""
+)
+]
+)
+(TaskPref
+taskName "\"USER:Quartus Synthesis Invoke\""
+taskPrefStringMap [
+(pair
+first "enabled"
+second ""
+)
+(pair
+first "hierLevel"
+second "3"
+)
+(pair
+first "onPulldownMenu"
+second ""
+)
+(pair
+first "onShortcutBar"
+second ""
+)
+(pair
+first "onToolbar"
+second ""
+)
+]
+)
+(TaskPref
+taskName "\"USER:Quartus Synthesis Prepare Data\""
+taskPrefStringMap [
+(pair
+first "enabled"
+second ""
+)
+(pair
+first "hierLevel"
+second "1"
+)
+(pair
+first "onPulldownMenu"
+second ""
+)
+(pair
+first "onShortcutBar"
+second ""
+)
+(pair
+first "onToolbar"
+second ""
+)
+]
+)
+(TaskPref
+taskName "\"USER:Quartus Synthesis\""
+taskPrefStringMap [
+(pair
+first "enabled"
+second ""
+)
+(pair
+first "hierLevel"
+second "1"
+)
+(pair
+first "onPulldownMenu"
+second ""
+)
+(pair
+first "onShortcutBar"
+second ""
+)
+(pair
+first "onToolbar"
+second ""
+)
+]
+)
+(TaskPref
+taskName "\"USER:Quartus Synthesis\" \"USER:Quartus Synthesis Invoke\""
+taskPrefStringMap [
+(pair
+first "enabled"
+second ""
+)
+(pair
+first "hierLevel"
+second "3"
+)
+(pair
+first "onPulldownMenu"
+second ""
+)
+(pair
+first "onShortcutBar"
+second ""
+)
+(pair
+first "onToolbar"
+second ""
+)
+]
+)
+(TaskPref
+taskName "\"USER:Quartus Synthesis\" \"USER:Quartus Synthesis Prepare Data\""
+taskPrefStringMap [
+(pair
+first "enabled"
+second ""
+)
+(pair
+first "hierLevel"
+second "1"
 )
 (pair
 first "onPulldownMenu"
@@ -3184,6 +3420,81 @@ second ""
 (pair
 first "hierLevel"
 second "0"
+)
+(pair
+first "onPulldownMenu"
+second ""
+)
+(pair
+first "onShortcutBar"
+second ""
+)
+(pair
+first "onToolbar"
+second ""
+)
+]
+)
+(TaskPref
+taskName "\"USER:SVAssistant Flow\""
+taskPrefStringMap [
+(pair
+first "enabled"
+second ""
+)
+(pair
+first "hierLevel"
+second "1"
+)
+(pair
+first "onPulldownMenu"
+second "true"
+)
+(pair
+first "onShortcutBar"
+second "true"
+)
+(pair
+first "onToolbar"
+second "true"
+)
+]
+)
+(TaskPref
+taskName "\"USER:SVAssistant Flow\" USER:Generate"
+taskPrefStringMap [
+(pair
+first "enabled"
+second ""
+)
+(pair
+first "hierLevel"
+second "2"
+)
+(pair
+first "onPulldownMenu"
+second ""
+)
+(pair
+first "onShortcutBar"
+second ""
+)
+(pair
+first "onToolbar"
+second ""
+)
+]
+)
+(TaskPref
+taskName "\"USER:SVAssistant Flow\" USER:SVAssistant"
+taskPrefStringMap [
+(pair
+first "enabled"
+second ""
+)
+(pair
+first "hierLevel"
+second "3"
 )
 (pair
 first "onPulldownMenu"
@@ -3887,7 +4198,7 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "849x1005+815+0"
+logWindowGeometry "722x937+1182+0"
 diagramBrowserTabNo 0
 showInsertPortHint 0
 showContentFirstTime 0

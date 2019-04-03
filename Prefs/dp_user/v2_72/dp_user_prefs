@@ -1,12 +1,12 @@
 [LexParser]
 [LexParser.LexVHDL'93]
 [Editor]
-recentFile0=D:/projects/SEm_labs/Prefs/../Beamer/hdl/blockRAMAddressCounter_RTL.vhd
+recentFile0=C:/Users/johan.chenaux/Desktop/LAbVHDL/Prefs/../AhbLiteComponents/hdl/ahbGpio_studentVersion.vhd
 lastFilter=.vhd
 mark.lineImage=yellowball
-recentFile1=D:/projects/SEm_labs/Prefs/../Beamer/hdl/blockRAM_Spartan3E.vhd
-recentFile2=D:/projects/SEm_labs/Prefs/../SineInterpolator/hdl/sineTable_RTL.vhd
-recentFile3=D:/Labs/AudioAmp/Prefs/../AudioAmp/hdl/stereoToMono_RTL.vhd
+recentFile1=D:/projects/SEm_labs/Prefs/../Beamer/hdl/blockRAMAddressCounter_RTL.vhd
+recentFile2=D:/projects/SEm_labs/Prefs/../Beamer/hdl/blockRAM_Spartan3E.vhd
+recentFile3=D:/projects/SEm_labs/Prefs/../SineInterpolator/hdl/sineTable_RTL.vhd
 [Printer]
 [ToolbarFrames]
 geom0Group1=top H

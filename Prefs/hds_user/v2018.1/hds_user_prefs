@@ -1191,8 +1191,8 @@ second "uedit32.exe \"%(p)/%(l)\" /r"
 )
 ]
 defaultTextPrintingCmd "Enscript"
-win32DefaultEditor "Notepad++"
-win32DefaultViewer "Notepad++"
+win32DefaultEditor "Builtin"
+win32DefaultViewer "Builtin"
 unixDefaultEditor "Builtin"
 unixDefaultViewer "Builtin"
 defaultVerilogDialect 5
@@ -1268,6 +1268,7 @@ projectPaths [
 "E:\\projects\\EDA\\VHDL\\labs\\SEm_labs\\Prefs\\beamer.hdp"
 "E:\\projects\\EDA\\VHDL\\labs\\SEm_labs\\Prefs\\sineGen.hdp"
 "R:\\SYND\\SEm_225\\3_Labos\\Labos_cof\\SEm_labs\\Prefs\\sineGen.hdp"
+"C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\beamer.hdp"
 ]
 libMappingsRootDir ""
 teamLibMappingsRootDir ""
@@ -1288,30 +1289,12 @@ exportedDirectories [
 exportStdIncludeRefs 1
 exportStdPackageRefs 1
 )
-printerName "FinePrint"
+printerName "\\\\ipp://ipp.hevs.ch\\PREA309_HPLJP3015DN"
 pageSizes [
 (PageSizeInfo
 name "Letter"
 width 783
 height 1013
-)
-(PageSizeInfo
-name "Letter Small"
-type 2
-width 783
-height 1013
-)
-(PageSizeInfo
-name "Tabloid"
-type 3
-width 1013
-height 1566
-)
-(PageSizeInfo
-name "Ledger"
-type 4
-width 1013
-height 1566
 )
 (PageSizeInfo
 name "Legal"
@@ -1344,12 +1327,6 @@ width 761
 height 1077
 )
 (PageSizeInfo
-name "A4 Small"
-type 10
-width 761
-height 1077
-)
-(PageSizeInfo
 name "A5"
 type 11
 width 536
@@ -1368,82 +1345,16 @@ width 660
 height 932
 )
 (PageSizeInfo
-name "Folio"
-type 14
-width 783
-height 1198
-)
-(PageSizeInfo
-name "Quarto"
-type 15
-width 780
-height 997
-)
-(PageSizeInfo
-name "10x14"
-type 16
-width 921
-height 1290
-)
-(PageSizeInfo
-name "11x17"
+name "11×17"
 type 17
 width 1013
 height 1566
-)
-(PageSizeInfo
-name "Note"
-type 18
-width 783
-height 1013
-)
-(PageSizeInfo
-name "Envelope #9"
-type 19
-width 357
-height 817
 )
 (PageSizeInfo
 name "Envelope #10"
 type 20
 width 379
 height 875
-)
-(PageSizeInfo
-name "Envelope #11"
-type 21
-width 414
-height 956
-)
-(PageSizeInfo
-name "Envelope #12"
-type 22
-width 437
-height 1013
-)
-(PageSizeInfo
-name "Envelope #14"
-type 23
-width 460
-height 1059
-)
-(PageSizeInfo
-name "C size sheet"
-type 24
-width 1566
-height 2027
-)
-(PageSizeInfo
-name "D size sheet"
-type 25
-width 2027
-height 3133
-)
-(PageSizeInfo
-name "E size sheet"
-type 26
-width 3133
-height 4055
 )
 (PageSizeInfo
 name "Envelope DL"
@@ -1458,52 +1369,10 @@ width 587
 height 830
 )
 (PageSizeInfo
-name "Envelope C3"
-type 29
-width 1175
-height 1661
-)
-(PageSizeInfo
-name "Envelope C4"
-type 30
-width 830
-height 1175
-)
-(PageSizeInfo
-name "Envelope C6"
-type 31
-width 413
-height 587
-)
-(PageSizeInfo
-name "Envelope C65"
-type 32
-width 413
-height 830
-)
-(PageSizeInfo
-name "Envelope B4"
-type 33
-width 907
-height 1280
-)
-(PageSizeInfo
 name "Envelope B5"
 type 34
 width 638
 height 907
-)
-(PageSizeInfo
-name "Envelope B6"
-type 35
-width 453
-height 638
-)
-(PageSizeInfo
-name "Envelope Italy"
-type 36
-width 399
-height 834
 )
 (PageSizeInfo
 name "Envelope Monarch"
@@ -1512,189 +1381,52 @@ width 357
 height 691
 )
 (PageSizeInfo
-name "6 3/4 Envelope"
-type 38
-width 333
-height 599
-)
-(PageSizeInfo
-name "US Std Fanfold"
-type 39
-width 1013
-height 1370
-)
-(PageSizeInfo
-name "German Std Fanfold"
-type 40
-width 783
-height 1105
-)
-(PageSizeInfo
-name "German Legal Fanfold"
-type 41
-width 783
-height 1198
-)
-(PageSizeInfo
-name "B4 (ISO)"
-type 42
-width 907
-height 1280
-)
-(PageSizeInfo
 name "Japanese Postcard"
 type 43
 width 362
 height 536
 )
 (PageSizeInfo
-name "9x11"
-type 44
-width 829
-height 1013
+name "A6"
+type 70
+width 380
+height 536
 )
 (PageSizeInfo
-name "10x11"
-type 45
-width 921
-height 1013
+name "Double Japan Postcard Rotated"
+type 82
+width 536
+height 725
 )
 (PageSizeInfo
-name "11x15"
-type 46
-width 1013
-height 1382
+name "Executive (JIS)"
+type 150
+width 783
+height 1196
 )
 (PageSizeInfo
-name "Envelope Invite"
-type 47
-width 798
-height 798
+name "Oficio 8.5x13"
+type 151
+width 783
+height 1198
 )
 (PageSizeInfo
-name "Letter Extra"
-type 50
-width 875
-height 1105
-)
-(PageSizeInfo
-name "Legal Extra"
-type 51
-width 875
-height 1382
-)
-(PageSizeInfo
-name "Tabloid Extra"
-type 52
-width 1077
+name "12x18"
+type 152
+width 1105
 height 1658
 )
 (PageSizeInfo
-name "A4 Extra"
-type 53
-width 854
-height 1169
+name "8K 273x394 mm"
+type 170
+width 990
+height 1428
 )
 (PageSizeInfo
-name "Letter Transverse"
-type 54
-width 783
-height 1013
-)
-(PageSizeInfo
-name "A4 Transverse"
-type 55
-width 761
-height 1077
-)
-(PageSizeInfo
-name "Letter Extra Transverse"
-type 56
-width 875
-height 1105
-)
-(PageSizeInfo
-name "SuperA/SuperA/A4"
-type 57
-width 823
-height 1291
-)
-(PageSizeInfo
-name "SuperB/SuperB/A3"
-type 58
-width 1106
-height 1767
-)
-(PageSizeInfo
-name "Letter Plus"
-type 59
-width 783
-height 1169
-)
-(PageSizeInfo
-name "A4 Plus"
-type 60
-width 761
-height 1197
-)
-(PageSizeInfo
-name "A5 Transverse"
-type 61
-width 536
-height 761
-)
-(PageSizeInfo
-name "B5 (JIS) Transverse"
-type 62
-width 660
-height 932
-)
-(PageSizeInfo
-name "A3 Extra"
-type 63
-width 1168
-height 1614
-)
-(PageSizeInfo
-name "A5 Extra"
-type 64
-width 631
-height 852
-)
-(PageSizeInfo
-name "B5 (ISO) Extra"
-type 65
-width 729
-height 1001
-)
-(PageSizeInfo
-name "A2"
-type 66
-width 1523
-height 2155
-)
-(PageSizeInfo
-name "A3 Transverse"
-type 67
-width 1077
-height 1523
-)
-(PageSizeInfo
-name "A3 Extra Transverse"
-type 68
-width 1168
-height 1614
-)
-(PageSizeInfo
-name "FinePrint 2-up Letter"
-type 257
-width 783
-height 1210
-)
-(PageSizeInfo
-type 256
-width 0
-height 0
+name "16K 197x273 mm"
+type 171
+width 714
+height 990
 )
 ]
 exportPageSetupInfo (PageSetupInfo
@@ -6435,16 +6167,6 @@ declHierarchy [
 activeViewpointIdx 0
 )
 (WorkTab
-name "Board"
-showingHierarchy 0
-openLibs [
-"Board"
-]
-declHierarchy [
-]
-activeViewpointIdx 0
-)
-(WorkTab
 name "AhbLite"
 showingHierarchy 0
 openLibs [
@@ -6463,20 +6185,10 @@ declHierarchy [
 activeViewpointIdx 0
 )
 (WorkTab
-name "SineInterpolator_test"
+name "AhbLiteComponents"
 showingHierarchy 0
 openLibs [
-"SineInterpolator_test"
-]
-declHierarchy [
-]
-activeViewpointIdx 0
-)
-(WorkTab
-name "Beamer"
-showingHierarchy 0
-openLibs [
-"Beamer"
+"AhbLiteComponents"
 ]
 declHierarchy [
 ]
@@ -6506,7 +6218,7 @@ size 246
 displayHierarchy 0
 xPos 0
 yPos 0
-width 1634
+width 1936
 height 1066
 activeSidePanelTab 2
 activeLibraryTab 1
