@@ -12,9 +12,6 @@ add wave -noupdate -radix hexadecimal /ahbgpio_tb/hrdata
 add wave -noupdate /ahbgpio_tb/hready
 add wave -noupdate /ahbgpio_tb/hresp
 add wave -noupdate -divider Registers
-add wave -noupdate -radix hexadecimal /ahbgpio_tb/i_dut/outputenableregister
-add wave -noupdate -radix hexadecimal /ahbgpio_tb/i_dut/dataoutregister
-add wave -noupdate -radix hexadecimal /ahbgpio_tb/i_dut/datainregister
 add wave -noupdate -divider UART
 add wave -noupdate -radix hexadecimal /ahbgpio_tb/ioen
 add wave -noupdate -radix hexadecimal /ahbgpio_tb/ioout

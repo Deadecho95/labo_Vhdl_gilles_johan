@@ -1,9 +1,20 @@
+LIBRARY Common_test;
+  USE Common_test.testUtils.all;
+
 ARCHITECTURE test OF ahbUart_tester IS
                                                               -- reset and clock
-  constant clockFrequency: real := 100.0E6;
   constant clockPeriod: time := (1.0/clockFrequency) * 1 sec;
   signal clock_int: std_uLogic := '1';
   signal reset_int: std_uLogic;
+                                                             -- test information
+  signal noteTopSeparator : string(1 to 80) := (others => '-');
+  signal errorTopSeparator : string(1 to 80) := (others => '#');
+  signal bottomSeparator : string(1 to 80) := (others => '.');
+  signal indentation : string(1 to 2) := (others => ' ');
+  signal noteInformation : string(1 to 9) := (others => ' ');
+  signal errorInformation : string(1 to 10) := (others => ' ');
+  signal failureInformation : string(1 to 12) := (others => ' ');
+  signal testInformation : string(1 to 50) := (others => ' ');
                                                           -- register definition
   constant dataRegisterAddress: natural := 0;
   constant controlRegisterAddress: natural := 1;
@@ -17,6 +28,8 @@ ARCHITECTURE test OF ahbUart_tester IS
   signal registerData: integer;
   signal registerWrite: std_uLogic;
   signal registerRead: std_uLogic;
+  signal writeFlag, readFlag, readFlag1: std_uLogic;
+  signal writeData, readData: integer;
                                                                   -- UART access
   constant baudPeriodNb: positive := 4;
   signal uartData: integer;
@@ -42,82 +55,256 @@ BEGIN
     uartSend <= '0';
     wait for 1 us;
                                                               -- write baud rate
+    testInformation <= pad("Writing baud rate", testInformation'length);
+    wait for 0 ns;
+    assert false
+      report
+        noteTopSeparator & cr &
+        noteInformation & indentation & testInformation & cr &
+        noteInformation & bottomSeparator
+      severity note;
     registerAddress <= scalerRegisterAddress;
     registerData <= baudPeriodNb;
     registerWrite <= '1', '0' after clockPeriod;
     wait for 4*clockPeriod;
                                                             -- write Tx data 55h
+    testInformation <= pad("Writing Tx data", testInformation'length);
+    wait for 0 ns;
+    assert false
+      report
+        noteTopSeparator & cr &
+        noteInformation & indentation & testInformation & cr &
+        noteInformation & bottomSeparator
+      severity note;
     registerAddress <= dataRegisterAddress;
     registerData <= 16#55#;
     registerWrite <= '1', '0' after clockPeriod;
     wait for 20*baudPeriodNb*clockPeriod;
                                                             -- write Tx data 0Fh
+    testInformation <= (others => ' ');
+    wait for 1 ns;
+    testInformation <= pad("Writing Tx data", testInformation'length);
+    wait for 0 ns;
+    assert false
+      report
+        noteTopSeparator & cr &
+        noteInformation & indentation & testInformation & cr &
+        noteInformation & bottomSeparator
+      severity note;
     registerAddress <= dataRegisterAddress;
     registerData <= 16#0F#;
     registerWrite <= '1', '0' after clockPeriod;
     wait for 4*clockPeriod;
                                                                   -- read status
+    testInformation <= pad("Reading status", testInformation'length);
+    wait for 0 ns;
+    assert false
+      report
+        noteTopSeparator & cr &
+        noteInformation & indentation & testInformation & cr &
+        noteInformation & bottomSeparator
+      severity note;
     registerAddress <= statusRegisterAddress;
     registerRead <= '1', '0' after clockPeriod;
+    for index in 1 to 4 loop
+      wait until rising_edge(clock_int);
+    end loop;
+    assert readData = 16#02#
+      report
+        errorTopSeparator & cr &
+        errorInformation & indentation &
+        "expected status sending flag" & cr &
+        errorInformation & bottomSeparator
+      severity error;
     wait for 12*baudPeriodNb*clockPeriod;
+                                                                  -- read status
+    testInformation <= (others => ' ');
+    wait for 1 ns;
+    testInformation <= pad("Reading status", testInformation'length);
+    wait for 0 ns;
+    assert false
+      report
+        noteTopSeparator & cr &
+        noteInformation & indentation & testInformation & cr &
+        noteInformation & bottomSeparator
+      severity note;
     registerRead <= '1', '0' after clockPeriod;
+    for index in 1 to 4 loop
+      wait until rising_edge(clock_int);
+    end loop;
+    assert readData = 16#00#
+      report
+        errorTopSeparator & cr &
+        errorInformation & indentation &
+        "expected no flag" & cr &
+        errorInformation & bottomSeparator
+      severity error;
     wait for 20*baudPeriodNb*clockPeriod;
                                                                   -- receive AAh
+    testInformation <= pad("Receiving Rx data", testInformation'length);
+    wait for 0 ns;
+    assert false
+      report
+        noteTopSeparator & cr &
+        noteInformation & indentation & testInformation & cr &
+        noteInformation & bottomSeparator
+      severity note;
     uartData <= 16#AA#;
     uartSend <= '1', '0' after clockPeriod;
     wait for 4*clockPeriod;
                                                                   -- read status
+    testInformation <= pad("Reading status", testInformation'length);
+    wait for 0 ns;
+    assert false
+      report
+        noteTopSeparator & cr &
+        noteInformation & indentation & testInformation & cr &
+        noteInformation & bottomSeparator
+      severity note;
     registerAddress <= statusRegisterAddress;
     registerRead <= '1', '0' after clockPeriod;
+    for index in 1 to 4 loop
+      wait until rising_edge(clock_int);
+    end loop;
+    assert readData = 16#04#
+      report
+        errorTopSeparator & cr &
+        errorInformation & indentation &
+        "expected status receiving flag" & cr &
+        errorInformation & bottomSeparator
+      severity error;
     wait for 10*baudPeriodNb*clockPeriod;
+                                                            -- read status again
+    testInformation <= (others => ' ');
+    wait for 1 ns;
+    testInformation <= pad("Reading status", testInformation'length);
+    wait for 0 ns;
+    assert false
+      report
+        noteTopSeparator & cr &
+        noteInformation & indentation & testInformation & cr &
+        noteInformation & bottomSeparator
+      severity note;
     registerRead <= '1', '0' after clockPeriod;
+    for index in 1 to 4 loop
+      wait until rising_edge(clock_int);
+    end loop;
+    assert readData = 16#01#
+      report
+        errorTopSeparator & cr &
+        errorInformation & indentation &
+        "expected status data available flag" & cr &
+        errorInformation & bottomSeparator
+      severity error;
     wait for 4*clockPeriod;
                                                                     -- read data
+    testInformation <= pad("Reading data", testInformation'length);
+    wait for 0 ns;
+    assert false
+      report
+        noteTopSeparator & cr &
+        noteInformation & indentation & testInformation & cr &
+        noteInformation & bottomSeparator
+      severity note;
     registerAddress <= dataRegisterAddress;
     registerRead <= '1', '0' after clockPeriod;
+    for index in 1 to 4 loop
+      wait until rising_edge(clock_int);
+    end loop;
+    assert readData = 16#AA#
+      report
+        errorTopSeparator & cr &
+        errorInformation & indentation & "read data not as expected" & cr &
+        errorInformation & bottomSeparator
+      severity error;
     wait for 4*clockPeriod;
                                                                   -- read status
+    testInformation <= pad("Reading status", testInformation'length);
+    wait for 0 ns;
+    assert false
+      report
+        noteTopSeparator & cr &
+        noteInformation & indentation & testInformation & cr &
+        noteInformation & bottomSeparator
+      severity note;
     registerAddress <= statusRegisterAddress;
     registerRead <= '1', '0' after clockPeriod;
+    for index in 1 to 4 loop
+      wait until rising_edge(clock_int);
+    end loop;
+    assert readData = 16#00#
+      report
+        errorTopSeparator & cr &
+        errorInformation & indentation &
+        "expected no flag" & cr &
+        errorInformation & bottomSeparator
+      severity error;
     wait for 4*clockPeriod;
                                                             -- end of simulation
+    wait for 100 ns;
+    testInformation <= pad("End of tests", testInformation'length);
+    wait for 0 ns;
+    assert false
+      report
+        noteTopSeparator & cr &
+        failureInformation & indentation & testInformation & cr &
+        failureInformation & bottomSeparator
+      severity failure;
     wait;
   end process testSequence;
 
   ------------------------------------------------------------------------------
                                                               -- AMBA bus access
-  busAccess: process
-    variable writeAccess: boolean;
-  begin
-    hAddr <= (others => '-');
-    hWData <= (others => '-');
-    hTrans <= transIdle;
-    hSel <= '0';
-    hWrite <= '0';
-    wait on registerWrite, registerRead;
-    writeAccess := false;
-    if rising_edge(registerWrite) then
-      writeAccess := true;
-    end if;
                                                 -- phase 1: address and controls
-    wait until rising_edge(clock_int);
-    hAddr <= to_unsigned(registerAddress, hAddr'length);
-    hTrans <= transNonSeq;
-    hSel <= '1';
-    if writeAccess then
-      hWrite <= '1';
+  busAccess1: process
+    variable writeAccess: boolean := false;
+  begin
+    wait on reset_int, registerWrite, registerRead;
+    if falling_edge(reset_int) then
+      hAddr <= (others => '-');
+      hTrans <= transIdle;
+      hSel <= '0';
+      writeFlag <= '0';
     end if;
-                                                                -- phase 2: data
-    wait until rising_edge(clock_int);
-    hAddr <= (others => '-');
-    hTrans <= transIdle;
-    hSel <= '0';
-    hWrite <= '0';
-    if writeAccess then
-      hWData <= std_uLogic_vector(to_signed(registerData, hWData'length));
+    if rising_edge(registerWrite) or rising_edge(registerRead) then
+      writeAccess := false;
+      if rising_edge(registerWrite) then
+        writeAccess := true;
+      end if;
+      wait until rising_edge(clock_int);
+      hAddr <= to_unsigned(registerAddress, hAddr'length),
+        (others => '-') after clockPeriod + 1 ns;
+      hTrans <= transNonSeq, transIdle after clockPeriod + 1 ns;
+      hSel <= '1', '0' after clockPeriod + 1 ns;
+      if writeAccess then
+        writeFlag <= '1', '0' after clockPeriod + 1 ns;
+        writeData <= registerData;
+      else
+      readFlag <= '1', '0' after clockPeriod + 1 ns;
+      end if;
     end if;
+  end process busAccess1;
+
+  hWrite <= writeFlag;
+                                                          -- phase 2: data write
+  busAccess2: process
+  begin
     wait until rising_edge(clock_int);
-  end process;
+    hWData <= (others => '-');
+    readFlag1 <= '0';
+    if writeFlag = '1' then
+      hWData <= std_uLogic_vector(to_signed(writeData, hWData'length));
+    end if;
+    readFlag1 <= readFlag;
+  end process busAccess2;
+                                                           -- phase 3: data read
+  busAccess3: process
+  begin
+    wait until rising_edge(clock_int);
+    if readFlag1 = '1' then
+      readData <= to_integer(to_01(unsigned(hRData)));
+    end if;
+  end process busAccess3;
 
   ------------------------------------------------------------------------------
                                                                   -- UART access

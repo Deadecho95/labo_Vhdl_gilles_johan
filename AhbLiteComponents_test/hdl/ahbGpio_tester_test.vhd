@@ -1,8 +1,20 @@
+LIBRARY Common_test;
+  USE Common_test.testUtils.all;
+
 ARCHITECTURE test OF ahbGpio_tester IS
                                                               -- reset and clock
   constant clockPeriod: time := (1.0/clockFrequency) * 1 sec;
   signal clock_int: std_uLogic := '1';
   signal reset_int: std_uLogic;
+                                                             -- test information
+  signal noteTopSeparator : string(1 to 80) := (others => '-');
+  signal errorTopSeparator : string(1 to 80) := (others => '#');
+  signal bottomSeparator : string(1 to 80) := (others => '.');
+  signal indentation : string(1 to 2) := (others => ' ');
+  signal noteInformation : string(1 to 9) := (others => ' ');
+  signal errorInformation : string(1 to 10) := (others => ' ');
+  signal failureInformation : string(1 to 12) := (others => ' ');
+  signal testInformation : string(1 to 50) := (others => ' ');
                                                           -- register definition
   constant peripheralBaseAddress: natural := 2**4;
   constant dataRegisterAddress: natural := 0;
@@ -12,8 +24,8 @@ ARCHITECTURE test OF ahbGpio_tester IS
   signal registerData: integer;
   signal registerWrite: std_uLogic;
   signal registerRead: std_uLogic;
-  signal writeFlag: std_uLogic;
-  signal writeData: integer;
+  signal writeFlag, readFlag, readFlag1: std_uLogic;
+  signal writeData, readData: integer;
                                                                   -- GPIO access
   signal ioData: integer;
   signal ioMask: integer;
@@ -42,10 +54,13 @@ BEGIN
     ----------------------------------------------------------------------------
                                                                   -- simple test
                                                                 -- write en mask
+    testInformation <= pad("Writing data on the GPIO", testInformation'length);
+    wait for 0 ns;
     assert false
-      report "----------------------------------------" & cr & "           " &
-             "Writing data on the GPIO" &
-             cr & "         " & "........................................"
+      report
+        noteTopSeparator & cr &
+        noteInformation & indentation & testInformation & cr &
+        noteInformation & bottomSeparator
       severity note;
     ioData <= 16#AA#;
     ioMask <= 16#0F#; wait for 0 ns;
@@ -59,31 +74,45 @@ BEGIN
     registerWrite <= '1', '0' after clockPeriod;
     wait for 4*clockPeriod;
     assert io = x"A5"
-      report cr & cr & "Write failed"
+      report
+        errorTopSeparator & cr &
+        noteInformation & indentation & "IO data not as expected" & cr &
+        noteInformation & bottomSeparator
       severity error;
                                                                     -- read data
+    testInformation <= pad("Reading data from the GPIO", testInformation'length);
+    wait for 0 ns;
     assert false
-      report "----------------------------------------" & cr & "           " &
-             "Reading data from the GPIO" &
-             cr & "         " & "........................................"
+      report
+        noteTopSeparator & cr &
+        noteInformation & indentation & testInformation & cr &
+        noteInformation & bottomSeparator
       severity note;
     registerAddress <= dataRegisterAddress;
     registerRead <= '1', '0' after clockPeriod;
-    for index in 1 to 3 loop
+    for index in 1 to 4 loop
       wait until rising_edge(clock_int);
     end loop;
-    assert hRData(io'range) = x"A5"
-      report cr & cr & "Read failed"
+    assert readData = 16#A5#
+      report
+        errorTopSeparator & cr &
+        noteInformation & indentation & "read data not as expected" & cr &
+        noteInformation & bottomSeparator
       severity error;
     wait for 100 ns;
 
     ----------------------------------------------------------------------------
                                            -- test with a different base address
                                                                 -- write en mask
+    testInformation <= pad(
+      "Writing data to a different base address", testInformation'length
+    );
+    wait for 0 ns;
     assert false
-      report "----------------------------------------" & cr & "           " &
-            "Writing data to a different base address" &
-             cr & "         " & "........................................"
+      report
+        noteTopSeparator & cr &
+        noteInformation & indentation & testInformation & cr &
+        noteInformation & bottomSeparator
       severity note;
     ioData <= 16#AA#;
     ioMask <= 16#F0#; wait for 0 ns;
@@ -99,21 +128,27 @@ BEGIN
                                                                     -- read data
     registerAddress <= peripheralBaseAddress + dataRegisterAddress;
     registerRead <= '1', '0' after clockPeriod;
-    for index in 1 to 3 loop
+    for index in 1 to 4 loop
       wait until rising_edge(clock_int);
     end loop;
-    assert hRData(io'range) = x"5A"
-      report cr & cr & "Read failed"
+    assert readData = 16#5A#
+      report
+        errorTopSeparator & cr &
+        noteInformation & indentation & "read data not as expected" & cr &
+        noteInformation & bottomSeparator
       severity error;
     wait for 4*clockPeriod;
 
     ----------------------------------------------------------------------------
                                                           -- access back to back
                                                                 -- write en mask
+    testInformation <= pad("Accessing at full speed", testInformation'length);
+    wait for 0 ns;
     assert false
-      report "----------------------------------------" & cr & "           " &
-             "Accessing at full speed" &
-             cr & "         " & "........................................"
+      report
+        noteTopSeparator & cr &
+        noteInformation & indentation & testInformation & cr &
+        noteInformation & bottomSeparator
       severity note;
     wait until rising_edge(clock_int);
     ioData <= 16#AA#;
@@ -130,19 +165,25 @@ BEGIN
     wait until rising_edge(clock_int);
     registerAddress <= dataRegisterAddress;
     registerRead <= '1' after clockPeriod/4, '0' after clockPeriod/2;
-    for index in 1 to 3 loop
+    for index in 1 to 4 loop
       wait until rising_edge(clock_int);
     end loop;
-    assert hRData(io'range) = x"A5"
-      report cr & cr & "Read failed"
+    assert readData = 16#A5#
+      report
+        errorTopSeparator & cr &
+        noteInformation & indentation & "read data not as expected" & cr &
+        noteInformation & bottomSeparator
       severity error;
     wait for 4*clockPeriod;
                                                             -- end of simulation
     wait for 100 ns;
+    testInformation <= pad("End of tests", testInformation'length);
+    wait for 0 ns;
     assert false
-      report "----------------------------------------" & cr & "              " &
-             "End of tests" &
-             cr & "            " & "........................................"
+      report
+        noteTopSeparator & cr &
+        failureInformation & indentation & testInformation & cr &
+        failureInformation & bottomSeparator
       severity failure;
     wait;
   end process testSequence;
@@ -173,21 +214,32 @@ BEGIN
       if writeAccess then
         writeFlag <= '1', '0' after clockPeriod + 1 ns;
         writeData <= registerData;
+      else
+      readFlag <= '1', '0' after clockPeriod + 1 ns;
       end if;
     end if;
   end process busAccess1;
 
   hWrite <= writeFlag;
-                                                                -- phase 2: data
+                                                          -- phase 2: data write
   busAccess2: process
   begin
     wait until rising_edge(clock_int);
     hWData <= (others => '-');
+    readFlag1 <= '0';
     if writeFlag = '1' then
       hWData <= std_uLogic_vector(to_signed(writeData, hWData'length));
     end if;
+    readFlag1 <= readFlag;
   end process busAccess2;
-
+                                                           -- phase 3: data read
+  busAccess3: process
+  begin
+    wait until rising_edge(clock_int);
+    if readFlag1 = '1' then
+      readData <= to_integer(to_01(unsigned(hRData)));
+    end if;
+  end process busAccess3;
 
   ------------------------------------------------------------------------------
                                                                   -- GPIO access
