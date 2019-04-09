@@ -43,22 +43,6 @@ BEGIN
       end if;
     END IF;
   END PROCESS clockedProcess;
-  
-  --outProcess: PROCESS(ioIn, hTransInt, addrInt, hWriteInt, hSelInt)
---  BEGIN
---    hRData <= (OTHERS => '0');
---    if hSelInt = '1' and hTransInt = transNonSeq then --save addr to be in phase with data
---      IF addrInt = '1' THEN -- work with direction register
---        if hWriteInt = '0' then
---          hRData <= (OTHERS => '0');
---        end if;
---      ELSE -- work with value register
---        if hWriteInt = '0' then
---          hRData <= std_ulogic_vector(RESIZE(unsigned(ioIn), ahbDataBitNb));
---        end if;
---      END if;
---    end if;
---  END PROCESS outProcess;
 
   hRData <= std_ulogic_vector(RESIZE(unsigned(ioIn), ahbDataBitNb));
   
