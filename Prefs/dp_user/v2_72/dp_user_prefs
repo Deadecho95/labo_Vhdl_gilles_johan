@@ -1,12 +1,12 @@
 [LexParser]
 [LexParser.LexVHDL'93]
 [Editor]
-recentFile0=R:/SYND/Ele_2131/ELN/Labs/Libraries/AhbLite/hdl/ahbLite_pkg.vhd
+recentFile0=C:/Users/johan.chenaux/Desktop/LAbVHDL/Prefs/../AhbLiteComponents/hdl/ahbGpio_studentVersion.vhd
 lastFilter=.vhd
 mark.lineImage=yellowball
-recentFile1=C:/Users/johan.chenaux/Desktop/LAbVHDL/Prefs/../AhbLiteComponents/hdl/ahbGpio_studentVersion.vhd
-recentFile2=C:/Users/johan.chenaux/Desktop/LAbVHDL/Prefs/../AhbLiteComponents/hdl/uartCore_RTL.vhd
-recentFile3=C:/Users/johan.chenaux/Desktop/LAbVHDL/Prefs/../AhbLiteComponents/hdl/ahbUart_studentVersion.vhd
+recentFile1=C:/Users/johan.chenaux/Desktop/LAbVHDL/Prefs/../AhbLiteComponents/hdl/ahbUart_studentVersion.vhd
+recentFile2=R:/SYND/Ele_2131/ELN/Labs/Libraries/AhbLite/hdl/ahbLite_pkg.vhd
+recentFile3=C:/Users/johan.chenaux/Desktop/LAbVHDL/Prefs/../AhbLiteComponents/hdl/uartCore_RTL.vhd
 [Printer]
 [ToolbarFrames]
 geom0Group1=top H
@@ -47,7 +47,7 @@ MatchCase=0
 LookInSubfolders=0
 historyMax=4
 [Geometry]
-TopWindow0=1920x1007+-2+-21
+TopWindow0=1920x1007+658+163
 FrameSupp0,0=165
 FrameSupp0,1=165
 FrameSupp0,2=165
