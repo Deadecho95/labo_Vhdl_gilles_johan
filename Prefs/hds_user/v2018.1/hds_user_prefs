@@ -2176,7 +2176,7 @@ second ""
 )
 (pair
 first "hierLevel"
-second "3"
+second "1"
 )
 (pair
 first "onPulldownMenu"
@@ -3930,7 +3930,7 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "722x937+1182+0"
+logWindowGeometry "722x923+1182+14"
 diagramBrowserTabNo 0
 showInsertPortHint 0
 showContentFirstTime 0

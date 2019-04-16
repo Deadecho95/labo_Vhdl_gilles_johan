@@ -6,43 +6,46 @@ VIEW interface
 GRAPHIC 50,0 8 0 
 DESIGN ahb@uart_tester
 VIEW interface
-GRAPHIC 302,0 16 0 
+GRAPHIC 13,0 15 1 
 DESIGN ahb@uart_tester
 VIEW interface
-GRAPHIC 257,0 17 0 
+GRAPHIC 1162,0 19 0 
 DESIGN ahb@uart_tester
 VIEW interface
-GRAPHIC 262,0 18 0 
+GRAPHIC 1117,0 20 0 
 DESIGN ahb@uart_tester
 VIEW interface
-GRAPHIC 272,0 19 0 
+GRAPHIC 1122,0 21 0 
 DESIGN ahb@uart_tester
 VIEW interface
-GRAPHIC 297,0 20 0 
+GRAPHIC 1132,0 22 0 
 DESIGN ahb@uart_tester
 VIEW interface
-GRAPHIC 247,0 21 0 
+GRAPHIC 1157,0 23 0 
 DESIGN ahb@uart_tester
 VIEW interface
-GRAPHIC 252,0 22 0 
+GRAPHIC 1107,0 24 0 
 DESIGN ahb@uart_tester
 VIEW interface
-GRAPHIC 267,0 23 0 
+GRAPHIC 1112,0 25 0 
 DESIGN ahb@uart_tester
 VIEW interface
-GRAPHIC 277,0 24 0 
+GRAPHIC 1127,0 26 0 
 DESIGN ahb@uart_tester
 VIEW interface
-GRAPHIC 282,0 25 0 
+GRAPHIC 1137,0 27 0 
 DESIGN ahb@uart_tester
 VIEW interface
-GRAPHIC 287,0 26 0 
+GRAPHIC 1142,0 28 0 
 DESIGN ahb@uart_tester
 VIEW interface
-GRAPHIC 292,0 27 0 
+GRAPHIC 1147,0 29 0 
 DESIGN ahb@uart_tester
 VIEW interface
-GRAPHIC 1,0 30 0 
+GRAPHIC 1152,0 30 0 
 DESIGN ahb@uart_tester
 VIEW interface
-GRAPHIC 1,0 31 0 
+GRAPHIC 1,0 33 0 
+DESIGN ahb@uart_tester
+VIEW interface
+GRAPHIC 1,0 34 0 
