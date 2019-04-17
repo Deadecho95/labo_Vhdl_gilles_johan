@@ -186,8 +186,8 @@ libraryRefs [
 "ieee"
 ]
 )
-version "31.1"
-appVersion "2018.1 (Build 12)"
+version "29.1"
+appVersion "2009.2 (Build 10)"
 noEmbeddedEditors 1
 model (BlockDiag
 VExpander (VariableExpander
@@ -198,23 +198,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hdl"
+value "D:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds"
+value "D:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\ahb@beamer@registers\\struct.bd.info"
+value "D:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds\\ahb@beamer@registers\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\ahb@beamer@registers\\struct.bd.user"
+value "D:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds\\ahb@beamer@registers\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds"
+value "D:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds"
 )
 (vvPair
 variable "appl"
@@ -238,27 +238,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\ahb@beamer@registers"
+value "D:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds\\ahb@beamer@registers"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\ahbBeamerRegisters"
+value "D:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds\\ahbBeamerRegisters"
 )
 (vvPair
 variable "date"
-value "17.04.2019"
+value "20.03.2015"
 )
 (vvPair
 variable "day"
-value "mer."
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "17"
+value "20"
 )
 (vvPair
 variable "designName"
@@ -285,32 +285,12 @@ variable "f_noext"
 value "struct"
 )
 (vvPair
-variable "graphical_source_author"
-value "johan.chenaux"
-)
-(vvPair
-variable "graphical_source_date"
-value "17.04.2019"
-)
-(vvPair
-variable "graphical_source_group"
-value "UNKNOWN"
-)
-(vvPair
-variable "graphical_source_host"
-value "WEA30906"
-)
-(vvPair
-variable "graphical_source_time"
-value "11:11:45"
-)
-(vvPair
 variable "group"
 value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WEA30906"
+value "WE3673"
 )
 (vvPair
 variable "language"
@@ -338,7 +318,7 @@ value "U:\\SEm_curves\\Synthesis"
 )
 (vvPair
 variable "mm"
-value "04"
+value "03"
 )
 (vvPair
 variable "module_name"
@@ -346,19 +326,19 @@ value "ahbBeamerRegisters"
 )
 (vvPair
 variable "month"
-value "avr."
+value "mars"
 )
 (vvPair
 variable "month_long"
-value "avril"
+value "mars"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\ahb@beamer@registers\\struct.bd"
+value "D:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds\\ahb@beamer@registers\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\ahbBeamerRegisters\\struct.bd"
+value "D:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds\\ahbBeamerRegisters\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -366,7 +346,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "beamer"
+value "hds-beamer"
 )
 (vvPair
 variable "series"
@@ -375,10 +355,6 @@ value "HDL Designer Series"
 (vvPair
 variable "task_ADMS"
 value "<TBD>"
-)
-(vvPair
-variable "task_AsmPath"
-value "$HEI_LIBS_DIR\\NanoBlaze\\hdl"
 )
 (vvPair
 variable "task_DesignCompilerPath"
@@ -402,7 +378,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "$MODELSIM_HOME"
+value "$MODELSIM_HOME\\win32"
 )
 (vvPair
 variable "task_NC"
@@ -434,7 +410,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "11:11:45"
+value "15:47:54"
 )
 (vvPair
 variable "unit"
@@ -442,11 +418,11 @@ value "ahbBeamerRegisters"
 )
 (vvPair
 variable "user"
-value "johan.chenaux"
+value "francois"
 )
 (vvPair
 variable "version"
-value "2018.1 (Build 12)"
+value "2009.2 (Build 10)"
 )
 (vvPair
 variable "view"
@@ -454,11 +430,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2019"
+value "2015"
 )
 (vvPair
 variable "yy"
-value "19"
+value "15"
 )
 ]
 )
@@ -794,8 +770,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,118600,22500,119400"
-st "SIGNAL clock              : std_ulogic
-"
+st "SIGNAL clock              : std_ulogic"
 )
 )
 *13 (Net
@@ -812,8 +787,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,119400,22500,120200"
-st "SIGNAL reset              : std_ulogic
-"
+st "SIGNAL reset              : std_ulogic"
 )
 )
 *14 (Net
@@ -830,8 +804,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,106200,19000,107000"
-st "newPolynom         : std_ulogic
-"
+st "newPolynom         : std_ulogic"
 )
 )
 *15 (Net
@@ -848,8 +821,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,129800,22500,130600"
-st "SIGNAL selControl         : std_ulogic
-"
+st "SIGNAL selControl         : std_ulogic"
 )
 )
 *16 (Net
@@ -866,8 +838,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,130600,22500,131400"
-st "SIGNAL selSpeed           : std_ulogic
-"
+st "SIGNAL selSpeed           : std_ulogic"
 )
 )
 *17 (Net
@@ -884,8 +855,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,131400,22500,132200"
-st "SIGNAL selX               : std_ulogic
-"
+st "SIGNAL selX               : std_ulogic"
 )
 )
 *18 (Net
@@ -902,8 +872,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,132200,22500,133000"
-st "SIGNAL selY               : std_ulogic
-"
+st "SIGNAL selY               : std_ulogic"
 )
 )
 *19 (Net
@@ -920,8 +889,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,103800,19000,104600"
-st "run                : std_ulogic
-"
+st "run                : std_ulogic"
 )
 )
 *20 (Net
@@ -938,8 +906,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,133000,22500,133800"
-st "SIGNAL updatePattern      : std_ulogic
-"
+st "SIGNAL updatePattern      : std_ulogic"
 )
 )
 *21 (Net
@@ -957,8 +924,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,129000,38000,129800"
-st "SIGNAL patternSize        : unsigned(patternAddressBitNb-1 DOWNTO 0)
-"
+st "SIGNAL patternSize        : unsigned(patternAddressBitNb-1 DOWNTO 0)"
 )
 )
 *22 (Net
@@ -976,8 +942,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,125000,37000,125800"
-st "SIGNAL dataOut            : std_logic_vector(dataBitNb-1 DOWNTO 0)
-"
+st "SIGNAL dataOut            : std_logic_vector(dataBitNb-1 DOWNTO 0)"
 )
 )
 *23 (Net
@@ -995,8 +960,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,104600,33500,105400"
-st "updatePeriod       : unsigned(updatePeriodBitNb-1 DOWNTO 0)
-"
+st "updatePeriod       : unsigned(updatePeriodBitNb-1 DOWNTO 0)"
 )
 )
 *24 (Net
@@ -1014,8 +978,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,121000,38000,121800"
-st "SIGNAL addrX              : unsigned(patternAddressBitNb-1 DOWNTO 0)
-"
+st "SIGNAL addrX              : unsigned(patternAddressBitNb-1 DOWNTO 0)"
 )
 )
 *25 (Net
@@ -1032,8 +995,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,122600,22500,123400"
-st "SIGNAL cntIncrX           : std_ulogic
-"
+st "SIGNAL cntIncrX           : std_ulogic"
 )
 )
 *26 (Net
@@ -1050,8 +1012,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,127400,22500,128200"
-st "SIGNAL memWrX             : std_ulogic
-"
+st "SIGNAL memWrX             : std_ulogic"
 )
 )
 *27 (Net
@@ -1068,8 +1029,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,125800,22500,126600"
-st "SIGNAL memEnX             : std_ulogic
-"
+st "SIGNAL memEnX             : std_ulogic"
 )
 )
 *28 (Net
@@ -1087,8 +1047,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,102200,35000,103000"
-st "memX               : std_ulogic_vector(signalBitNb-1 DOWNTO 0)
-"
+st "memX               : std_ulogic_vector(signalBitNb-1 DOWNTO 0)"
 )
 )
 *29 (Net
@@ -1105,8 +1064,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,123400,22500,124200"
-st "SIGNAL cntIncrY           : std_ulogic
-"
+st "SIGNAL cntIncrY           : std_ulogic"
 )
 )
 *30 (Net
@@ -1124,8 +1082,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,121800,38000,122600"
-st "SIGNAL addrY              : unsigned(patternAddressBitNb-1 DOWNTO 0)
-"
+st "SIGNAL addrY              : unsigned(patternAddressBitNb-1 DOWNTO 0)"
 )
 )
 *31 (Net
@@ -1142,8 +1099,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,128200,22500,129000"
-st "SIGNAL memWrY             : std_ulogic
-"
+st "SIGNAL memWrY             : std_ulogic"
 )
 )
 *32 (Net
@@ -1160,8 +1116,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,126600,22500,127400"
-st "SIGNAL memEnY             : std_ulogic
-"
+st "SIGNAL memEnY             : std_ulogic"
 )
 )
 *33 (Net
@@ -1179,8 +1134,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,103000,35000,103800"
-st "memY               : std_ulogic_vector(signalBitNb-1 DOWNTO 0)
-"
+st "memY               : std_ulogic_vector(signalBitNb-1 DOWNTO 0)"
 )
 )
 *34 (PortIoOut
@@ -1242,8 +1196,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,101400,32500,102200"
-st "testOut            : std_ulogic_vector(1 TO testOutBitNb)
-"
+st "testOut            : std_ulogic_vector(1 TO testOutBitNb)"
 )
 )
 *36 (HdlText
@@ -1345,8 +1298,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,105400,19000,106200"
-st "interpolateLin     : std_ulogic
-"
+st "interpolateLin     : std_ulogic"
 )
 )
 *41 (SaComponent
@@ -2235,16 +2187,16 @@ optionalChildren [
 uid 14859,0
 sl 0
 ro 270
-xt "118750,41625,120250,42375"
+xt "109750,41625,111250,42375"
 )
 (Line
 uid 14860,0
 sl 0
 ro 270
-xt "118250,42000,118750,42000"
+xt "109250,42000,109750,42000"
 pts [
-"118250,42000"
-"118750,42000"
+"109250,42000"
+"109750,42000"
 ]
 )
 ]
@@ -2259,9 +2211,9 @@ va (VaSet
 isHidden 1
 font "Verdana,12,0"
 )
-xt "121000,41300,123900,42700"
+xt "112000,41300,114900,42700"
 st "run"
-blo "121000,42500"
+blo "112000,42500"
 tm "WireNameMgr"
 )
 )
@@ -2323,16 +2275,16 @@ optionalChildren [
 uid 14871,0
 sl 0
 ro 270
-xt "118500,43625,120000,44375"
+xt "109500,43625,111000,44375"
 )
 (Line
 uid 14872,0
 sl 0
 ro 270
-xt "118000,44000,118500,44000"
+xt "109000,44000,109500,44000"
 pts [
-"118000,44000"
-"118500,44000"
+"109000,44000"
+"109500,44000"
 ]
 )
 ]
@@ -2347,9 +2299,9 @@ va (VaSet
 isHidden 1
 font "Verdana,12,0"
 )
-xt "121000,43300,131300,44700"
+xt "112000,43300,122300,44700"
 st "interpolateLin"
-blo "121000,44500"
+blo "112000,44500"
 tm "WireNameMgr"
 )
 )
@@ -2369,8 +2321,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,124200,37500,125000"
-st "SIGNAL dataIn             : std_ulogic_vector(dataBitNb-1 DOWNTO 0)
-"
+st "SIGNAL dataIn             : std_ulogic_vector(dataBitNb-1 DOWNTO 0)"
 )
 )
 *73 (HdlText
@@ -2472,8 +2423,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,120200,34500,121000"
-st "SIGNAL addr               : unsigned(addressBitNb-1 DOWNTO 0)
-"
+st "SIGNAL addr               : unsigned(addressBitNb-1 DOWNTO 0)"
 )
 )
 *78 (HdlText
@@ -2560,8 +2510,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,134600,38500,135400"
-st "SIGNAL memDataIn          : std_ulogic_vector(signalBitNb-1 DOWNTO 0)
-"
+st "SIGNAL memDataIn          : std_ulogic_vector(signalBitNb-1 DOWNTO 0)"
 )
 )
 *83 (Net
@@ -2578,8 +2527,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,133800,22500,134600"
-st "SIGNAL write              : std_ulogic
-"
+st "SIGNAL write              : std_ulogic"
 )
 )
 *84 (SaComponent
@@ -5130,8 +5078,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,107000,19000,107800"
-st "hClk               : std_ulogic
-"
+st "hClk               : std_ulogic"
 )
 )
 *168 (PortIoOut
@@ -5194,8 +5141,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,107800,35500,108600"
-st "hRData             : std_ulogic_vector(ahbDataBitNb-1 downto 0)
-"
+st "hRData             : std_ulogic_vector(ahbDataBitNb-1 downto 0)"
 )
 )
 *170 (PortIoIn
@@ -5258,8 +5204,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,108600,32500,109400"
-st "hAddr              : unsigned(ahbAddressBitNb-1 downto 0)
-"
+st "hAddr              : unsigned(ahbAddressBitNb-1 downto 0)"
 )
 )
 *172 (PortIoIn
@@ -5321,8 +5266,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,109400,19000,110200"
-st "hReset_n           : std_ulogic
-"
+st "hReset_n           : std_ulogic"
 )
 )
 *174 (PortIoIn
@@ -5385,8 +5329,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,110200,35500,111000"
-st "hWData             : std_ulogic_vector(ahbDataBitNb-1 downto 0)
-"
+st "hWData             : std_ulogic_vector(ahbDataBitNb-1 downto 0)"
 )
 )
 *176 (PortIoIn
@@ -5449,8 +5392,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,111000,36000,111800"
-st "hTrans             : std_ulogic_vector(ahbTransBitNb-1 downto 0)
-"
+st "hTrans             : std_ulogic_vector(ahbTransBitNb-1 downto 0)"
 )
 )
 *178 (PortIoIn
@@ -5512,8 +5454,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,111800,19000,112600"
-st "hWrite             : std_ulogic
-"
+st "hWrite             : std_ulogic"
 )
 )
 *180 (PortIoIn
@@ -5575,8 +5516,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,112600,19000,113400"
-st "hSel               : std_ulogic
-"
+st "hSel               : std_ulogic"
 )
 )
 *182 (PortIoOut
@@ -5638,8 +5578,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,113400,19000,114200"
-st "hReady             : std_ulogic
-"
+st "hReady             : std_ulogic"
 )
 )
 *184 (PortIoOut
@@ -5701,8 +5640,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,114200,19000,115000"
-st "hResp              : std_ulogic
-"
+st "hResp              : std_ulogic"
 )
 )
 *186 (HdlText
@@ -5790,8 +5728,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,135400,22500,136200"
-st "SIGNAL run_int            : std_ulogic
-"
+st "SIGNAL run_int            : std_ulogic"
 )
 )
 *191 (Net
@@ -5808,8 +5745,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,136200,22500,137000"
-st "SIGNAL interpolateLin_int : std_ulogic
-"
+st "SIGNAL interpolateLin_int : std_ulogic"
 )
 )
 *192 (Wire
@@ -6090,10 +6026,10 @@ uid 1351,0
 va (VaSet
 vasetType 3
 )
-xt "113000,42000,118250,42000"
+xt "104000,42000,109250,42000"
 pts [
-"113000,42000"
-"118250,42000"
+"104000,42000"
+"109250,42000"
 ]
 )
 end &69
@@ -6112,9 +6048,9 @@ uid 1355,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "115000,40600,117900,42000"
+xt "106000,40600,108900,42000"
 st "run"
-blo "115000,41800"
+blo "106000,41800"
 tm "WireNameMgr"
 )
 )
@@ -7875,10 +7811,10 @@ uid 8151,0
 va (VaSet
 vasetType 3
 )
-xt "113000,44000,118000,44000"
+xt "104000,44000,109000,44000"
 pts [
-"113000,44000"
-"118000,44000"
+"104000,44000"
+"109000,44000"
 ]
 )
 end &71
@@ -7897,9 +7833,9 @@ uid 8155,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "110000,42600,120300,44000"
+xt "101000,42600,111300,44000"
 st "interpolateLin"
-blo "110000,43800"
+blo "101000,43800"
 tm "WireNameMgr"
 )
 )
@@ -8770,8 +8706,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-7,0,967,1057"
-viewArea "86200,33933,156025,110360"
+windowSize "109,34,1364,891"
+viewArea "-227,-510,146599,101105"
 cachedDiagramExtent "-7900,0,166900,198000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\ipp://ippsion.hevs.ch\\PREA309_HPLJ3005DN,winspool,"
@@ -8795,7 +8731,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 20838,0
+lastUid 20703,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -8818,34 +8754,6 @@ tm "CommentText"
 wrapOption 3
 visibleHeight 4600
 visibleWidth 14600
-)
-)
-defaultRequirementText (RequirementText
-shape (ZoomableIcon
-layer 0
-va (VaSet
-vasetType 1
-fg "59904,39936,65280"
-lineColor "0,0,32768"
-)
-xt "0,0,1500,1750"
-iconName "reqTracerRequirement.bmp"
-iconMaskName "reqTracerRequirement.msk"
-)
-autoResize 1
-text (MLText
-va (VaSet
-fg "0,0,32768"
-font "arial,8,0"
-)
-xt "500,2150,1400,3150"
-st "
-Text
-"
-tm "RequirementText"
-wrapOption 3
-visibleHeight 1350
-visibleWidth 1100
 )
 )
 defaultPanel (Panel

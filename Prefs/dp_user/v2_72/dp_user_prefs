@@ -1,12 +1,12 @@
 [LexParser]
 [LexParser.LexVHDL'93]
 [Editor]
-recentFile0=C:/Users/johan.chenaux/Desktop/LAbVHDL/Prefs/../AhbLiteComponents/hdl/ahbUart_studentVersion.vhd
+recentFile0=C:/Users/johan.chenaux/Desktop/LAbVHDL/Prefs/../Beamer/hdl/blockRAMControl_studentVersion.vhd
 lastFilter=.vhd
 mark.lineImage=yellowball
-recentFile1=C:/eda/MentorGraphics/HDS/hdl_libs/ieee/hdl/numeric_std.vhdl
-recentFile2=C:/Users/johan.chenaux/Desktop/LAbVHDL/Prefs/../AhbLiteComponents/hdl/ahbGpio_studentVersion.vhd
-recentFile3=R:/SYND/Ele_2131/ELN/Labs/Libraries/AhbLite/hdl/ahbLite_pkg.vhd
+recentFile1=C:/Users/johan.chenaux/Desktop/LAbVHDL/Prefs/../Beamer/hdl/blockRAM_Spartan3E.vhd
+recentFile2=C:/Users/johan.chenaux/Desktop/LAbVHDL/Prefs/../Beamer/hdl/blockRAMAddressCounter_studentVersion.vhd
+recentFile3=C:/Users/johan.chenaux/Desktop/LAbVHDL/Prefs/../Beamer/hdl/periphSpeedReg_studentVersion.vhd
 [Printer]
 [ToolbarFrames]
 geom0Group1=top H
@@ -47,11 +47,12 @@ MatchCase=0
 LookInSubfolders=0
 historyMax=4
 [Geometry]
-TopWindow0=1107x921+31+48
+TopWindow0=1920x1007+-146+32
 FrameSupp0,0=165
 FrameSupp0,1=165
 FrameSupp0,2=165
 FrameSupp0,3=165
+FrameSupp0,4=165
 [VDiff]
 [R72]
 indentType=spaces

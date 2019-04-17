@@ -82,7 +82,7 @@ libraryRefs [
 ]
 )
 version "31.1"
-appVersion "2018.1 (Build 12)"
+appVersion "2015.2 (Build 5)"
 noEmbeddedEditors 1
 model (BlockDiag
 VExpander (VariableExpander
@@ -93,23 +93,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hdl"
+value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds"
+value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\ahb@beamer\\struct.bd.info"
+value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer\\hds\\ahb@beamer\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\ahb@beamer\\struct.bd.user"
+value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer\\hds\\ahb@beamer\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds"
+value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer\\hds"
 )
 (vvPair
 variable "appl"
@@ -133,27 +133,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\ahb@beamer"
+value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer\\hds\\ahb@beamer"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\ahbBeamer"
+value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer\\hds\\ahbBeamer"
 )
 (vvPair
 variable "date"
-value "17.04.2019"
+value "16.02.2018"
 )
 (vvPair
 variable "day"
-value "mer."
+value "Fr"
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "Freitag"
 )
 (vvPair
 variable "dd"
-value "17"
+value "16"
 )
 (vvPair
 variable "designName"
@@ -181,11 +181,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "johan.chenaux"
+value "oliver.gubler"
 )
 (vvPair
 variable "graphical_source_date"
-value "17.04.2019"
+value "16.02.2018"
 )
 (vvPair
 variable "graphical_source_group"
@@ -193,11 +193,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WEA30906"
+value "WE5370"
 )
 (vvPair
 variable "graphical_source_time"
-value "11:42:14"
+value "14:18:59"
 )
 (vvPair
 variable "group"
@@ -205,7 +205,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WEA30906"
+value "WE5370"
 )
 (vvPair
 variable "language"
@@ -233,7 +233,7 @@ value "U:\\SEm_curves\\Synthesis"
 )
 (vvPair
 variable "mm"
-value "04"
+value "02"
 )
 (vvPair
 variable "module_name"
@@ -241,19 +241,19 @@ value "ahbBeamer"
 )
 (vvPair
 variable "month"
-value "avr."
+value "Feb"
 )
 (vvPair
 variable "month_long"
-value "avril"
+value "Februar"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\ahb@beamer\\struct.bd"
+value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer\\hds\\ahb@beamer\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\ahbBeamer\\struct.bd"
+value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer\\hds\\ahbBeamer\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -261,7 +261,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "beamer"
+value "sineGen"
 )
 (vvPair
 variable "series"
@@ -329,7 +329,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "11:42:14"
+value "14:18:59"
 )
 (vvPair
 variable "unit"
@@ -337,11 +337,11 @@ value "ahbBeamer"
 )
 (vvPair
 variable "user"
-value "johan.chenaux"
+value "oliver.gubler"
 )
 (vvPair
 variable "version"
-value "2018.1 (Build 12)"
+value "2015.2 (Build 5)"
 )
 (vvPair
 variable "view"
@@ -349,11 +349,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2019"
+value "2018"
 )
 (vvPair
 variable "yy"
-value "19"
+value "18"
 )
 ]
 )
@@ -2974,7 +2974,7 @@ uid 17241,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "34000,29800,65500,33000"
+xt "34000,26600,65500,29800"
 st "updatePeriodBitNb   = updatePeriodBitNb      ( positive )  
 signalBitNb         = signalBitNb            ( positive )  
 patternAddressBitNb = patternAddressBitNb    ( positive )  
@@ -4015,8 +4015,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1928,1058"
-viewArea "-8747,-1286,82347,48741"
+windowSize "107,38,1420,900"
+viewArea "-1600,-26600,111421,49963"
 cachedDiagramExtent "-3900,-25000,109000,49000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "HP LaserJet P3005 PCL 6 (A303),winspool,"
@@ -4039,7 +4039,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-25000"
-lastUid 17406,0
+lastUid 17375,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

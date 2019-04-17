@@ -6,6 +6,11 @@ ARCHITECTURE studentVersion OF periphAddressDecoder IS
   constant xRegisterAddress : integer := 2;
   constant yRegisterAddress : integer := 3;
   
+  -- bit position of control register address
+  constant isRunningBit : integer := 0;
+  constant updatePatternBit : integer := 1;
+  constant interpolateLinearBit : integer := 2;
+  
 BEGIN
   addressSelection : process(addr)
   begin 

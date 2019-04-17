@@ -6224,26 +6224,6 @@ declHierarchy [
 ]
 activeViewpointIdx 0
 )
-(WorkTab
-name "Beamer"
-showingHierarchy 0
-openLibs [
-"Beamer"
-]
-declHierarchy [
-]
-activeViewpointIdx 0
-)
-(WorkTab
-name "Beamer_test"
-showingHierarchy 0
-openLibs [
-"Beamer_test"
-]
-declHierarchy [
-]
-activeViewpointIdx 0
-)
 ]
 ViewpointsOnOutlookBar [
 "Requirements"
@@ -6271,7 +6251,7 @@ yPos 0
 width 1936
 height 1066
 activeSidePanelTab 2
-activeLibraryTab 6
+activeLibraryTab 2
 sidePanelSize 400
 showUnixHiddenFiles 0
 componentBrowserWidth 300

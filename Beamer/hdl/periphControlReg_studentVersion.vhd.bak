@@ -10,7 +10,6 @@ ARCHITECTURE studentVersion OF periphControlReg IS
   
 BEGIN
   
-  --write a new value in the register, or put in on dataOut
   writeReadProcess: process(reset, clock)
   begin
     if reset = '1' then
@@ -27,7 +26,6 @@ BEGIN
     end if;
   end process writeReadProcess;
   
-  -- update the output signals for the next blocks
   outputProcess : process(ctrlRegister)
   begin
     run <= ctrlRegister(isRuningBit);
