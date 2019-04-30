@@ -1,6 +1,7 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
+dialect 11
 dmPackageRefs [
 (DmPackageRef
 library "ieee"
@@ -16,8 +17,8 @@ libraryRefs [
 "ieee"
 ]
 )
-version "24.1"
-appVersion "2009.2 (Build 10)"
+version "26.1"
+appVersion "2018.1 (Build 12)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
@@ -583,23 +584,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "D:\\Labs\\Projects\\Cansat\\..\\..\\Libs\\AhbLiteComponents_test\\hdl"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "D:\\Labs\\Projects\\Cansat\\..\\..\\Libs\\AhbLiteComponents_test\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "D:\\Labs\\Projects\\Cansat\\..\\..\\Libs\\AhbLiteComponents_test\\hds\\mixed@signal_11300\\symbol.sb.info"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\mixed@signal_11300\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "D:\\Labs\\Projects\\Cansat\\..\\..\\Libs\\AhbLiteComponents_test\\hds\\mixed@signal_11300\\symbol.sb.user"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\mixed@signal_11300\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "D:\\Labs\\Projects\\Cansat\\..\\..\\Libs\\AhbLiteComponents_test\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -611,7 +612,7 @@ value "symbol"
 )
 (vvPair
 variable "asm_file"
-value "cansat.asm"
+value "beamer.asm"
 )
 (vvPair
 variable "concat_file"
@@ -623,15 +624,15 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "D:\\Labs\\Projects\\Cansat\\..\\..\\Libs\\AhbLiteComponents_test\\hds\\mixed@signal_11300"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\mixed@signal_11300"
 )
 (vvPair
 variable "d_logical"
-value "D:\\Labs\\Projects\\Cansat\\..\\..\\Libs\\AhbLiteComponents_test\\hds\\mixedSignal_11300"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\mixedSignal_11300"
 )
 (vvPair
 variable "date"
-value "11.05.2015"
+value "29.04.2019"
 )
 (vvPair
 variable "day"
@@ -643,7 +644,7 @@ value "lundi"
 )
 (vvPair
 variable "dd"
-value "11"
+value "29"
 )
 (vvPair
 variable "designName"
@@ -670,12 +671,32 @@ variable "f_noext"
 value "symbol"
 )
 (vvPair
+variable "graphical_source_author"
+value "johan.chenaux"
+)
+(vvPair
+variable "graphical_source_date"
+value "29.04.2019"
+)
+(vvPair
+variable "graphical_source_group"
+value "UNKNOWN"
+)
+(vvPair
+variable "graphical_source_host"
+value "WEA30906"
+)
+(vvPair
+variable "graphical_source_time"
+value "14:02:48"
+)
+(vvPair
 variable "group"
 value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE3673"
+value "WEA30906"
 )
 (vvPair
 variable "language"
@@ -695,11 +716,11 @@ value "D:\\Users\\ELN_labs\\VHDL_comp"
 )
 (vvPair
 variable "library_downstream_ModelSimCompiler"
-value "$SCRATCH_DIR/$DESIGN_NAME/AhbLiteComponents_test/work"
+value "$SCRATCH_DIR/Libs/AhbLiteComponents_test/work"
 )
 (vvPair
 variable "mm"
-value "05"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -707,19 +728,19 @@ value "mixedSignal_11300"
 )
 (vvPair
 variable "month"
-value "mai"
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "mai"
+value "avril"
 )
 (vvPair
 variable "p"
-value "D:\\Labs\\Projects\\Cansat\\..\\..\\Libs\\AhbLiteComponents_test\\hds\\mixed@signal_11300\\symbol.sb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\mixed@signal_11300\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "D:\\Labs\\Projects\\Cansat\\..\\..\\Libs\\AhbLiteComponents_test\\hds\\mixedSignal_11300\\symbol.sb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\mixedSignal_11300\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -727,7 +748,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "hds"
+value "beamer"
 )
 (vvPair
 variable "series"
@@ -735,7 +756,7 @@ value "HDL Designer Series"
 )
 (vvPair
 variable "task_AsmPath"
-value "$HDS_LIBS_DIR\\NanoBlaze\\hdl"
+value "$HEI_LIBS_DIR\\NanoBlaze\\hdl"
 )
 (vvPair
 variable "task_HDSPath"
@@ -747,11 +768,11 @@ value "$ISE_HOME"
 )
 (vvPair
 variable "task_ISEPath"
-value "$SCRATCH_DIR\\$DESIGN_NAME\\$ISE_WORK_DIR"
+value "$ISE_SCRATCH_WORK_DIR"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "$MODELSIM_HOME\\win32"
+value "$MODELSIM_HOME"
 )
 (vvPair
 variable "this_ext"
@@ -767,7 +788,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "11:01:38"
+value "14:02:48"
 )
 (vvPair
 variable "unit"
@@ -775,11 +796,11 @@ value "mixedSignal_11300"
 )
 (vvPair
 variable "user"
-value "francois"
+value "johan.chenaux"
 )
 (vvPair
 variable "version"
-value "2009.2 (Build 10)"
+value "2018.1 (Build 12)"
 )
 (vvPair
 variable "view"
@@ -787,15 +808,15 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2015"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "15"
+value "19"
 )
 ]
 )
-LanguageMgr "VhdlLangMgr"
+LanguageMgr "Vhdl2008LangMgr"
 uid 66,0
 optionalChildren [
 *79 (SymbolBody
@@ -835,8 +856,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,8600,18000,9400"
-st "CNVT_n : IN     std_ulogic  ;
-"
+st "CNVT_n : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -881,8 +901,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,12600,18000,13400"
-st "SCLK   : IN     std_ulogic  ;
-"
+st "SCLK   : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -927,8 +946,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,10200,18000,11000"
-st "DIN    : IN     std_ulogic  ;
-"
+st "DIN    : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -972,8 +990,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,13400,15000,14200"
-st "Vin1   : IN     real  ;
-"
+st "Vin1   : IN     real  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1017,8 +1034,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,14200,15000,15000"
-st "Vin2   : IN     real  ;
-"
+st "Vin2   : IN     real  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1063,8 +1079,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,9400,18000,10200"
-st "CS_n   : IN     std_ulogic  ;
-"
+st "CS_n   : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1109,8 +1124,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,15000,18000,15800"
-st "DOUT   : OUT    std_ulogic  ;
-"
+st "DOUT   : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1155,8 +1169,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,18200,15000,19000"
-st "Vout1  : OUT    real  ;
-"
+st "Vout1  : OUT    real  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1201,8 +1214,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,19000,14000,19800"
-st "Vout2  : OUT    real 
-"
+st "Vout2  : OUT    real "
 )
 thePort (LogicalPort
 m 1
@@ -1247,8 +1259,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,15800,18000,16600"
-st "Dout1  : OUT    std_ulogic  ;
-"
+st "Dout1  : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1293,8 +1304,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,16600,18000,17400"
-st "Dout2  : OUT    std_ulogic  ;
-"
+st "Dout2  : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1339,8 +1349,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,11000,18000,11800"
-st "Din1   : IN     std_ulogic  ;
-"
+st "Din1   : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1384,8 +1393,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,11800,18000,12600"
-st "Din2   : IN     std_ulogic  ;
-"
+st "Din2   : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1400,6 +1408,7 @@ suid 2015,0
 uid 373,0
 ps "OnEdgeStrategy"
 shape (Triangle
+uid 426,0
 ro 90
 va (VaSet
 vasetType 1
@@ -1429,8 +1438,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,17400,18000,18200"
-st "INT_n  : OUT    std_ulogic  ;
-"
+st "INT_n  : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1462,7 +1470,7 @@ first (Text
 uid 11,0
 va (VaSet
 )
-xt "37600,29800,49100,30800"
+xt "37600,29800,47100,30800"
 st "AhbLiteComponents_test"
 blo "37600,30600"
 )
@@ -1470,7 +1478,7 @@ second (Text
 uid 12,0
 va (VaSet
 )
-xt "37600,30800,46500,31800"
+xt "37600,30800,44900,31800"
 st "mixedSignal_11300"
 blo "37600,31600"
 )
@@ -1522,7 +1530,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,48800,49000"
+xt "36200,48000,46200,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1552,7 +1560,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "53200,44000,56900,45000"
+xt "53200,44000,56200,45000"
 st "
 Project:
 "
@@ -1582,7 +1590,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,46000,48700,47000"
+xt "36200,46000,46200,47000"
 st "
 <enter diagram title here>
 "
@@ -1612,7 +1620,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "32200,46000,34800,47000"
+xt "32200,46000,34300,47000"
 st "
 Title:
 "
@@ -1642,7 +1650,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "53200,45200,64800,46200"
+xt "53200,45200,62400,46200"
 st "
 <enter comments here>
 "
@@ -1671,7 +1679,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "57200,44000,70000,45000"
+xt "57200,44000,67300,45000"
 st "
 <enter project name here>
 "
@@ -1700,7 +1708,7 @@ uid 38,0
 va (VaSet
 fg "32768,0,0"
 )
-xt "38150,44500,46850,45500"
+xt "39150,44500,45850,45500"
 st "
 <company name>
 "
@@ -1731,7 +1739,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "32200,47000,34900,48000"
+xt "32200,47000,34300,48000"
 st "
 Path:
 "
@@ -1761,7 +1769,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "32200,48000,35600,49000"
+xt "32200,48000,34900,49000"
 st "
 Edited:
 "
@@ -1791,7 +1799,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,47000,48100,48000"
+xt "36200,47000,53000,48000"
 st "
 %library/%unit/%view
 "
@@ -1845,7 +1853,7 @@ blo "0,800"
 uid 50,0
 va (VaSet
 )
-xt "0,1000,13600,4000"
+xt "0,1000,11300,4000"
 st "LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.ALL;"
@@ -1872,7 +1880,7 @@ text (MLText
 va (VaSet
 fg "0,0,32768"
 )
-xt "200,200,2500,1200"
+xt "200,200,2000,1200"
 st "
 Text
 "
@@ -1880,6 +1888,34 @@ tm "CommentText"
 wrapOption 3
 visibleHeight 4600
 visibleWidth 14600
+)
+)
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "500,2150,1400,3150"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
 )
 )
 defaultPanel (Panel
@@ -1972,11 +2008,10 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "Verdana,12,0"
 )
-xt "0,750,2900,2150"
+xt "0,750,1400,1750"
 st "In0"
-blo "0,1950"
+blo "0,1550"
 tm "CptPortNameMgr"
 )
 )
@@ -1986,6 +2021,7 @@ font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
+lang 11
 decl (Decl
 n "In0"
 t "std_logic_vector"
@@ -2009,11 +2045,10 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "Verdana,12,0"
 )
-xt "0,750,5300,2150"
+xt "0,750,2800,1750"
 st "Buffer0"
-blo "0,1950"
+blo "0,1550"
 tm "CptPortNameMgr"
 )
 )
@@ -2023,6 +2058,7 @@ font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
+lang 11
 m 3
 decl (Decl
 n "Buffer0"
@@ -2090,6 +2126,6 @@ xt "0,6600,0,6600"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 402,0
+lastUid 426,0
 activeModelName "Symbol"
 )

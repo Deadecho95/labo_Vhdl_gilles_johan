@@ -1,6 +1,7 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
+dialect 11
 dmPackageRefs [
 (DmPackageRef
 library "ieee"
@@ -17,11 +18,11 @@ libraryRefs [
 ]
 )
 version "26.1"
-appVersion "2015.2 (Build 5)"
+appVersion "2018.1 (Build 12)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 33,0
+suid 43,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -67,10 +68,10 @@ decl (Decl
 n "clock"
 t "std_ulogic"
 o 1
-suid 29,0
+suid 39,0
 )
 )
-uid 515,0
+uid 677,0
 )
 *15 (LogPort
 port (LogicalPort
@@ -79,10 +80,10 @@ n "lowpassOut"
 t "unsigned"
 b "(signalBitNb-1 DOWNTO 0)"
 o 3
-suid 30,0
+suid 40,0
 )
 )
-uid 517,0
+uid 679,0
 )
 *16 (LogPort
 port (LogicalPort
@@ -92,10 +93,10 @@ n "parallelIn"
 t "unsigned"
 b "(signalBitNb-1 DOWNTO 0)"
 o 4
-suid 31,0
+suid 41,0
 )
 )
-uid 519,0
+uid 681,0
 )
 *17 (LogPort
 port (LogicalPort
@@ -104,10 +105,10 @@ decl (Decl
 n "reset"
 t "std_ulogic"
 o 5
-suid 32,0
+suid 42,0
 )
 )
-uid 521,0
+uid 683,0
 )
 *18 (LogPort
 port (LogicalPort
@@ -115,10 +116,10 @@ decl (Decl
 n "serialOut"
 t "std_ulogic"
 o 6
-suid 33,0
+suid 43,0
 )
 )
-uid 523,0
+uid 685,0
 )
 ]
 )
@@ -174,31 +175,31 @@ uid 106,0
 litem &14
 pos 0
 dimension 20
-uid 516,0
+uid 678,0
 )
 *25 (MRCItem
 litem &15
 pos 1
 dimension 20
-uid 518,0
+uid 680,0
 )
 *26 (MRCItem
 litem &16
 pos 2
 dimension 20
-uid 520,0
+uid 682,0
 )
 *27 (MRCItem
 litem &17
 pos 3
 dimension 20
-uid 522,0
+uid 684,0
 )
 *28 (MRCItem
 litem &18
 pos 4
 dimension 20
-uid 524,0
+uid 686,0
 )
 ]
 )
@@ -443,23 +444,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hdl"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hds\\@d@a@c_tester\\interface.info"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hds\\@d@a@c_tester\\interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hds\\@d@a@c_tester\\interface.user"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hds\\@d@a@c_tester\\interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -483,27 +484,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hds\\@d@a@c_tester"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hds\\@d@a@c_tester"
 )
 (vvPair
 variable "d_logical"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hds\\DAC_tester"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hds\\DAC_tester"
 )
 (vvPair
 variable "date"
-value "16.02.2018"
+value "29.04.2019"
 )
 (vvPair
 variable "day"
-value "Fr"
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "Freitag"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "16"
+value "29"
 )
 (vvPair
 variable "designName"
@@ -531,11 +532,11 @@ value "interface"
 )
 (vvPair
 variable "graphical_source_author"
-value "oliver.gubler"
+value "johan.chenaux"
 )
 (vvPair
 variable "graphical_source_date"
-value "16.02.2018"
+value "29.04.2019"
 )
 (vvPair
 variable "graphical_source_group"
@@ -543,11 +544,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE5370"
+value "WEA30906"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:34:10"
+value "14:04:03"
 )
 (vvPair
 variable "group"
@@ -555,7 +556,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE5370"
+value "WEA30906"
 )
 (vvPair
 variable "language"
@@ -571,7 +572,7 @@ value "$SCRATCH_DIR/SEm/Beamer_test/work"
 )
 (vvPair
 variable "mm"
-value "02"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -579,19 +580,19 @@ value "DAC_tester"
 )
 (vvPair
 variable "month"
-value "Feb"
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "Februar"
+value "avril"
 )
 (vvPair
 variable "p"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hds\\@d@a@c_tester\\interface"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hds\\@d@a@c_tester\\interface"
 )
 (vvPair
 variable "p_logical"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hds\\DAC_tester\\interface"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hds\\DAC_tester\\interface"
 )
 (vvPair
 variable "package_name"
@@ -639,7 +640,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "14:34:10"
+value "14:04:03"
 )
 (vvPair
 variable "unit"
@@ -647,11 +648,11 @@ value "DAC_tester"
 )
 (vvPair
 variable "user"
-value "oliver.gubler"
+value "johan.chenaux"
 )
 (vvPair
 variable "version"
-value "2015.2 (Build 5)"
+value "2018.1 (Build 12)"
 )
 (vvPair
 variable "view"
@@ -659,25 +660,25 @@ value "interface"
 )
 (vvPair
 variable "year"
-value "2018"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "18"
+value "19"
 )
 ]
 )
-LanguageMgr "VhdlLangMgr"
+LanguageMgr "Vhdl2008LangMgr"
 uid 86,0
 optionalChildren [
 *63 (SymbolBody
 uid 8,0
 optionalChildren [
 *64 (CptPort
-uid 490,0
+uid 652,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 491,0
+uid 653,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -685,11 +686,11 @@ fg "0,65535,0"
 xt "26625,5250,27375,6000"
 )
 tg (CPTG
-uid 492,0
+uid 654,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 493,0
+uid 655,0
 ro 270
 va (VaSet
 )
@@ -701,7 +702,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 494,0
+uid 656,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -715,15 +716,15 @@ decl (Decl
 n "clock"
 t "std_ulogic"
 o 1
-suid 29,0
+suid 39,0
 )
 )
 )
 *65 (CptPort
-uid 495,0
+uid 657,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 496,0
+uid 658,0
 ro 180
 va (VaSet
 vasetType 1
@@ -732,11 +733,11 @@ fg "0,65535,0"
 xt "84625,5250,85375,6000"
 )
 tg (CPTG
-uid 497,0
+uid 659,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 498,0
+uid 660,0
 ro 270
 va (VaSet
 )
@@ -748,7 +749,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 499,0
+uid 661,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -762,15 +763,15 @@ n "lowpassOut"
 t "unsigned"
 b "(signalBitNb-1 DOWNTO 0)"
 o 3
-suid 30,0
+suid 40,0
 )
 )
 )
 *66 (CptPort
-uid 500,0
+uid 662,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 501,0
+uid 663,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -778,11 +779,11 @@ fg "0,65535,0"
 xt "22625,5250,23375,6000"
 )
 tg (CPTG
-uid 502,0
+uid 664,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 503,0
+uid 665,0
 ro 270
 va (VaSet
 )
@@ -794,7 +795,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 504,0
+uid 666,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -809,15 +810,15 @@ n "parallelIn"
 t "unsigned"
 b "(signalBitNb-1 DOWNTO 0)"
 o 4
-suid 31,0
+suid 41,0
 )
 )
 )
 *67 (CptPort
-uid 505,0
+uid 667,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 506,0
+uid 668,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -825,11 +826,11 @@ fg "0,65535,0"
 xt "28625,5250,29375,6000"
 )
 tg (CPTG
-uid 507,0
+uid 669,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 508,0
+uid 670,0
 ro 270
 va (VaSet
 )
@@ -841,7 +842,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 509,0
+uid 671,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -855,15 +856,15 @@ decl (Decl
 n "reset"
 t "std_ulogic"
 o 5
-suid 32,0
+suid 42,0
 )
 )
 )
 *68 (CptPort
-uid 510,0
+uid 672,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 511,0
+uid 673,0
 ro 180
 va (VaSet
 vasetType 1
@@ -872,11 +873,11 @@ fg "0,65535,0"
 xt "56625,5250,57375,6000"
 )
 tg (CPTG
-uid 512,0
+uid 674,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 513,0
+uid 675,0
 ro 270
 va (VaSet
 )
@@ -888,7 +889,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 514,0
+uid 676,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -901,7 +902,7 @@ decl (Decl
 n "serialOut"
 t "std_ulogic"
 o 6
-suid 33,0
+suid 43,0
 )
 )
 )
@@ -997,7 +998,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,47800,49000"
+xt "36200,48000,48200,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1505,6 +1506,7 @@ font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
+lang 11
 decl (Decl
 n "In0"
 t "std_logic_vector"
@@ -1541,6 +1543,7 @@ font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
+lang 11
 m 3
 decl (Decl
 n "Buffer0"
@@ -1608,6 +1611,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 524,0
+lastUid 686,0
 activeModelName "Symbol:GEN"
 )

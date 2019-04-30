@@ -1,6 +1,7 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
+dialect 11
 dmPackageRefs [
 (DmPackageRef
 library "ieee"
@@ -20,12 +21,12 @@ libraryRefs [
 "AhbLite"
 ]
 )
-version "24.1"
-appVersion "2009.2 (Build 10)"
+version "26.1"
+appVersion "2018.1 (Build 12)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 44,0
+suid 66,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -71,11 +72,11 @@ decl (Decl
 n "hAddr"
 t "unsigned"
 b "( ahbAddressBitNb-1 DOWNTO 0 )"
-o 11
-suid 34,0
+o 1
+suid 56,0
 )
 )
-uid 513,0
+uid 736,0
 )
 *15 (LogPort
 port (LogicalPort
@@ -83,11 +84,11 @@ m 1
 decl (Decl
 n "hClk"
 t "std_uLogic"
-o 3
-suid 35,0
+o 2
+suid 57,0
 )
 )
-uid 515,0
+uid 738,0
 )
 *16 (LogPort
 port (LogicalPort
@@ -95,22 +96,22 @@ decl (Decl
 n "hRData"
 t "std_ulogic_vector"
 b "(ahbDataBitNb-1 DOWNTO 0)"
-o 6
-suid 36,0
+o 3
+suid 58,0
 )
 )
-uid 517,0
+uid 740,0
 )
 *17 (LogPort
 port (LogicalPort
 decl (Decl
 n "hReady"
 t "std_uLogic"
-o 5
-suid 37,0
+o 4
+suid 59,0
 )
 )
-uid 519,0
+uid 742,0
 )
 *18 (LogPort
 port (LogicalPort
@@ -118,22 +119,22 @@ m 1
 decl (Decl
 n "hReset_n"
 t "std_uLogic"
-o 2
-suid 38,0
+o 5
+suid 60,0
 )
 )
-uid 521,0
+uid 744,0
 )
 *19 (LogPort
 port (LogicalPort
 decl (Decl
 n "hResp"
 t "std_uLogic"
-o 4
-suid 39,0
+o 6
+suid 61,0
 )
 )
-uid 523,0
+uid 746,0
 )
 *20 (LogPort
 port (LogicalPort
@@ -142,10 +143,10 @@ decl (Decl
 n "hSel"
 t "std_uLogic"
 o 7
-suid 40,0
+suid 62,0
 )
 )
-uid 525,0
+uid 748,0
 )
 *21 (LogPort
 port (LogicalPort
@@ -154,11 +155,11 @@ decl (Decl
 n "hTrans"
 t "std_ulogic_vector"
 b "(ahbTransBitNb-1 DOWNTO 0)"
-o 9
-suid 41,0
+o 8
+suid 63,0
 )
 )
-uid 527,0
+uid 750,0
 )
 *22 (LogPort
 port (LogicalPort
@@ -167,11 +168,11 @@ decl (Decl
 n "hWData"
 t "std_ulogic_vector"
 b "(ahbDataBitNb-1 DOWNTO 0)"
-o 10
-suid 42,0
+o 9
+suid 64,0
 )
 )
-uid 529,0
+uid 752,0
 )
 *23 (LogPort
 port (LogicalPort
@@ -179,11 +180,11 @@ m 1
 decl (Decl
 n "hWrite"
 t "std_uLogic"
-o 8
-suid 43,0
+o 10
+suid 65,0
 )
 )
-uid 531,0
+uid 754,0
 )
 *24 (LogPort
 port (LogicalPort
@@ -192,11 +193,11 @@ decl (Decl
 n "io"
 t "std_logic_vector"
 b "(ioNb-1 DOWNTO 0)"
-o 14
-suid 44,0
+o 11
+suid 66,0
 )
 )
-uid 533,0
+uid 756,0
 )
 ]
 )
@@ -252,67 +253,67 @@ uid 148,0
 litem &14
 pos 0
 dimension 20
-uid 514,0
+uid 737,0
 )
 *31 (MRCItem
 litem &15
 pos 1
 dimension 20
-uid 516,0
+uid 739,0
 )
 *32 (MRCItem
 litem &16
 pos 2
 dimension 20
-uid 518,0
+uid 741,0
 )
 *33 (MRCItem
 litem &17
 pos 3
 dimension 20
-uid 520,0
+uid 743,0
 )
 *34 (MRCItem
 litem &18
 pos 4
 dimension 20
-uid 522,0
+uid 745,0
 )
 *35 (MRCItem
 litem &19
 pos 5
 dimension 20
-uid 524,0
+uid 747,0
 )
 *36 (MRCItem
 litem &20
 pos 6
 dimension 20
-uid 526,0
+uid 749,0
 )
 *37 (MRCItem
 litem &21
 pos 7
 dimension 20
-uid 528,0
+uid 751,0
 )
 *38 (MRCItem
 litem &22
 pos 8
 dimension 20
-uid 530,0
+uid 753,0
 )
 *39 (MRCItem
 litem &23
 pos 9
 dimension 20
-uid 532,0
+uid 755,0
 )
 *40 (MRCItem
 litem &24
 pos 10
 dimension 20
-uid 534,0
+uid 757,0
 )
 ]
 )
@@ -571,23 +572,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hdl"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds\\ahb@gpio_tester\\interface.info"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ahb@gpio_tester\\interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds\\ahb@gpio_tester\\interface.user"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ahb@gpio_tester\\interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -611,15 +612,15 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds\\ahb@gpio_tester"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ahb@gpio_tester"
 )
 (vvPair
 variable "d_logical"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds\\ahbGpio_tester"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ahbGpio_tester"
 )
 (vvPair
 variable "date"
-value "27.03.2017"
+value "29.04.2019"
 )
 (vvPair
 variable "day"
@@ -631,7 +632,7 @@ value "lundi"
 )
 (vvPair
 variable "dd"
-value "27"
+value "29"
 )
 (vvPair
 variable "designName"
@@ -658,12 +659,32 @@ variable "f_noext"
 value "interface"
 )
 (vvPair
+variable "graphical_source_author"
+value "johan.chenaux"
+)
+(vvPair
+variable "graphical_source_date"
+value "29.04.2019"
+)
+(vvPair
+variable "graphical_source_group"
+value "UNKNOWN"
+)
+(vvPair
+variable "graphical_source_host"
+value "WEA30906"
+)
+(vvPair
+variable "graphical_source_time"
+value "14:02:55"
+)
+(vvPair
 variable "group"
 value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE3673"
+value "WEA30906"
 )
 (vvPair
 variable "language"
@@ -679,7 +700,7 @@ value "$SCRATCH_DIR/Libs/AhbLiteComponents_test/work"
 )
 (vvPair
 variable "mm"
-value "03"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -687,19 +708,19 @@ value "ahbGpio_tester"
 )
 (vvPair
 variable "month"
-value "mars"
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "mars"
+value "avril"
 )
 (vvPair
 variable "p"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds\\ahb@gpio_tester\\interface"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ahb@gpio_tester\\interface"
 )
 (vvPair
 variable "p_logical"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds\\ahbGpio_tester\\interface"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ahbGpio_tester\\interface"
 )
 (vvPair
 variable "package_name"
@@ -707,7 +728,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "hds-beamer"
+value "beamer"
 )
 (vvPair
 variable "series"
@@ -715,7 +736,7 @@ value "HDL Designer Series"
 )
 (vvPair
 variable "task_AsmPath"
-value "$HDS_LIBS_DIR\\NanoBlaze\\hdl"
+value "$HEI_LIBS_DIR\\NanoBlaze\\hdl"
 )
 (vvPair
 variable "task_HDSPath"
@@ -731,7 +752,7 @@ value "$ISE_SCRATCH_WORK_DIR"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "$MODELSIM_HOME\\win32"
+value "$MODELSIM_HOME"
 )
 (vvPair
 variable "this_ext"
@@ -747,7 +768,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "12:41:32"
+value "14:02:55"
 )
 (vvPair
 variable "unit"
@@ -755,11 +776,11 @@ value "ahbGpio_tester"
 )
 (vvPair
 variable "user"
-value "francois"
+value "johan.chenaux"
 )
 (vvPair
 variable "version"
-value "2009.2 (Build 10)"
+value "2018.1 (Build 12)"
 )
 (vvPair
 variable "view"
@@ -767,25 +788,25 @@ value "interface"
 )
 (vvPair
 variable "year"
-value "2017"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "17"
+value "19"
 )
 ]
 )
-LanguageMgr "VhdlLangMgr"
+LanguageMgr "Vhdl2008LangMgr"
 uid 128,0
 optionalChildren [
 *77 (SymbolBody
 uid 8,0
 optionalChildren [
 *78 (CptPort
-uid 458,0
+uid 681,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 459,0
+uid 682,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -793,11 +814,11 @@ fg "0,65535,0"
 xt "22625,5250,23375,6000"
 )
 tg (CPTG
-uid 460,0
+uid 683,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 461,0
+uid 684,0
 ro 270
 va (VaSet
 )
@@ -809,7 +830,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 462,0
+uid 685,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -823,16 +844,16 @@ decl (Decl
 n "hAddr"
 t "unsigned"
 b "( ahbAddressBitNb-1 DOWNTO 0 )"
-o 11
-suid 34,0
+o 1
+suid 56,0
 )
 )
 )
 *79 (CptPort
-uid 463,0
+uid 686,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 464,0
+uid 687,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -840,11 +861,11 @@ fg "0,65535,0"
 xt "40625,5250,41375,6000"
 )
 tg (CPTG
-uid 465,0
+uid 688,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 466,0
+uid 689,0
 ro 270
 va (VaSet
 )
@@ -856,7 +877,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 467,0
+uid 690,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -869,16 +890,16 @@ m 1
 decl (Decl
 n "hClk"
 t "std_uLogic"
-o 3
-suid 35,0
+o 2
+suid 57,0
 )
 )
 )
 *80 (CptPort
-uid 468,0
+uid 691,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 469,0
+uid 692,0
 ro 180
 va (VaSet
 vasetType 1
@@ -887,11 +908,11 @@ fg "0,65535,0"
 xt "32625,5250,33375,6000"
 )
 tg (CPTG
-uid 470,0
+uid 693,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 471,0
+uid 694,0
 ro 270
 va (VaSet
 )
@@ -903,7 +924,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 472,0
+uid 695,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -916,16 +937,16 @@ decl (Decl
 n "hRData"
 t "std_ulogic_vector"
 b "(ahbDataBitNb-1 DOWNTO 0)"
-o 6
-suid 36,0
+o 3
+suid 58,0
 )
 )
 )
 *81 (CptPort
-uid 473,0
+uid 696,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 474,0
+uid 697,0
 ro 180
 va (VaSet
 vasetType 1
@@ -934,11 +955,11 @@ fg "0,65535,0"
 xt "34625,5250,35375,6000"
 )
 tg (CPTG
-uid 475,0
+uid 698,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 476,0
+uid 699,0
 ro 270
 va (VaSet
 )
@@ -950,7 +971,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 477,0
+uid 700,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -962,16 +983,16 @@ thePort (LogicalPort
 decl (Decl
 n "hReady"
 t "std_uLogic"
-o 5
-suid 37,0
+o 4
+suid 59,0
 )
 )
 )
 *82 (CptPort
-uid 478,0
+uid 701,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 479,0
+uid 702,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -979,11 +1000,11 @@ fg "0,65535,0"
 xt "42625,5250,43375,6000"
 )
 tg (CPTG
-uid 480,0
+uid 703,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 481,0
+uid 704,0
 ro 270
 va (VaSet
 )
@@ -995,7 +1016,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 482,0
+uid 705,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -1008,16 +1029,16 @@ m 1
 decl (Decl
 n "hReset_n"
 t "std_uLogic"
-o 2
-suid 38,0
+o 5
+suid 60,0
 )
 )
 )
 *83 (CptPort
-uid 483,0
+uid 706,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 484,0
+uid 707,0
 ro 180
 va (VaSet
 vasetType 1
@@ -1026,11 +1047,11 @@ fg "0,65535,0"
 xt "36625,5250,37375,6000"
 )
 tg (CPTG
-uid 485,0
+uid 708,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 486,0
+uid 709,0
 ro 270
 va (VaSet
 )
@@ -1042,7 +1063,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 487,0
+uid 710,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -1054,16 +1075,16 @@ thePort (LogicalPort
 decl (Decl
 n "hResp"
 t "std_uLogic"
-o 4
-suid 39,0
+o 6
+suid 61,0
 )
 )
 )
 *84 (CptPort
-uid 488,0
+uid 711,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 489,0
+uid 712,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -1071,11 +1092,11 @@ fg "0,65535,0"
 xt "30625,5250,31375,6000"
 )
 tg (CPTG
-uid 490,0
+uid 713,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 491,0
+uid 714,0
 ro 270
 va (VaSet
 )
@@ -1087,7 +1108,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 492,0
+uid 715,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -1101,15 +1122,15 @@ decl (Decl
 n "hSel"
 t "std_uLogic"
 o 7
-suid 40,0
+suid 62,0
 )
 )
 )
 *85 (CptPort
-uid 493,0
+uid 716,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 494,0
+uid 717,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -1117,11 +1138,11 @@ fg "0,65535,0"
 xt "26625,5250,27375,6000"
 )
 tg (CPTG
-uid 495,0
+uid 718,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 496,0
+uid 719,0
 ro 270
 va (VaSet
 )
@@ -1133,7 +1154,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 497,0
+uid 720,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -1147,16 +1168,16 @@ decl (Decl
 n "hTrans"
 t "std_ulogic_vector"
 b "(ahbTransBitNb-1 DOWNTO 0)"
-o 9
-suid 41,0
+o 8
+suid 63,0
 )
 )
 )
 *86 (CptPort
-uid 498,0
+uid 721,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 499,0
+uid 722,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -1164,11 +1185,11 @@ fg "0,65535,0"
 xt "24625,5250,25375,6000"
 )
 tg (CPTG
-uid 500,0
+uid 723,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 501,0
+uid 724,0
 ro 270
 va (VaSet
 )
@@ -1180,7 +1201,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 502,0
+uid 725,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -1194,16 +1215,16 @@ decl (Decl
 n "hWData"
 t "std_ulogic_vector"
 b "(ahbDataBitNb-1 DOWNTO 0)"
-o 10
-suid 42,0
+o 9
+suid 64,0
 )
 )
 )
 *87 (CptPort
-uid 503,0
+uid 726,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 504,0
+uid 727,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -1211,11 +1232,11 @@ fg "0,65535,0"
 xt "28625,5250,29375,6000"
 )
 tg (CPTG
-uid 505,0
+uid 728,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 506,0
+uid 729,0
 ro 270
 va (VaSet
 )
@@ -1227,7 +1248,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 507,0
+uid 730,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -1240,16 +1261,16 @@ m 1
 decl (Decl
 n "hWrite"
 t "std_uLogic"
-o 8
-suid 43,0
+o 10
+suid 65,0
 )
 )
 )
 *88 (CptPort
-uid 508,0
+uid 731,0
 ps "OnEdgeStrategy"
 shape (Diamond
-uid 509,0
+uid 732,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -1257,11 +1278,11 @@ fg "0,65535,0"
 xt "96625,5250,97375,6000"
 )
 tg (CPTG
-uid 510,0
+uid 733,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 511,0
+uid 734,0
 va (VaSet
 )
 xt "98000,6000,99000,7000"
@@ -1271,7 +1292,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 512,0
+uid 735,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -1285,8 +1306,8 @@ decl (Decl
 n "io"
 t "std_logic_vector"
 b "(ioNb-1 DOWNTO 0)"
-o 14
-suid 44,0
+o 11
+suid 66,0
 )
 )
 )
@@ -1387,7 +1408,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,46700,49000"
+xt "36200,48000,48200,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1541,7 +1562,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "57200,44000,62000,45000"
+xt "57200,44000,60100,45000"
 st "
 %project_name
 "
@@ -1759,6 +1780,34 @@ visibleHeight 4600
 visibleWidth 14600
 )
 )
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "500,2150,1400,3150"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
+)
+)
 defaultPanel (Panel
 shape (RectFrame
 va (VaSet
@@ -1869,6 +1918,7 @@ font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
+lang 11
 decl (Decl
 n "In0"
 t "std_logic_vector"
@@ -1905,6 +1955,7 @@ font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
+lang 11
 m 3
 decl (Decl
 n "Buffer0"
@@ -1972,6 +2023,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 534,0
+lastUid 757,0
 activeModelName "Symbol:GEN"
 )

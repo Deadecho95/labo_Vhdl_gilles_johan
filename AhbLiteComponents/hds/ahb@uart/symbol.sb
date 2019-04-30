@@ -1,6 +1,7 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
+dialect 11
 dmPackageRefs [
 (DmPackageRef
 library "ieee"
@@ -20,8 +21,8 @@ libraryRefs [
 "AhbLite"
 ]
 )
-version "24.1"
-appVersion "2009.2 (Build 10)"
+version "26.1"
+appVersion "2018.1 (Build 12)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
@@ -585,23 +586,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents\\hdl"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents\\hds\\ahb@uart\\symbol.sb.info"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents\\hds\\ahb@uart\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents\\hds\\ahb@uart\\symbol.sb.user"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents\\hds\\ahb@uart\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents\\hds"
 )
 (vvPair
 variable "appl"
@@ -613,7 +614,7 @@ value "symbol"
 )
 (vvPair
 variable "asm_file"
-value "nanoTest.asm"
+value "beamer.asm"
 )
 (vvPair
 variable "concat_file"
@@ -625,27 +626,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents\\hds\\ahb@uart"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents\\hds\\ahb@uart"
 )
 (vvPair
 variable "d_logical"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents\\hds\\ahbUart"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents\\hds\\ahbUart"
 )
 (vvPair
 variable "date"
-value "03.03.2015"
+value "29.04.2019"
 )
 (vvPair
 variable "day"
-value "mar."
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "03"
+value "29"
 )
 (vvPair
 variable "designName"
@@ -672,12 +673,32 @@ variable "f_noext"
 value "symbol"
 )
 (vvPair
+variable "graphical_source_author"
+value "johan.chenaux"
+)
+(vvPair
+variable "graphical_source_date"
+value "29.04.2019"
+)
+(vvPair
+variable "graphical_source_group"
+value "UNKNOWN"
+)
+(vvPair
+variable "graphical_source_host"
+value "WEA30906"
+)
+(vvPair
+variable "graphical_source_time"
+value "14:03:22"
+)
+(vvPair
 variable "group"
 value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE3673"
+value "WEA30906"
 )
 (vvPair
 variable "language"
@@ -713,7 +734,7 @@ value "U:\\ELN_Board\\Synthesis"
 )
 (vvPair
 variable "mm"
-value "03"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -721,19 +742,19 @@ value "ahbUart"
 )
 (vvPair
 variable "month"
-value "mars"
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "mars"
+value "avril"
 )
 (vvPair
 variable "p"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents\\hds\\ahb@uart\\symbol.sb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents\\hds\\ahb@uart\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents\\hds\\ahbUart\\symbol.sb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents\\hds\\ahbUart\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -741,7 +762,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "hds-beamer"
+value "beamer"
 )
 (vvPair
 variable "series"
@@ -750,6 +771,10 @@ value "HDL Designer Series"
 (vvPair
 variable "task_ADMS"
 value "<TBD>"
+)
+(vvPair
+variable "task_AsmPath"
+value "$HEI_LIBS_DIR\\NanoBlaze\\hdl"
 )
 (vvPair
 variable "task_DesignCompilerPath"
@@ -773,7 +798,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "$MODELSIM_HOME\\win32"
+value "$MODELSIM_HOME"
 )
 (vvPair
 variable "task_NC"
@@ -809,7 +834,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "08:32:23"
+value "14:03:22"
 )
 (vvPair
 variable "unit"
@@ -817,11 +842,11 @@ value "ahbUart"
 )
 (vvPair
 variable "user"
-value "francois"
+value "johan.chenaux"
 )
 (vvPair
 variable "version"
-value "2009.2 (Build 10)"
+value "2018.1 (Build 12)"
 )
 (vvPair
 variable "view"
@@ -829,15 +854,15 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2015"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "15"
+value "19"
 )
 ]
 )
-LanguageMgr "VhdlLangMgr"
+LanguageMgr "Vhdl2008LangMgr"
 uid 51,0
 optionalChildren [
 *79 (SymbolBody
@@ -1428,8 +1453,7 @@ xt "47000,46000,60500,49200"
 st "Generic Declarations
 
 txFifoDepth positive 8  
-rxFifoDepth positive 1  
-"
+rxFifoDepth positive 1  "
 )
 header "Generic Declarations"
 showHdrWhenContentsEmpty 1
@@ -1874,6 +1898,34 @@ visibleHeight 4600
 visibleWidth 14600
 )
 )
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "500,2150,1400,3150"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
+)
+)
 defaultPanel (Panel
 shape (RectFrame
 va (VaSet
@@ -1964,11 +2016,10 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "Verdana,12,0"
 )
-xt "0,750,2900,2150"
+xt "0,750,1400,1750"
 st "In0"
-blo "0,1950"
+blo "0,1550"
 tm "CptPortNameMgr"
 )
 )
@@ -1978,9 +2029,10 @@ font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
+lang 11
 decl (Decl
 n "In0"
-t "unsigned"
+t "std_logic_vector"
 b "(15 DOWNTO 0)"
 o 0
 )
@@ -2001,11 +2053,10 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "Verdana,12,0"
 )
-xt "0,750,5300,2150"
+xt "0,750,2800,1750"
 st "Buffer0"
-blo "0,1950"
+blo "0,1550"
 tm "CptPortNameMgr"
 )
 )
@@ -2015,10 +2066,11 @@ font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
+lang 11
 m 3
 decl (Decl
 n "Buffer0"
-t "unsigned"
+t "std_logic_vector"
 b "(15 DOWNTO 0)"
 o 0
 )
@@ -2082,7 +2134,7 @@ xt "0,9400,0,9400"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 2869,0
+lastUid 2892,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

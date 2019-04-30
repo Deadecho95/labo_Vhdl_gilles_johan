@@ -4,9 +4,9 @@
 recentFile0=C:/Users/johan.chenaux/Desktop/LAbVHDL/Prefs/../Beamer/hdl/blockRAMControl_studentVersion.vhd
 lastFilter=.vhd
 mark.lineImage=yellowball
-recentFile1=C:/Users/johan.chenaux/Desktop/LAbVHDL/Prefs/../Beamer/hdl/blockRAM_Spartan3E.vhd
-recentFile2=C:/Users/johan.chenaux/Desktop/LAbVHDL/Prefs/../Beamer/hdl/blockRAMAddressCounter_studentVersion.vhd
-recentFile3=C:/Users/johan.chenaux/Desktop/LAbVHDL/Prefs/../Beamer/hdl/periphSpeedReg_studentVersion.vhd
+recentFile1=C:/Users/johan.chenaux/Desktop/LAbVHDL/Prefs/../Beamer/hdl/blockRAMAddressCounter_studentVersion.vhd
+recentFile2=C:/Users/johan.chenaux/Desktop/LAbVHDL/Beamer/hdl/blockRAMControl_studentVersion.vhd
+recentFile3=C:/Users/johan.chenaux/Desktop/LAbVHDL/Prefs/../Beamer/hdl/periphSpeedController_studentVersion.vhd
 [Printer]
 [ToolbarFrames]
 geom0Group1=top H
@@ -47,7 +47,7 @@ MatchCase=0
 LookInSubfolders=0
 historyMax=4
 [Geometry]
-TopWindow0=1920x1007+-146+32
+TopWindow0=1920x827+-149+258
 FrameSupp0,0=165
 FrameSupp0,1=165
 FrameSupp0,2=165
@@ -68,9 +68,9 @@ default=te_guide
 userLanguages=
 [Search]
 historyMax=4
-history0=CtrlBuffer(readyWriteBitPos)
-history1=CtrlBuffer
-history2=CtrlBuffer(
-history3=CtrlBuffer(readyReadBitPos)
+history0=dataOut
+history1=CtrlBuffer(readyWriteBitPos)
+history2=CtrlBuffer
+history3=CtrlBuffer(
 [LexParser.LexVHDL2002]
 [LexParser.LexVHDL2008]

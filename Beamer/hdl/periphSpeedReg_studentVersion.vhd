@@ -6,21 +6,28 @@ ARCHITECTURE studentVersion OF periphSpeedReg IS
 BEGIN
   
   --write a new value in the register, or put in on dataOut
-  writeReadProcess: process(reset, clock)
+  writeProcess: process(reset, clock)
   begin
     if reset = '1' then
       speedRegister <= (others => '0');
       
     elsif rising_edge(clock) then
-      if selSpeed = '1' then
+      if en = '1' then
         if write = '1' then
-         speedRegister <= dataIn;
-        else
-          dataOut <= speedRegister;
+         speedRegister <= unsigned(dataIn);
         end if; -- write
       end if; -- selControl = '1'
     end if;
-  end process writeReadProcess;
+  end process writeProcess;
+  
+  readProcess: process(en, speedRegister )
+  begin
+    if en = '1' then
+      dataOut <= std_logic_vector(speedRegister); 
+    else
+      dataOut <= (others => 'Z'); 
+    end if;
+  end process readProcess;
   
   updatePeriod <= speedRegister;
   

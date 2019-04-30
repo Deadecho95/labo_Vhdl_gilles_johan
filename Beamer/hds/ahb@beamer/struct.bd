@@ -1,6 +1,7 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
+dialect 10
 dmPackageRefs [
 (DmPackageRef
 library "ieee"
@@ -141,19 +142,19 @@ value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\ahbBe
 )
 (vvPair
 variable "date"
-value "17.04.2019"
+value "29.04.2019"
 )
 (vvPair
 variable "day"
-value "mer."
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "17"
+value "29"
 )
 (vvPair
 variable "designName"
@@ -185,7 +186,7 @@ value "johan.chenaux"
 )
 (vvPair
 variable "graphical_source_date"
-value "17.04.2019"
+value "29.04.2019"
 )
 (vvPair
 variable "graphical_source_group"
@@ -197,7 +198,7 @@ value "WEA30906"
 )
 (vvPair
 variable "graphical_source_time"
-value "11:42:14"
+value "14:01:33"
 )
 (vvPair
 variable "group"
@@ -329,7 +330,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "11:42:14"
+value "14:01:33"
 )
 (vvPair
 variable "unit"
@@ -357,7 +358,7 @@ value "19"
 )
 ]
 )
-LanguageMgr "VhdlLangMgr"
+LanguageMgr "Vhdl2002LangMgr"
 uid 41,0
 optionalChildren [
 *1 (Grouping
@@ -381,7 +382,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "72200,48000,83800,49000"
+xt "72200,48000,84200,49000"
 st "
 by %user on %dd %month %year
 "
@@ -4039,7 +4040,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-25000"
-lastUid 17406,0
+lastUid 17437,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

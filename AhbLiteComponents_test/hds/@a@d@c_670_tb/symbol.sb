@@ -1,11 +1,327 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
-packageRefs [
+version 2
+dialect 11
+dmPackageRefs [
 ]
 )
-version "15.1"
-appVersion "2002.1a (Build 22)"
+version "26.1"
+appVersion "2018.1 (Build 12)"
 model (Symbol
+commonDM (CommonDM
+ldm (LogicalDM
+suid 2001,0
+usingSuid 1
+emptyRow *1 (LEmptyRow
+)
+uid 105,0
+optionalChildren [
+*2 (RefLabelRowHdr
+)
+*3 (TitleRowHdr
+)
+*4 (FilterRowHdr
+)
+*5 (RefLabelColHdr
+tm "RefLabelColHdrMgr"
+)
+*6 (RowExpandColHdr
+tm "RowExpandColHdrMgr"
+)
+*7 (GroupColHdr
+tm "GroupColHdrMgr"
+)
+*8 (NameColHdr
+tm "NameColHdrMgr"
+)
+*9 (ModeColHdr
+tm "ModeColHdrMgr"
+)
+*10 (TypeColHdr
+tm "TypeColHdrMgr"
+)
+*11 (BoundsColHdr
+tm "BoundsColHdrMgr"
+)
+*12 (InitColHdr
+tm "InitColHdrMgr"
+)
+*13 (EolColHdr
+tm "EolColHdrMgr"
+)
+]
+)
+pdm (PhysicalDM
+displayShortBounds 1
+editShortBounds 1
+uid 106,0
+optionalChildren [
+*14 (Sheet
+sheetRow (SheetRow
+headerVa (MVa
+cellColor "49152,49152,49152"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+cellVa (MVa
+cellColor "65535,65535,65535"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+groupVa (MVa
+cellColor "39936,56832,65280"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+emptyMRCItem *15 (MRCItem
+litem &1
+pos 3
+dimension 20
+)
+uid 53,0
+optionalChildren [
+*16 (MRCItem
+litem &2
+pos 0
+dimension 20
+uid 56,0
+)
+*17 (MRCItem
+litem &3
+pos 1
+dimension 23
+uid 58,0
+)
+*18 (MRCItem
+litem &4
+pos 2
+hidden 1
+dimension 20
+uid 60,0
+)
+]
+)
+sheetCol (SheetCol
+propVa (MVa
+cellColor "0,49152,49152"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+textAngle 90
+)
+uid 54,0
+optionalChildren [
+*19 (MRCItem
+litem &5
+pos 0
+dimension 20
+uid 62,0
+)
+*20 (MRCItem
+litem &7
+pos 1
+dimension 50
+uid 66,0
+)
+*21 (MRCItem
+litem &8
+pos 2
+dimension 100
+uid 68,0
+)
+*22 (MRCItem
+litem &9
+pos 3
+dimension 50
+uid 70,0
+)
+*23 (MRCItem
+litem &10
+pos 4
+dimension 100
+uid 72,0
+)
+*24 (MRCItem
+litem &11
+pos 5
+dimension 100
+uid 74,0
+)
+*25 (MRCItem
+litem &12
+pos 6
+dimension 50
+uid 76,0
+)
+*26 (MRCItem
+litem &13
+pos 7
+dimension 80
+uid 78,0
+)
+]
+)
+fixedCol 4
+fixedRow 2
+name "Ports"
+uid 52,0
+vaOverrides [
+]
+)
+]
+)
+uid 104,0
+)
+genericsCommonDM (CommonDM
+ldm (LogicalDM
+emptyRow *27 (LEmptyRow
+)
+uid 108,0
+optionalChildren [
+*28 (RefLabelRowHdr
+)
+*29 (TitleRowHdr
+)
+*30 (FilterRowHdr
+)
+*31 (RefLabelColHdr
+tm "RefLabelColHdrMgr"
+)
+*32 (RowExpandColHdr
+tm "RowExpandColHdrMgr"
+)
+*33 (GroupColHdr
+tm "GroupColHdrMgr"
+)
+*34 (NameColHdr
+tm "GenericNameColHdrMgr"
+)
+*35 (TypeColHdr
+tm "GenericTypeColHdrMgr"
+)
+*36 (InitColHdr
+tm "GenericValueColHdrMgr"
+)
+*37 (PragmaColHdr
+tm "GenericPragmaColHdrMgr"
+)
+*38 (EolColHdr
+tm "GenericEolColHdrMgr"
+)
+]
+)
+pdm (PhysicalDM
+uid 109,0
+optionalChildren [
+*39 (Sheet
+sheetRow (SheetRow
+headerVa (MVa
+cellColor "49152,49152,49152"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+cellVa (MVa
+cellColor "65535,65535,65535"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+groupVa (MVa
+cellColor "39936,56832,65280"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+emptyMRCItem *40 (MRCItem
+litem &27
+pos 3
+dimension 20
+)
+uid 80,0
+optionalChildren [
+*41 (MRCItem
+litem &28
+pos 0
+dimension 20
+uid 83,0
+)
+*42 (MRCItem
+litem &29
+pos 1
+dimension 23
+uid 85,0
+)
+*43 (MRCItem
+litem &30
+pos 2
+hidden 1
+dimension 20
+uid 87,0
+)
+]
+)
+sheetCol (SheetCol
+propVa (MVa
+cellColor "0,49152,49152"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+textAngle 90
+)
+uid 81,0
+optionalChildren [
+*44 (MRCItem
+litem &31
+pos 0
+dimension 20
+uid 89,0
+)
+*45 (MRCItem
+litem &33
+pos 1
+dimension 50
+uid 93,0
+)
+*46 (MRCItem
+litem &34
+pos 2
+dimension 100
+uid 95,0
+)
+*47 (MRCItem
+litem &35
+pos 3
+dimension 100
+uid 97,0
+)
+*48 (MRCItem
+litem &36
+pos 4
+dimension 50
+uid 99,0
+)
+*49 (MRCItem
+litem &37
+pos 5
+dimension 50
+uid 101,0
+)
+*50 (MRCItem
+litem &38
+pos 6
+dimension 80
+uid 103,0
+)
+]
+)
+fixedCol 3
+fixedRow 2
+name "Ports"
+uid 79,0
+vaOverrides [
+]
+)
+]
+)
+uid 107,0
+type 1
+)
 VExpander (VariableExpander
 vvMap [
 (vvPair
@@ -14,51 +330,79 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "D:\\Projects\\Biquad\\Development\\Tools\\VHDL\\VHDL_gen"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hdl"
+)
+(vvPair
+variable "HDSDir"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "D:\\Projects\\Biquad\\Development\\Tools\\VHDL\\ISys_core_biquad_tb\\biquad_tb\\symbol.sb.info"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\@a@d@c_670_tb\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "D:\\Projects\\Biquad\\Development\\Tools\\VHDL\\ISys_core_biquad_tb\\biquad_tb\\symbol.sb.user"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\@a@d@c_670_tb\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "D:\\Projects\\Biquad\\Development\\Tools\\VHDL\\ISys_core_biquad_tb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds"
 )
 (vvPair
 variable "appl"
-value "HDL Designer - Pro"
+value "HDL Designer"
+)
+(vvPair
+variable "arch_name"
+value "symbol"
+)
+(vvPair
+variable "asm_file"
+value "beamer.asm"
+)
+(vvPair
+variable "concat_file"
+value "concatenated"
+)
+(vvPair
+variable "config"
+value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "D:\\Projects\\Biquad\\Development\\Tools\\VHDL\\ISys_core_biquad_tb\\biquad_tb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\@a@d@c_670_tb"
 )
 (vvPair
 variable "d_logical"
-value "D:\\Projects\\Biquad\\Development\\Tools\\VHDL\\ISys_core_biquad_tb\\biquad_tb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ADC_670_tb"
 )
 (vvPair
 variable "date"
-value "06/23/05"
+value "29.04.2019"
 )
 (vvPair
 variable "day"
-value "Thu"
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "Thursday"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "23"
+value "29"
+)
+(vvPair
+variable "designName"
+value "$DESIGN_NAME"
+)
+(vvPair
+variable "entity_name"
+value "ADC_670_tb"
 )
 (vvPair
 variable "ext"
-value "sb"
+value "<TBD>"
 )
 (vvPair
 variable "f"
@@ -69,60 +413,136 @@ variable "f_logical"
 value "symbol.sb"
 )
 (vvPair
+variable "f_noext"
+value "symbol"
+)
+(vvPair
+variable "graphical_source_author"
+value "johan.chenaux"
+)
+(vvPair
+variable "graphical_source_date"
+value "29.04.2019"
+)
+(vvPair
+variable "graphical_source_group"
+value "UNKNOWN"
+)
+(vvPair
+variable "graphical_source_host"
+value "WEA30906"
+)
+(vvPair
+variable "graphical_source_time"
+value "14:02:52"
+)
+(vvPair
 variable "group"
 value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE0787"
+value "WEA30906"
+)
+(vvPair
+variable "language"
+value "VHDL"
 )
 (vvPair
 variable "library"
-value "ISys_core_biquad_tb"
+value "AhbLiteComponents_test"
 )
 (vvPair
 variable "library_downstream_ModelSim"
 value "D:\\Projects\\Biquad\\Development\\Tools\\VHDL\\VHDL_comp"
 )
 (vvPair
+variable "library_downstream_ModelSimCompiler"
+value "$SCRATCH_DIR/Libs/AhbLiteComponents_test/work"
+)
+(vvPair
 variable "mm"
-value "06"
+value "04"
+)
+(vvPair
+variable "module_name"
+value "ADC_670_tb"
 )
 (vvPair
 variable "month"
-value "Jun"
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "June"
+value "avril"
 )
 (vvPair
 variable "p"
-value "D:\\Projects\\Biquad\\Development\\Tools\\VHDL\\ISys_core_biquad_tb\\biquad_tb\\symbol.sb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\@a@d@c_670_tb\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "D:\\Projects\\Biquad\\Development\\Tools\\VHDL\\ISys_core_biquad_tb\\biquad_tb\\symbol.sb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ADC_670_tb\\symbol.sb"
+)
+(vvPair
+variable "package_name"
+value "<Undefined Variable>"
+)
+(vvPair
+variable "project_name"
+value "beamer"
 )
 (vvPair
 variable "series"
 value "HDL Designer Series"
 )
 (vvPair
+variable "task_AsmPath"
+value "$HEI_LIBS_DIR\\NanoBlaze\\hdl"
+)
+(vvPair
+variable "task_HDSPath"
+value "$HDS_HOME"
+)
+(vvPair
+variable "task_ISEBinPath"
+value "$ISE_HOME"
+)
+(vvPair
+variable "task_ISEPath"
+value "$ISE_SCRATCH_WORK_DIR"
+)
+(vvPair
+variable "task_ModelSimPath"
+value "$MODELSIM_HOME"
+)
+(vvPair
+variable "this_ext"
+value "sb"
+)
+(vvPair
+variable "this_file"
+value "symbol"
+)
+(vvPair
+variable "this_file_logical"
+value "symbol"
+)
+(vvPair
 variable "time"
-value "09:56:34"
+value "14:02:52"
 )
 (vvPair
 variable "unit"
-value "biquad_tb"
+value "ADC_670_tb"
 )
 (vvPair
 variable "user"
-value "userE"
+value "johan.chenaux"
 )
 (vvPair
 variable "version"
-value "2002.1a (Build 22)"
+value "2018.1 (Build 12)"
 )
 (vvPair
 variable "view"
@@ -130,17 +550,18 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2005"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "05"
+value "19"
 )
 ]
 )
+LanguageMgr "Vhdl2008LangMgr"
 uid 51,0
 optionalChildren [
-*1 (SymbolBody
+*51 (SymbolBody
 uid 8,0
 shape (Rectangle
 uid 9,0
@@ -161,8 +582,8 @@ uid 11,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "22600,14800,34300,16000"
-st "ISys_core_biquad_tb"
+xt "22600,14800,37200,16000"
+st "AhbLiteComponents_test"
 blo "22600,15800"
 )
 second (Text
@@ -170,12 +591,12 @@ uid 12,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "22600,16000,27600,17200"
-st "biquad_tb"
+xt "22600,16000,30000,17200"
+st "ADC_670_tb"
 blo "22600,17000"
 )
 )
-gi *2 (GenericInterface
+gi *52 (GenericInterface
 uid 13,0
 ps "CenterOffsetStrategy"
 matrix (Matrix
@@ -186,9 +607,11 @@ va (VaSet
 isHidden 1
 font "Courier New,8,0"
 )
-xt "0,12000,0,12000"
+xt "0,12000,11500,12800"
+st "Generic Declarations"
 )
 header "Generic Declarations"
+showHdrWhenContentsEmpty 1
 )
 elements [
 ]
@@ -197,10 +620,10 @@ portInstanceVisAsIs 1
 portInstanceVis (PortSigDisplay
 )
 )
-*3 (Grouping
+*53 (Grouping
 uid 16,0
 optionalChildren [
-*4 (CommentText
+*54 (CommentText
 uid 18,0
 shape (Rectangle
 uid 19,0
@@ -220,7 +643,8 @@ bg "0,0,32768"
 )
 xt "36200,48000,45500,49000"
 st "
-by %user on %dd %month %year"
+by %user on %dd %month %year
+"
 tm "CommentText"
 wrapOption 3
 visibleHeight 1000
@@ -229,7 +653,7 @@ visibleWidth 17000
 position 1
 ignorePrefs 1
 )
-*5 (CommentText
+*55 (CommentText
 uid 21,0
 shape (Rectangle
 uid 22,0
@@ -247,9 +671,10 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "53200,44000,55800,45000"
+xt "53200,44000,56200,45000"
 st "
-Project:"
+Project:
+"
 tm "CommentText"
 wrapOption 3
 visibleHeight 1000
@@ -258,7 +683,7 @@ visibleWidth 4000
 position 1
 ignorePrefs 1
 )
-*6 (CommentText
+*56 (CommentText
 uid 24,0
 shape (Rectangle
 uid 25,0
@@ -278,7 +703,8 @@ bg "0,0,32768"
 )
 xt "36200,46000,46200,47000"
 st "
-<enter diagram title here>"
+<enter diagram title here>
+"
 tm "CommentText"
 wrapOption 3
 visibleHeight 1000
@@ -287,7 +713,7 @@ visibleWidth 17000
 position 1
 ignorePrefs 1
 )
-*7 (CommentText
+*57 (CommentText
 uid 27,0
 shape (Rectangle
 uid 28,0
@@ -305,9 +731,10 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "32200,46000,33900,47000"
+xt "32200,46000,34300,47000"
 st "
-Title:"
+Title:
+"
 tm "CommentText"
 wrapOption 3
 visibleHeight 1000
@@ -316,7 +743,7 @@ visibleWidth 4000
 position 1
 ignorePrefs 1
 )
-*8 (CommentText
+*58 (CommentText
 uid 30,0
 shape (Rectangle
 uid 31,0
@@ -336,7 +763,8 @@ bg "0,0,32768"
 )
 xt "53200,45200,62400,46200"
 st "
-<enter comments here>"
+<enter comments here>
+"
 tm "CommentText"
 wrapOption 3
 visibleHeight 4000
@@ -344,7 +772,7 @@ visibleWidth 20000
 )
 ignorePrefs 1
 )
-*9 (CommentText
+*59 (CommentText
 uid 33,0
 shape (Rectangle
 uid 34,0
@@ -364,7 +792,8 @@ bg "0,0,32768"
 )
 xt "57200,44000,67300,45000"
 st "
-<enter project name here>"
+<enter project name here>
+"
 tm "CommentText"
 wrapOption 3
 visibleHeight 1000
@@ -373,7 +802,7 @@ visibleWidth 16000
 position 1
 ignorePrefs 1
 )
-*10 (CommentText
+*60 (CommentText
 uid 36,0
 shape (Rectangle
 uid 37,0
@@ -392,7 +821,8 @@ fg "32768,0,0"
 )
 xt "39150,44500,45850,45500"
 st "
-<company name>"
+<company name>
+"
 ju 0
 tm "CommentText"
 wrapOption 3
@@ -402,7 +832,7 @@ visibleWidth 21000
 position 1
 ignorePrefs 1
 )
-*11 (CommentText
+*61 (CommentText
 uid 39,0
 shape (Rectangle
 uid 40,0
@@ -420,9 +850,10 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "32200,47000,33900,48000"
+xt "32200,47000,34300,48000"
 st "
-Path:"
+Path:
+"
 tm "CommentText"
 wrapOption 3
 visibleHeight 1000
@@ -431,7 +862,7 @@ visibleWidth 4000
 position 1
 ignorePrefs 1
 )
-*12 (CommentText
+*62 (CommentText
 uid 42,0
 shape (Rectangle
 uid 43,0
@@ -449,9 +880,10 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "32200,48000,34500,49000"
+xt "32200,48000,34900,49000"
 st "
-Edited:"
+Edited:
+"
 tm "CommentText"
 wrapOption 3
 visibleHeight 1000
@@ -460,7 +892,7 @@ visibleWidth 4000
 position 1
 ignorePrefs 1
 )
-*13 (CommentText
+*63 (CommentText
 uid 45,0
 shape (Rectangle
 uid 46,0
@@ -478,9 +910,10 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,47000,50400,48000"
+xt "36200,47000,53100,48000"
 st "
-%library/%unit/%view"
+%library/%unit/%view
+"
 tm "CommentText"
 wrapOption 3
 visibleHeight 1000
@@ -503,7 +936,6 @@ xt "32000,44000,73000,49000"
 oxt "14000,66000,55000,71000"
 )
 ]
-LanguageMgr "VhdlLangMgr"
 bg "65535,65535,65535"
 grid (Grid
 origin "0,0"
@@ -515,11 +947,11 @@ xShown 1
 yShown 1
 color "26368,26368,26368"
 )
-packageList *14 (PackageList
+packageList *64 (PackageList
 uid 48,0
 stg "VerticalLayoutStrategy"
 textVec [
-*15 (Text
+*65 (Text
 uid 49,0
 va (VaSet
 font "arial,8,1"
@@ -528,7 +960,7 @@ xt "0,0,5400,1000"
 st "Package List"
 blo "0,800"
 )
-*16 (MLText
+*66 (MLText
 uid 50,0
 va (VaSet
 )
@@ -556,13 +988,42 @@ va (VaSet
 fg "0,0,32768"
 font "Courier New,9,0"
 )
-xt "200,200,2200,1400"
+xt "200,200,2700,1400"
 st "
-Text"
+Text
+"
 tm "CommentText"
 wrapOption 3
 visibleHeight 4600
 visibleWidth 14600
+)
+)
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "500,2150,1400,3150"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
 )
 )
 defaultPanel (Panel
@@ -588,9 +1049,9 @@ tm "PanelText"
 )
 )
 )
-parentViewRef (DesignUnitViewRef
+parentGraphicsRef (HdmGraphicsRef
 libraryName ""
-duName ""
+entityName ""
 viewName ""
 )
 defaultSymbolBody (SymbolBody
@@ -623,7 +1084,7 @@ st "<cell>"
 blo "22600,17000"
 )
 )
-gi *17 (GenericInterface
+gi *67 (GenericInterface
 ps "CenterOffsetStrategy"
 matrix (Matrix
 text (MLText
@@ -652,30 +1113,30 @@ fg "0,65535,0"
 )
 xt "0,0,750,750"
 )
-n "In0"
-t "std_logic_vector"
-b "(15 DOWNTO 0)"
-o 0
-r 0
-d 0
-s 0
-sf 1
 tg (CPTG
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "Verdana,9,0"
 )
-xt "0,750,1800,1950"
+xt "0,750,1400,1750"
 st "In0"
-blo "0,1750"
+blo "0,1550"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
 va (VaSet
 font "Courier New,8,0"
+)
+)
+thePort (LogicalPort
+lang 11
+decl (Decl
+n "In0"
+t "std_logic_vector"
+b "(15 DOWNTO 0)"
+o 0
 )
 )
 )
@@ -689,25 +1150,15 @@ bg "0,0,0"
 )
 xt "0,0,750,750"
 )
-n "Buffer0"
-t "std_logic_vector"
-b "(15 DOWNTO 0)"
-m 3
-o 0
-r 0
-d 0
-s 0
-sf 1
 tg (CPTG
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "Verdana,9,0"
 )
-xt "0,750,3600,1950"
+xt "0,750,2800,1750"
 st "Buffer0"
-blo "0,1750"
+blo "0,1550"
 tm "CptPortNameMgr"
 )
 )
@@ -716,8 +1167,18 @@ va (VaSet
 font "Courier New,8,0"
 )
 )
+thePort (LogicalPort
+lang 11
+m 3
+decl (Decl
+n "Buffer0"
+t "std_logic_vector"
+b "(15 DOWNTO 0)"
+o 0
 )
-DeclarativeBlock *18 (SymDeclBlock
+)
+)
+DeclarativeBlock *68 (SymDeclBlock
 uid 1,0
 stg "SymDeclLayoutStrategy"
 declLabel (Text
@@ -734,7 +1195,7 @@ uid 3,0
 va (VaSet
 font "Arial,8,1"
 )
-xt "42000,1000,44300,2000"
+xt "42000,1000,44700,2000"
 st "Ports:"
 blo "42000,1800"
 )
@@ -743,7 +1204,7 @@ uid 4,0
 va (VaSet
 font "Arial,8,1"
 )
-xt "42000,2000,44000,3000"
+xt "42000,2000,44400,3000"
 st "User:"
 blo "42000,2800"
 )
@@ -775,5 +1236,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 51,0
+lastUid 109,0
+okToSyncOnLoad 1
+OkToSyncGenericsOnLoad 1
 )

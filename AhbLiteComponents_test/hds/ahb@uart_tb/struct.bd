@@ -1,6 +1,7 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
+dialect 11
 dmPackageRefs [
 (DmPackageRef
 library "ieee"
@@ -115,7 +116,7 @@ value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_
 )
 (vvPair
 variable "date"
-value "15.04.2019"
+value "29.04.2019"
 )
 (vvPair
 variable "day"
@@ -127,7 +128,7 @@ value "lundi"
 )
 (vvPair
 variable "dd"
-value "15"
+value "29"
 )
 (vvPair
 variable "designName"
@@ -159,7 +160,7 @@ value "johan.chenaux"
 )
 (vvPair
 variable "graphical_source_date"
-value "15.04.2019"
+value "29.04.2019"
 )
 (vvPair
 variable "graphical_source_group"
@@ -171,7 +172,7 @@ value "WEA30906"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:18:10"
+value "14:02:54"
 )
 (vvPair
 variable "group"
@@ -299,7 +300,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "14:18:10"
+value "14:02:54"
 )
 (vvPair
 variable "unit"
@@ -327,7 +328,7 @@ value "19"
 )
 ]
 )
-LanguageMgr "VhdlLangMgr"
+LanguageMgr "Vhdl2008LangMgr"
 uid 198,0
 optionalChildren [
 *1 (Grouping
@@ -412,7 +413,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "92200,91500,102200,92500"
+xt "92200,91500,104200,92500"
 st "
 by %user on %dd %month %year
 "
@@ -651,7 +652,7 @@ uid 12555,0
 decl (Decl
 n "hReset_n"
 t "std_uLogic"
-o 2
+o 7
 suid 108,0
 )
 declText (MLText
@@ -661,8 +662,7 @@ isHidden 1
 font "Courier New,9,0"
 )
 xt "0,0,15500,1200"
-st "SIGNAL hReset_n : std_uLogic
-"
+st "SIGNAL hReset_n : std_uLogic"
 )
 )
 *13 (Net
@@ -670,7 +670,7 @@ uid 12563,0
 decl (Decl
 n "hClk"
 t "std_uLogic"
-o 3
+o 4
 suid 109,0
 )
 declText (MLText
@@ -680,8 +680,7 @@ isHidden 1
 font "Courier New,9,0"
 )
 xt "0,0,15500,1200"
-st "SIGNAL hClk     : std_uLogic
-"
+st "SIGNAL hClk     : std_uLogic"
 )
 )
 *14 (Net
@@ -689,7 +688,7 @@ uid 12571,0
 decl (Decl
 n "hResp"
 t "std_uLogic"
-o 4
+o 8
 suid 110,0
 )
 declText (MLText
@@ -699,8 +698,7 @@ isHidden 1
 font "Courier New,9,0"
 )
 xt "0,0,15500,1200"
-st "SIGNAL hResp    : std_uLogic
-"
+st "SIGNAL hResp    : std_uLogic"
 )
 )
 *15 (Net
@@ -708,7 +706,7 @@ uid 12579,0
 decl (Decl
 n "hReady"
 t "std_uLogic"
-o 5
+o 6
 suid 111,0
 )
 declText (MLText
@@ -718,8 +716,7 @@ isHidden 1
 font "Courier New,9,0"
 )
 xt "0,0,15500,1200"
-st "SIGNAL hReady   : std_uLogic
-"
+st "SIGNAL hReady   : std_uLogic"
 )
 )
 *16 (Net
@@ -728,7 +725,7 @@ decl (Decl
 n "hRData"
 t "std_ulogic_vector"
 b "(ahbDataBitNb-1 DOWNTO 0)"
-o 6
+o 5
 suid 112,0
 )
 declText (MLText
@@ -738,8 +735,7 @@ isHidden 1
 font "Courier New,9,0"
 )
 xt "0,0,32000,1200"
-st "SIGNAL hRData   : std_ulogic_vector(ahbDataBitNb-1 DOWNTO 0)
-"
+st "SIGNAL hRData   : std_ulogic_vector(ahbDataBitNb-1 DOWNTO 0)"
 )
 )
 *17 (Net
@@ -747,7 +743,7 @@ uid 12595,0
 decl (Decl
 n "hSel"
 t "std_uLogic"
-o 7
+o 9
 suid 113,0
 )
 declText (MLText
@@ -757,8 +753,7 @@ isHidden 1
 font "Courier New,9,0"
 )
 xt "0,0,15500,1200"
-st "SIGNAL hSel     : std_uLogic
-"
+st "SIGNAL hSel     : std_uLogic"
 )
 )
 *18 (Net
@@ -766,7 +761,7 @@ uid 12603,0
 decl (Decl
 n "hWrite"
 t "std_uLogic"
-o 8
+o 12
 suid 114,0
 )
 declText (MLText
@@ -776,8 +771,7 @@ isHidden 1
 font "Courier New,9,0"
 )
 xt "0,0,15500,1200"
-st "SIGNAL hWrite   : std_uLogic
-"
+st "SIGNAL hWrite   : std_uLogic"
 )
 )
 *19 (Net
@@ -786,7 +780,7 @@ decl (Decl
 n "hTrans"
 t "std_ulogic_vector"
 b "(ahbTransBitNb-1 DOWNTO 0)"
-o 9
+o 10
 suid 115,0
 )
 declText (MLText
@@ -796,8 +790,7 @@ isHidden 1
 font "Courier New,9,0"
 )
 xt "0,0,32500,1200"
-st "SIGNAL hTrans   : std_ulogic_vector(ahbTransBitNb-1 DOWNTO 0)
-"
+st "SIGNAL hTrans   : std_ulogic_vector(ahbTransBitNb-1 DOWNTO 0)"
 )
 )
 *20 (Net
@@ -806,7 +799,7 @@ decl (Decl
 n "hWData"
 t "std_ulogic_vector"
 b "(ahbDataBitNb-1 DOWNTO 0)"
-o 10
+o 11
 suid 116,0
 )
 declText (MLText
@@ -816,8 +809,7 @@ isHidden 1
 font "Courier New,9,0"
 )
 xt "0,0,32000,1200"
-st "SIGNAL hWData   : std_ulogic_vector(ahbDataBitNb-1 DOWNTO 0)
-"
+st "SIGNAL hWData   : std_ulogic_vector(ahbDataBitNb-1 DOWNTO 0)"
 )
 )
 *21 (Net
@@ -826,7 +818,7 @@ decl (Decl
 n "hAddr"
 t "unsigned"
 b "( ahbAddressBitNb-1 DOWNTO 0 )"
-o 11
+o 3
 suid 117,0
 )
 declText (MLText
@@ -836,8 +828,7 @@ isHidden 1
 font "Courier New,9,0"
 )
 xt "0,0,30000,1200"
-st "SIGNAL hAddr    : unsigned( ahbAddressBitNb-1 DOWNTO 0 )
-"
+st "SIGNAL hAddr    : unsigned( ahbAddressBitNb-1 DOWNTO 0 )"
 )
 )
 *22 (Blk
@@ -932,7 +923,7 @@ uid 13297,0
 decl (Decl
 n "RxD"
 t "std_ulogic"
-o 11
+o 1
 suid 118,0
 )
 declText (MLText
@@ -942,8 +933,7 @@ isHidden 1
 font "Courier New,9,0"
 )
 xt "0,0,15500,1200"
-st "SIGNAL RxD      : std_ulogic
-"
+st "SIGNAL RxD      : std_ulogic"
 )
 )
 *27 (Net
@@ -951,7 +941,7 @@ uid 13305,0
 decl (Decl
 n "TxD"
 t "std_ulogic"
-o 12
+o 2
 suid 119,0
 )
 declText (MLText
@@ -961,8 +951,7 @@ isHidden 1
 font "Courier New,9,0"
 )
 xt "0,0,15500,1200"
-st "SIGNAL TxD      : std_ulogic
-"
+st "SIGNAL TxD      : std_ulogic"
 )
 )
 *28 (SaComponent
@@ -2106,7 +2095,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "29000,19000"
-lastUid 13810,0
+lastUid 13904,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -3208,7 +3197,7 @@ m 4
 decl (Decl
 n "hReset_n"
 t "std_uLogic"
-o 2
+o 7
 suid 108,0
 )
 )
@@ -3220,7 +3209,7 @@ m 4
 decl (Decl
 n "hClk"
 t "std_uLogic"
-o 3
+o 4
 suid 109,0
 )
 )
@@ -3232,7 +3221,7 @@ m 4
 decl (Decl
 n "hResp"
 t "std_uLogic"
-o 4
+o 8
 suid 110,0
 )
 )
@@ -3244,7 +3233,7 @@ m 4
 decl (Decl
 n "hReady"
 t "std_uLogic"
-o 5
+o 6
 suid 111,0
 )
 )
@@ -3257,7 +3246,7 @@ decl (Decl
 n "hRData"
 t "std_ulogic_vector"
 b "(ahbDataBitNb-1 DOWNTO 0)"
-o 6
+o 5
 suid 112,0
 )
 )
@@ -3269,7 +3258,7 @@ m 4
 decl (Decl
 n "hSel"
 t "std_uLogic"
-o 7
+o 9
 suid 113,0
 )
 )
@@ -3281,7 +3270,7 @@ m 4
 decl (Decl
 n "hWrite"
 t "std_uLogic"
-o 8
+o 12
 suid 114,0
 )
 )
@@ -3294,7 +3283,7 @@ decl (Decl
 n "hTrans"
 t "std_ulogic_vector"
 b "(ahbTransBitNb-1 DOWNTO 0)"
-o 9
+o 10
 suid 115,0
 )
 )
@@ -3307,7 +3296,7 @@ decl (Decl
 n "hWData"
 t "std_ulogic_vector"
 b "(ahbDataBitNb-1 DOWNTO 0)"
-o 10
+o 11
 suid 116,0
 )
 )
@@ -3320,7 +3309,7 @@ decl (Decl
 n "hAddr"
 t "unsigned"
 b "( ahbAddressBitNb-1 DOWNTO 0 )"
-o 11
+o 3
 suid 117,0
 )
 )
@@ -3332,7 +3321,7 @@ m 4
 decl (Decl
 n "RxD"
 t "std_ulogic"
-o 11
+o 1
 suid 118,0
 )
 )
@@ -3344,7 +3333,7 @@ m 4
 decl (Decl
 n "TxD"
 t "std_ulogic"
-o 12
+o 2
 suid 119,0
 )
 )

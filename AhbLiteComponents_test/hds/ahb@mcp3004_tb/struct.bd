@@ -1,6 +1,7 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
+dialect 11
 dmPackageRefs [
 (DmPackageRef
 library "ieee"
@@ -49,8 +50,8 @@ libraryRefs [
 "AhbLite"
 ]
 )
-version "29.1"
-appVersion "2009.2 (Build 10)"
+version "31.1"
+appVersion "2018.1 (Build 12)"
 noEmbeddedEditors 1
 model (BlockDiag
 VExpander (VariableExpander
@@ -61,23 +62,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "D:\\Labs\\Projects\\Cansat\\..\\..\\Libs\\AhbLiteComponents_test\\hdl"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "D:\\Labs\\Projects\\Cansat\\..\\..\\Libs\\AhbLiteComponents_test\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "D:\\Labs\\Projects\\Cansat\\..\\..\\Libs\\AhbLiteComponents_test\\hds\\ahb@mcp3004_tb\\struct.bd.info"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ahb@mcp3004_tb\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "D:\\Labs\\Projects\\Cansat\\..\\..\\Libs\\AhbLiteComponents_test\\hds\\ahb@mcp3004_tb\\struct.bd.user"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ahb@mcp3004_tb\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "D:\\Labs\\Projects\\Cansat\\..\\..\\Libs\\AhbLiteComponents_test\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -89,7 +90,7 @@ value "struct"
 )
 (vvPair
 variable "asm_file"
-value "cansat.asm"
+value "beamer.asm"
 )
 (vvPair
 variable "concat_file"
@@ -101,27 +102,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "D:\\Labs\\Projects\\Cansat\\..\\..\\Libs\\AhbLiteComponents_test\\hds\\ahb@mcp3004_tb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ahb@mcp3004_tb"
 )
 (vvPair
 variable "d_logical"
-value "D:\\Labs\\Projects\\Cansat\\..\\..\\Libs\\AhbLiteComponents_test\\hds\\ahbMcp3004_tb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ahbMcp3004_tb"
 )
 (vvPair
 variable "date"
-value "26.05.2015"
+value "29.04.2019"
 )
 (vvPair
 variable "day"
-value "mar."
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "26"
+value "29"
 )
 (vvPair
 variable "designName"
@@ -148,12 +149,32 @@ variable "f_noext"
 value "struct"
 )
 (vvPair
+variable "graphical_source_author"
+value "johan.chenaux"
+)
+(vvPair
+variable "graphical_source_date"
+value "29.04.2019"
+)
+(vvPair
+variable "graphical_source_group"
+value "UNKNOWN"
+)
+(vvPair
+variable "graphical_source_host"
+value "WEA30906"
+)
+(vvPair
+variable "graphical_source_time"
+value "14:02:55"
+)
+(vvPair
 variable "group"
 value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE3673"
+value "WEA30906"
 )
 (vvPair
 variable "language"
@@ -173,11 +194,11 @@ value "D:\\Users\\ELN_labs\\VHDL_comp"
 )
 (vvPair
 variable "library_downstream_ModelSimCompiler"
-value "$SCRATCH_DIR/$DESIGN_NAME/AhbLiteComponents_test/work"
+value "$SCRATCH_DIR/Libs/AhbLiteComponents_test/work"
 )
 (vvPair
 variable "mm"
-value "05"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -185,19 +206,19 @@ value "ahbMcp3004_tb"
 )
 (vvPair
 variable "month"
-value "mai"
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "mai"
+value "avril"
 )
 (vvPair
 variable "p"
-value "D:\\Labs\\Projects\\Cansat\\..\\..\\Libs\\AhbLiteComponents_test\\hds\\ahb@mcp3004_tb\\struct.bd"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ahb@mcp3004_tb\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "D:\\Labs\\Projects\\Cansat\\..\\..\\Libs\\AhbLiteComponents_test\\hds\\ahbMcp3004_tb\\struct.bd"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ahbMcp3004_tb\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -205,7 +226,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "hds"
+value "beamer"
 )
 (vvPair
 variable "series"
@@ -217,7 +238,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_AsmPath"
-value "$HDS_LIBS_DIR\\NanoBlaze\\hdl"
+value "$HEI_LIBS_DIR\\NanoBlaze\\hdl"
 )
 (vvPair
 variable "task_DesignCompilerPath"
@@ -233,7 +254,7 @@ value "$ISE_HOME"
 )
 (vvPair
 variable "task_ISEPath"
-value "$SCRATCH_DIR\\$DESIGN_NAME\\$ISE_WORK_DIR"
+value "$ISE_SCRATCH_WORK_DIR"
 )
 (vvPair
 variable "task_LeonardoPath"
@@ -241,7 +262,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "$MODELSIM_HOME\\win32"
+value "$MODELSIM_HOME"
 )
 (vvPair
 variable "task_NC"
@@ -277,7 +298,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "09:49:30"
+value "14:02:55"
 )
 (vvPair
 variable "unit"
@@ -285,11 +306,11 @@ value "ahbMcp3004_tb"
 )
 (vvPair
 variable "user"
-value "francois"
+value "johan.chenaux"
 )
 (vvPair
 variable "version"
-value "2009.2 (Build 10)"
+value "2018.1 (Build 12)"
 )
 (vvPair
 variable "view"
@@ -297,15 +318,15 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2015"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "15"
+value "19"
 )
 ]
 )
-LanguageMgr "VhdlLangMgr"
+LanguageMgr "Vhdl2008LangMgr"
 uid 198,0
 optionalChildren [
 *1 (Grouping
@@ -329,7 +350,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "119200,85500,132000,86500"
+xt "119200,85500,129300,86500"
 st "
 <enter project name here>
 "
@@ -390,7 +411,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "92200,91500,104800,92500"
+xt "92200,91500,104200,92500"
 st "
 by %user on %dd %month %year
 "
@@ -420,7 +441,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "113200,85500,116900,86500"
+xt "113200,85500,116200,86500"
 st "
 Project:
 "
@@ -450,7 +471,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "92200,87500,104700,88500"
+xt "92200,87500,102200,88500"
 st "
 <enter diagram title here>
 "
@@ -480,7 +501,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "87200,87500,89800,88500"
+xt "87200,87500,89300,88500"
 st "
 Title:
 "
@@ -510,7 +531,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "87200,89500,89900,90500"
+xt "87200,89500,89300,90500"
 st "
 Path:
 "
@@ -540,7 +561,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "113200,87200,124800,88200"
+xt "113200,87200,122400,88200"
 st "
 <enter comments here>
 "
@@ -569,7 +590,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "92200,89500,110900,90500"
+xt "92200,89500,109700,90500"
 st "
 %library/%unit/%view
 "
@@ -599,7 +620,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "87200,91500,90600,92500"
+xt "87200,91500,89900,92500"
 st "
 Edited:
 "
@@ -629,7 +650,7 @@ uid 12555,0
 decl (Decl
 n "hReset_n"
 t "std_uLogic"
-o 2
+o 11
 suid 108,0
 )
 declText (MLText
@@ -647,7 +668,7 @@ uid 12563,0
 decl (Decl
 n "hClk"
 t "std_uLogic"
-o 3
+o 8
 suid 109,0
 )
 declText (MLText
@@ -665,7 +686,7 @@ uid 12571,0
 decl (Decl
 n "hResp"
 t "std_uLogic"
-o 4
+o 12
 suid 110,0
 )
 declText (MLText
@@ -683,7 +704,7 @@ uid 12579,0
 decl (Decl
 n "hReady"
 t "std_uLogic"
-o 5
+o 10
 suid 111,0
 )
 declText (MLText
@@ -702,7 +723,7 @@ decl (Decl
 n "hRData"
 t "std_ulogic_vector"
 b "(ahbDataBitNb-1 DOWNTO 0)"
-o 6
+o 9
 suid 112,0
 )
 declText (MLText
@@ -720,7 +741,7 @@ uid 12595,0
 decl (Decl
 n "hSel"
 t "std_uLogic"
-o 7
+o 13
 suid 113,0
 )
 declText (MLText
@@ -738,7 +759,7 @@ uid 12603,0
 decl (Decl
 n "hWrite"
 t "std_uLogic"
-o 8
+o 16
 suid 114,0
 )
 declText (MLText
@@ -757,7 +778,7 @@ decl (Decl
 n "hTrans"
 t "std_ulogic_vector"
 b "(ahbTransBitNb-1 DOWNTO 0)"
-o 9
+o 14
 suid 115,0
 )
 declText (MLText
@@ -776,7 +797,7 @@ decl (Decl
 n "hWData"
 t "std_ulogic_vector"
 b "(ahbDataBitNb-1 DOWNTO 0)"
-o 10
+o 15
 suid 116,0
 )
 declText (MLText
@@ -795,7 +816,7 @@ decl (Decl
 n "hAddr"
 t "unsigned"
 b "( ahbAddressBitNb-1 DOWNTO 0 )"
-o 11
+o 7
 suid 117,0
 )
 declText (MLText
@@ -894,7 +915,7 @@ uid 14114,0
 decl (Decl
 n "enable"
 t "std_uLogic"
-o 12
+o 6
 suid 153,0
 )
 declText (MLText
@@ -1174,7 +1195,7 @@ uid 14626,0
 decl (Decl
 n "chZero"
 t "real"
-o 18
+o 5
 suid 155,0
 )
 declText (MLText
@@ -1817,7 +1838,7 @@ uid 14782,0
 decl (Decl
 n "CS_n"
 t "std_uLogic"
-o 13
+o 2
 suid 156,0
 )
 declText (MLText
@@ -1835,7 +1856,7 @@ uid 14788,0
 decl (Decl
 n "CLK"
 t "std_uLogic"
-o 14
+o 1
 suid 157,0
 )
 declText (MLText
@@ -1853,7 +1874,7 @@ uid 14794,0
 decl (Decl
 n "MOSI"
 t "std_uLogic"
-o 15
+o 4
 suid 158,0
 )
 declText (MLText
@@ -1871,7 +1892,7 @@ uid 14800,0
 decl (Decl
 n "MISO"
 t "std_uLogic"
-o 16
+o 3
 suid 159,0
 )
 declText (MLText
@@ -2537,7 +2558,7 @@ blo "29000,19800"
 uid 1298,0
 va (VaSet
 )
-xt "29000,20000,42600,25000"
+xt "29000,20000,40300,25000"
 st "LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.all;
@@ -2648,7 +2669,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "29000,19000"
-lastUid 14892,0
+lastUid 14986,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -2663,7 +2684,7 @@ text (MLText
 va (VaSet
 fg "0,0,32768"
 )
-xt "200,200,2500,1200"
+xt "200,200,2000,1200"
 st "
 Text
 "
@@ -2671,6 +2692,34 @@ tm "CommentText"
 wrapOption 3
 visibleHeight 4600
 visibleWidth 14600
+)
+)
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "500,2150,1400,3150"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
 )
 )
 defaultPanel (Panel
@@ -3080,7 +3129,7 @@ xt "0,0,18000,5000"
 text (MLText
 va (VaSet
 )
-xt "200,200,2500,1200"
+xt "200,200,2000,1200"
 st "
 Text
 "
@@ -3378,7 +3427,7 @@ tm "BundleNameMgr"
 second (MLText
 va (VaSet
 )
-xt "0,1400,1300,2400"
+xt "0,1400,1000,2400"
 st "()"
 tm "BundleContentsMgr"
 )
@@ -3432,7 +3481,7 @@ ps "TopLeftStrategy"
 text (MLText
 va (VaSet
 )
-xt "0,-1400,14200,-400"
+xt "0,-1400,12600,-400"
 st "g0: FOR i IN 0 TO n GENERATE"
 tm "FrameTitleTextMgr"
 )
@@ -3492,7 +3541,7 @@ ps "TopLeftStrategy"
 text (MLText
 va (VaSet
 )
-xt "0,-1400,8800,-400"
+xt "0,-1400,7400,-400"
 st "b0: BLOCK (guard)"
 tm "FrameTitleTextMgr"
 )
@@ -3721,7 +3770,7 @@ m 4
 decl (Decl
 n "hReset_n"
 t "std_uLogic"
-o 2
+o 11
 suid 108,0
 )
 )
@@ -3733,7 +3782,7 @@ m 4
 decl (Decl
 n "hClk"
 t "std_uLogic"
-o 3
+o 8
 suid 109,0
 )
 )
@@ -3745,7 +3794,7 @@ m 4
 decl (Decl
 n "hResp"
 t "std_uLogic"
-o 4
+o 12
 suid 110,0
 )
 )
@@ -3757,7 +3806,7 @@ m 4
 decl (Decl
 n "hReady"
 t "std_uLogic"
-o 5
+o 10
 suid 111,0
 )
 )
@@ -3770,7 +3819,7 @@ decl (Decl
 n "hRData"
 t "std_ulogic_vector"
 b "(ahbDataBitNb-1 DOWNTO 0)"
-o 6
+o 9
 suid 112,0
 )
 )
@@ -3782,7 +3831,7 @@ m 4
 decl (Decl
 n "hSel"
 t "std_uLogic"
-o 7
+o 13
 suid 113,0
 )
 )
@@ -3794,7 +3843,7 @@ m 4
 decl (Decl
 n "hWrite"
 t "std_uLogic"
-o 8
+o 16
 suid 114,0
 )
 )
@@ -3807,7 +3856,7 @@ decl (Decl
 n "hTrans"
 t "std_ulogic_vector"
 b "(ahbTransBitNb-1 DOWNTO 0)"
-o 9
+o 14
 suid 115,0
 )
 )
@@ -3820,7 +3869,7 @@ decl (Decl
 n "hWData"
 t "std_ulogic_vector"
 b "(ahbDataBitNb-1 DOWNTO 0)"
-o 10
+o 15
 suid 116,0
 )
 )
@@ -3833,7 +3882,7 @@ decl (Decl
 n "hAddr"
 t "unsigned"
 b "( ahbAddressBitNb-1 DOWNTO 0 )"
-o 11
+o 7
 suid 117,0
 )
 )
@@ -3845,7 +3894,7 @@ m 4
 decl (Decl
 n "enable"
 t "std_uLogic"
-o 12
+o 6
 suid 153,0
 )
 )
@@ -3857,7 +3906,7 @@ m 4
 decl (Decl
 n "chZero"
 t "real"
-o 18
+o 5
 suid 155,0
 )
 )
@@ -3869,7 +3918,7 @@ m 4
 decl (Decl
 n "CS_n"
 t "std_uLogic"
-o 13
+o 2
 suid 156,0
 )
 )
@@ -3881,7 +3930,7 @@ m 4
 decl (Decl
 n "CLK"
 t "std_uLogic"
-o 14
+o 1
 suid 157,0
 )
 )
@@ -3893,7 +3942,7 @@ m 4
 decl (Decl
 n "MOSI"
 t "std_uLogic"
-o 15
+o 4
 suid 158,0
 )
 )
@@ -3905,7 +3954,7 @@ m 4
 decl (Decl
 n "MISO"
 t "std_uLogic"
-o 16
+o 3
 suid 159,0
 )
 )

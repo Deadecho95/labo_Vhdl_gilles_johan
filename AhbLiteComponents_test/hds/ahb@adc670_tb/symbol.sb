@@ -1,11 +1,12 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
+dialect 11
 dmPackageRefs [
 ]
 )
-version "24.1"
-appVersion "2007.1a (Build 13)"
+version "26.1"
+appVersion "2018.1 (Build 12)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
@@ -51,6 +52,8 @@ tm "EolColHdrMgr"
 ]
 )
 pdm (PhysicalDM
+displayShortBounds 1
+editShortBounds 1
 uid 108,0
 optionalChildren [
 *14 (Sheet
@@ -327,23 +330,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "U:\\ELN_Board\\Test\\hdl"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "U:\\ELN_Board\\Test\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "U:\\ELN_Board\\Test\\hds\\motherboard_tb\\symbol.sb.info"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ahb@adc670_tb\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "U:\\ELN_Board\\Test\\hds\\motherboard_tb\\symbol.sb.user"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ahb@adc670_tb\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "U:\\ELN_Board\\Test\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -354,20 +357,28 @@ variable "arch_name"
 value "symbol"
 )
 (vvPair
+variable "asm_file"
+value "beamer.asm"
+)
+(vvPair
+variable "concat_file"
+value "concatenated"
+)
+(vvPair
 variable "config"
 value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "U:\\ELN_Board\\Test\\hds\\motherboard_tb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ahb@adc670_tb"
 )
 (vvPair
 variable "d_logical"
-value "U:\\ELN_Board\\Test\\hds\\motherboard_tb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ahbAdc670_tb"
 )
 (vvPair
 variable "date"
-value "27.04.2009"
+value "29.04.2019"
 )
 (vvPair
 variable "day"
@@ -379,11 +390,15 @@ value "lundi"
 )
 (vvPair
 variable "dd"
-value "27"
+value "29"
+)
+(vvPair
+variable "designName"
+value "$DESIGN_NAME"
 )
 (vvPair
 variable "entity_name"
-value "motherboard_tb"
+value "ahbAdc670_tb"
 )
 (vvPair
 variable "ext"
@@ -402,12 +417,32 @@ variable "f_noext"
 value "symbol"
 )
 (vvPair
+variable "graphical_source_author"
+value "johan.chenaux"
+)
+(vvPair
+variable "graphical_source_date"
+value "29.04.2019"
+)
+(vvPair
+variable "graphical_source_group"
+value "UNKNOWN"
+)
+(vvPair
+variable "graphical_source_host"
+value "WEA30906"
+)
+(vvPair
+variable "graphical_source_time"
+value "14:02:52"
+)
+(vvPair
 variable "group"
 value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE3195"
+value "WEA30906"
 )
 (vvPair
 variable "language"
@@ -415,7 +450,7 @@ value "VHDL"
 )
 (vvPair
 variable "library"
-value "Demo_test"
+value "AhbLiteComponents_test"
 )
 (vvPair
 variable "library_downstream_ModelSim"
@@ -423,7 +458,7 @@ value "D:\\Users\\SysLo\\Master\\VHDL_comp"
 )
 (vvPair
 variable "library_downstream_ModelSimCompiler"
-value "D:/Users/ELN_labs/VHDL_comp"
+value "$SCRATCH_DIR/Libs/AhbLiteComponents_test/work"
 )
 (vvPair
 variable "mm"
@@ -431,7 +466,7 @@ value "04"
 )
 (vvPair
 variable "module_name"
-value "motherboard_tb"
+value "ahbAdc670_tb"
 )
 (vvPair
 variable "month"
@@ -443,11 +478,11 @@ value "avril"
 )
 (vvPair
 variable "p"
-value "U:\\ELN_Board\\Test\\hds\\motherboard_tb\\symbol.sb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ahb@adc670_tb\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "U:\\ELN_Board\\Test\\hds\\motherboard_tb\\symbol.sb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ahbAdc670_tb\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -455,15 +490,31 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "hds"
+value "beamer"
 )
 (vvPair
 variable "series"
 value "HDL Designer Series"
 )
 (vvPair
+variable "task_AsmPath"
+value "$HEI_LIBS_DIR\\NanoBlaze\\hdl"
+)
+(vvPair
 variable "task_DesignCompilerPath"
 value "<TBD>"
+)
+(vvPair
+variable "task_HDSPath"
+value "$HDS_HOME"
+)
+(vvPair
+variable "task_ISEBinPath"
+value "$ISE_HOME"
+)
+(vvPair
+variable "task_ISEPath"
+value "$ISE_SCRATCH_WORK_DIR"
 )
 (vvPair
 variable "task_LeonardoPath"
@@ -471,7 +522,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "c:\\eda\\modelsim\\win32"
+value "$MODELSIM_HOME"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -503,19 +554,19 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "15:28:54"
+value "14:02:52"
 )
 (vvPair
 variable "unit"
-value "motherboard_tb"
+value "ahbAdc670_tb"
 )
 (vvPair
 variable "user"
-value "cof"
+value "johan.chenaux"
 )
 (vvPair
 variable "version"
-value "2007.1a (Build 13)"
+value "2018.1 (Build 12)"
 )
 (vvPair
 variable "view"
@@ -523,15 +574,15 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2009"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "09"
+value "19"
 )
 ]
 )
-LanguageMgr "VhdlLangMgr"
+LanguageMgr "Vhdl2008LangMgr"
 uid 51,0
 optionalChildren [
 *51 (SymbolBody
@@ -553,16 +604,16 @@ first (Text
 uid 11,0
 va (VaSet
 )
-xt "29950,21900,33950,22900"
-st "Demo_test"
+xt "29950,21900,39450,22900"
+st "AhbLiteComponents_test"
 blo "29950,22700"
 )
 second (Text
 uid 12,0
 va (VaSet
 )
-xt "29950,22900,35950,23900"
-st "motherboard_tb"
+xt "29950,22900,35450,23900"
+st "ahbAdc670_tb"
 blo "29950,23700"
 )
 )
@@ -674,7 +725,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "27200,47500,36600,48500"
+xt "27200,47500,35500,48500"
 st "
 by %user on %dd %month %year
 "
@@ -853,7 +904,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "27200,45500,39900,46500"
+xt "27200,45500,44500,46500"
 st "
 %library/%unit/%view
 "
@@ -988,6 +1039,34 @@ visibleHeight 4600
 visibleWidth 14600
 )
 )
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "500,2150,1400,3150"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
+)
+)
 defaultPanel (Panel
 shape (RectFrame
 va (VaSet
@@ -1078,30 +1157,22 @@ stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
 )
-xt "0,750,1000,1750"
+xt "0,750,1400,1750"
 st "In0"
 blo "0,1550"
 tm "CptPortNameMgr"
 )
-s (Text
-va (VaSet
-isHidden 1
-)
-xt "0,1750,10100,2750"
-st "unsigned(15 DOWNTO 0)"
-blo "0,2550"
-tm "CptPortTypeMgr"
-)
 )
 dt (MLText
 va (VaSet
-font "Courier New,10,0"
+font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
+lang 11
 decl (Decl
 n "In0"
-t "unsigned"
+t "std_logic_vector"
 b "(15 DOWNTO 0)"
 o 0
 )
@@ -1123,31 +1194,23 @@ stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
 )
-xt "0,750,2400,1750"
+xt "0,750,2800,1750"
 st "Buffer0"
 blo "0,1550"
 tm "CptPortNameMgr"
 )
-s (Text
-va (VaSet
-isHidden 1
-)
-xt "0,1750,10100,2750"
-st "unsigned(15 DOWNTO 0)"
-blo "0,2550"
-tm "CptPortTypeMgr"
-)
 )
 dt (MLText
 va (VaSet
-font "Courier New,10,0"
+font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
+lang 11
 m 3
 decl (Decl
 n "Buffer0"
-t "unsigned"
+t "std_logic_vector"
 b "(15 DOWNTO 0)"
 o 0
 )
@@ -1211,5 +1274,7 @@ xt "0,3400,0,3400"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 111,0
+lastUid 134,0
+okToSyncOnLoad 1
+OkToSyncGenericsOnLoad 1
 )

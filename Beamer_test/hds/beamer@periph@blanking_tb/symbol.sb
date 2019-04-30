@@ -1,12 +1,12 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
-dialect 2
+dialect 11
 dmPackageRefs [
 ]
 )
 version "26.1"
-appVersion "2015.2 (Build 5)"
+appVersion "2018.1 (Build 12)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
@@ -328,23 +328,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hdl"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hds\\beamer@periph@blanking_tb\\symbol.sb.info"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hds\\beamer@periph@blanking_tb\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hds\\beamer@periph@blanking_tb\\symbol.sb.user"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hds\\beamer@periph@blanking_tb\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -368,27 +368,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hds\\beamer@periph@blanking_tb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hds\\beamer@periph@blanking_tb"
 )
 (vvPair
 variable "d_logical"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hds\\beamerPeriphBlanking_tb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hds\\beamerPeriphBlanking_tb"
 )
 (vvPair
 variable "date"
-value "16.02.2018"
+value "29.04.2019"
 )
 (vvPair
 variable "day"
-value "Fr"
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "Freitag"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "16"
+value "29"
 )
 (vvPair
 variable "designName"
@@ -416,11 +416,11 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "oliver.gubler"
+value "johan.chenaux"
 )
 (vvPair
 variable "graphical_source_date"
-value "16.02.2018"
+value "29.04.2019"
 )
 (vvPair
 variable "graphical_source_group"
@@ -428,11 +428,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE5370"
+value "WEA30906"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:34:10"
+value "14:04:00"
 )
 (vvPair
 variable "group"
@@ -440,7 +440,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE5370"
+value "WEA30906"
 )
 (vvPair
 variable "language"
@@ -460,7 +460,7 @@ value "$SCRATCH_DIR/SEm/Beamer_test/work"
 )
 (vvPair
 variable "mm"
-value "02"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -468,19 +468,19 @@ value "beamerPeriphBlanking_tb"
 )
 (vvPair
 variable "month"
-value "Feb"
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "Februar"
+value "avril"
 )
 (vvPair
 variable "p"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hds\\beamer@periph@blanking_tb\\symbol.sb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hds\\beamer@periph@blanking_tb\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hds\\beamerPeriphBlanking_tb\\symbol.sb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hds\\beamerPeriphBlanking_tb\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -528,7 +528,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "14:34:10"
+value "14:04:00"
 )
 (vvPair
 variable "unit"
@@ -536,11 +536,11 @@ value "beamerPeriphBlanking_tb"
 )
 (vvPair
 variable "user"
-value "oliver.gubler"
+value "johan.chenaux"
 )
 (vvPair
 variable "version"
-value "2015.2 (Build 5)"
+value "2018.1 (Build 12)"
 )
 (vvPair
 variable "view"
@@ -548,15 +548,15 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2018"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "18"
+value "19"
 )
 ]
 )
-LanguageMgr "Vhdl93LangMgr"
+LanguageMgr "Vhdl2008LangMgr"
 uid 51,0
 optionalChildren [
 *51 (SymbolBody
@@ -639,7 +639,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,45500,49000"
+xt "36200,48000,48200,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1129,7 +1129,7 @@ font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
-lang 2
+lang 11
 decl (Decl
 n "In0"
 t "std_logic_vector"
@@ -1166,7 +1166,7 @@ font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
-lang 2
+lang 11
 m 3
 decl (Decl
 n "Buffer0"
@@ -1234,5 +1234,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 109,0
+lastUid 155,0
+okToSyncOnLoad 1
+OkToSyncGenericsOnLoad 1
 )

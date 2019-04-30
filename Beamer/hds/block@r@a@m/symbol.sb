@@ -1,6 +1,7 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
+dialect 11
 dmPackageRefs [
 (DmPackageRef
 library "ieee"
@@ -15,8 +16,8 @@ libraryRefs [
 "ieee"
 ]
 )
-version "24.1"
-appVersion "2009.2 (Build 10)"
+version "26.1"
+appVersion "2018.1 (Build 12)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
@@ -504,23 +505,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hdl"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds\\block@r@a@m\\symbol.sb.info"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\block@r@a@m\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds\\block@r@a@m\\symbol.sb.user"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\block@r@a@m\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds"
 )
 (vvPair
 variable "appl"
@@ -531,36 +532,44 @@ variable "arch_name"
 value "symbol"
 )
 (vvPair
+variable "asm_file"
+value "beamer.asm"
+)
+(vvPair
 variable "concat_file"
-value "beamer"
+value "concatenated"
 )
 (vvPair
 variable "config"
-value "%(unit)_config"
+value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds\\block@r@a@m"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\block@r@a@m"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds\\blockRAM"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\blockRAM"
 )
 (vvPair
 variable "date"
-value "01.02.2012"
+value "29.04.2019"
 )
 (vvPair
 variable "day"
-value "mer."
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "01"
+value "29"
+)
+(vvPair
+variable "designName"
+value "$DESIGN_NAME"
 )
 (vvPair
 variable "entity_name"
@@ -583,12 +592,32 @@ variable "f_noext"
 value "symbol"
 )
 (vvPair
+variable "graphical_source_author"
+value "johan.chenaux"
+)
+(vvPair
+variable "graphical_source_date"
+value "29.04.2019"
+)
+(vvPair
+variable "graphical_source_group"
+value "UNKNOWN"
+)
+(vvPair
+variable "graphical_source_host"
+value "WEA30906"
+)
+(vvPair
+variable "graphical_source_time"
+value "14:03:08"
+)
+(vvPair
 variable "group"
 value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE3673"
+value "WEA30906"
 )
 (vvPair
 variable "language"
@@ -616,7 +645,7 @@ value "U:\\SEm_curves\\Synthesis"
 )
 (vvPair
 variable "mm"
-value "02"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -624,19 +653,19 @@ value "blockRAM"
 )
 (vvPair
 variable "month"
-value "févr."
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "février"
+value "avril"
 )
 (vvPair
 variable "p"
-value "C:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds\\block@r@a@m\\symbol.sb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\block@r@a@m\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds\\blockRAM\\symbol.sb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\blockRAM\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -644,7 +673,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "hds-beamer"
+value "beamer"
 )
 (vvPair
 variable "series"
@@ -653,6 +682,10 @@ value "HDL Designer Series"
 (vvPair
 variable "task_ADMS"
 value "<TBD>"
+)
+(vvPair
+variable "task_AsmPath"
+value "$HEI_LIBS_DIR\\NanoBlaze\\hdl"
 )
 (vvPair
 variable "task_DesignCompilerPath"
@@ -668,7 +701,7 @@ value "$ISE_HOME"
 )
 (vvPair
 variable "task_ISEPath"
-value "$SCRATCH_DIR\\SEm\\Board\\ise"
+value "$ISE_SCRATCH_WORK_DIR"
 )
 (vvPair
 variable "task_LeonardoPath"
@@ -676,7 +709,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "$MODELSIM_HOME\\win32"
+value "$MODELSIM_HOME"
 )
 (vvPair
 variable "task_NC"
@@ -708,7 +741,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "13:22:18"
+value "14:03:08"
 )
 (vvPair
 variable "unit"
@@ -716,11 +749,11 @@ value "blockRAM"
 )
 (vvPair
 variable "user"
-value "francois"
+value "johan.chenaux"
 )
 (vvPair
 variable "version"
-value "2009.2 (Build 10)"
+value "2018.1 (Build 12)"
 )
 (vvPair
 variable "view"
@@ -728,15 +761,15 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2012"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "12"
+value "19"
 )
 ]
 )
-LanguageMgr "VhdlLangMgr"
+LanguageMgr "Vhdl2008LangMgr"
 uid 51,0
 optionalChildren [
 *71 (SymbolBody
@@ -1106,8 +1139,7 @@ st "Generic Declarations
 
 addressBitNb positive 8              
 dataBitNb    positive 16             
-initFileSpec string   \"ramInit.txt\"  
-"
+initFileSpec string   \"ramInit.txt\"  "
 )
 header "Generic Declarations"
 showHdrWhenContentsEmpty 1
@@ -1160,7 +1192,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,45500,49000"
+xt "36200,48000,46400,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1537,6 +1569,34 @@ visibleHeight 4600
 visibleWidth 14600
 )
 )
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "500,2150,1400,3150"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
+)
+)
 defaultPanel (Panel
 shape (RectFrame
 va (VaSet
@@ -1629,11 +1689,10 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "Verdana,9,0"
 )
-xt "0,750,1800,1950"
+xt "0,750,1400,1750"
 st "In0"
-blo "0,1750"
+blo "0,1550"
 tm "CptPortNameMgr"
 )
 )
@@ -1643,6 +1702,7 @@ font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
+lang 11
 decl (Decl
 n "In0"
 t "std_logic_vector"
@@ -1666,11 +1726,10 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "Verdana,9,0"
 )
-xt "0,750,3600,1950"
+xt "0,750,2800,1750"
 st "Buffer0"
-blo "0,1750"
+blo "0,1550"
 tm "CptPortNameMgr"
 )
 )
@@ -1680,6 +1739,7 @@ font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
+lang 11
 m 3
 decl (Decl
 n "Buffer0"
@@ -1747,6 +1807,6 @@ xt "0,9000,0,9000"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 222,0
+lastUid 245,0
 activeModelName "Symbol"
 )

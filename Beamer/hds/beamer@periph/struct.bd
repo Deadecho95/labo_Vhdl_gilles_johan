@@ -1,6 +1,7 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
+dialect 11
 dmPackageRefs [
 (DmPackageRef
 library "ieee"
@@ -91,8 +92,8 @@ libraryRefs [
 "ieee"
 ]
 )
-version "29.1"
-appVersion "2009.2 (Build 10)"
+version "31.1"
+appVersion "2018.1 (Build 12)"
 noEmbeddedEditors 1
 model (BlockDiag
 VExpander (VariableExpander
@@ -103,23 +104,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hdl"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds\\beamer@periph\\struct.bd.info"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\beamer@periph\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds\\beamer@periph\\struct.bd.user"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\beamer@periph\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds"
 )
 (vvPair
 variable "appl"
@@ -130,36 +131,40 @@ variable "arch_name"
 value "struct"
 )
 (vvPair
+variable "asm_file"
+value "beamer.asm"
+)
+(vvPair
 variable "concat_file"
 value "concatenated"
 )
 (vvPair
 variable "config"
-value "%(unit)_config"
+value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds\\beamer@periph"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\beamer@periph"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds\\beamerPeriph"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\beamerPeriph"
 )
 (vvPair
 variable "date"
-value "26.04.2012"
+value "29.04.2019"
 )
 (vvPair
 variable "day"
-value "jeu."
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "jeudi"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "26"
+value "29"
 )
 (vvPair
 variable "designName"
@@ -186,12 +191,32 @@ variable "f_noext"
 value "struct"
 )
 (vvPair
+variable "graphical_source_author"
+value "johan.chenaux"
+)
+(vvPair
+variable "graphical_source_date"
+value "29.04.2019"
+)
+(vvPair
+variable "graphical_source_group"
+value "UNKNOWN"
+)
+(vvPair
+variable "graphical_source_host"
+value "WEA30906"
+)
+(vvPair
+variable "graphical_source_time"
+value "14:03:13"
+)
+(vvPair
 variable "group"
 value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE3673"
+value "WEA30906"
 )
 (vvPair
 variable "language"
@@ -235,11 +260,11 @@ value "avril"
 )
 (vvPair
 variable "p"
-value "C:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds\\beamer@periph\\struct.bd"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\beamer@periph\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds\\beamerPeriph\\struct.bd"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\beamerPeriph\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -247,7 +272,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "hds-beamer"
+value "beamer"
 )
 (vvPair
 variable "series"
@@ -256,6 +281,10 @@ value "HDL Designer Series"
 (vvPair
 variable "task_ADMS"
 value "<TBD>"
+)
+(vvPair
+variable "task_AsmPath"
+value "$HEI_LIBS_DIR\\NanoBlaze\\hdl"
 )
 (vvPair
 variable "task_DesignCompilerPath"
@@ -271,7 +300,7 @@ value "$ISE_HOME"
 )
 (vvPair
 variable "task_ISEPath"
-value "$SCRATCH_DIR\\$DESIGN_NAME\\$ISE_WORK_DIR"
+value "$ISE_SCRATCH_WORK_DIR"
 )
 (vvPair
 variable "task_LeonardoPath"
@@ -279,7 +308,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "$MODELSIM_HOME\\win32"
+value "$MODELSIM_HOME"
 )
 (vvPair
 variable "task_NC"
@@ -311,7 +340,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "14:20:15"
+value "14:03:13"
 )
 (vvPair
 variable "unit"
@@ -319,11 +348,11 @@ value "beamerPeriph"
 )
 (vvPair
 variable "user"
-value "francois"
+value "johan.chenaux"
 )
 (vvPair
 variable "version"
-value "2009.2 (Build 10)"
+value "2018.1 (Build 12)"
 )
 (vvPair
 variable "view"
@@ -331,15 +360,15 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2012"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "12"
+value "19"
 )
 ]
 )
-LanguageMgr "VhdlLangMgr"
+LanguageMgr "Vhdl2008LangMgr"
 uid 41,0
 optionalChildren [
 *1 (Grouping
@@ -363,7 +392,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "72200,48000,82500,49000"
+xt "72200,48000,84200,49000"
 st "
 by %user on %dd %month %year
 "
@@ -715,8 +744,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,29000,17000,29800"
-st "outX           : std_ulogic
-"
+st "outX           : std_ulogic"
 )
 )
 *14 (PortIoOut
@@ -777,8 +805,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,31400,17000,32200"
-st "outY           : std_ulogic
-"
+st "outY           : std_ulogic"
 )
 )
 *16 (PortIoIn
@@ -839,8 +866,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,33000,17000,33800"
-st "selSinCos      : std_ulogic
-"
+st "selSinCos      : std_ulogic"
 )
 )
 *18 (PortIoIn
@@ -902,8 +928,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,29800,19500,30600"
-st "apbi           : apb_slv_in_type
-"
+st "apbi           : apb_slv_in_type"
 )
 )
 *20 (PortIoOut
@@ -965,8 +990,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,32200,20000,33000"
-st "apbo           : apb_slv_out_type
-"
+st "apbo           : apb_slv_out_type"
 )
 )
 *22 (PortIoIn
@@ -1028,8 +1052,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,30600,17000,31400"
-st "reset_n        : std_ulogic
-"
+st "reset_n        : std_ulogic"
 )
 )
 *24 (Net
@@ -1046,8 +1069,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,33800,17000,34600"
-st "clock          : std_ulogic
-"
+st "clock          : std_ulogic"
 )
 )
 *25 (PortIoIn
@@ -1178,8 +1200,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,39800,20500,40600"
-st "SIGNAL reset          : std_ulogic
-"
+st "SIGNAL reset          : std_ulogic"
 )
 )
 *31 (Net
@@ -1196,8 +1217,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,40600,20500,41400"
-st "SIGNAL run            : std_ulogic
-"
+st "SIGNAL run            : std_ulogic"
 )
 )
 *32 (Net
@@ -1214,8 +1234,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,41400,20500,42200"
-st "SIGNAL interpolateLin : std_ulogic
-"
+st "SIGNAL interpolateLin : std_ulogic"
 )
 )
 *33 (Net
@@ -1233,8 +1252,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,42200,35000,43000"
-st "SIGNAL updatePeriod   : unsigned(updatePeriodBitNb-1 DOWNTO 0)
-"
+st "SIGNAL updatePeriod   : unsigned(updatePeriodBitNb-1 DOWNTO 0)"
 )
 )
 *34 (Net
@@ -1252,8 +1270,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,43000,36500,43800"
-st "SIGNAL memX           : std_ulogic_vector(signalBitNb-1 DOWNTO 0)
-"
+st "SIGNAL memX           : std_ulogic_vector(signalBitNb-1 DOWNTO 0)"
 )
 )
 *35 (Net
@@ -1271,8 +1288,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,43800,36500,44600"
-st "SIGNAL memY           : std_ulogic_vector(signalBitNb-1 DOWNTO 0)
-"
+st "SIGNAL memY           : std_ulogic_vector(signalBitNb-1 DOWNTO 0)"
 )
 )
 *36 (Net
@@ -1290,8 +1306,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,34600,30500,35400"
-st "testOut        : std_ulogic_vector(1 TO testOutBitNb)
-"
+st "testOut        : std_ulogic_vector(1 TO testOutBitNb)"
 )
 )
 *37 (PortIoOut
@@ -1911,8 +1926,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,44600,20500,45400"
-st "SIGNAL newPolynom     : std_ulogic
-"
+st "SIGNAL newPolynom     : std_ulogic"
 )
 )
 *58 (SaComponent
@@ -3225,7 +3239,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-25000"
-lastUid 16495,0
+lastUid 16557,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -3248,6 +3262,34 @@ tm "CommentText"
 wrapOption 3
 visibleHeight 4600
 visibleWidth 14600
+)
+)
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "500,2150,1400,3150"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
 )
 )
 defaultPanel (Panel

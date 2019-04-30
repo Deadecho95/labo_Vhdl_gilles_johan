@@ -1,11 +1,12 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
+dialect 11
 dmPackageRefs [
 ]
 )
-version "24.1"
-appVersion "2009.2 (Build 10)"
+version "26.1"
+appVersion "2018.1 (Build 12)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
@@ -329,23 +330,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hdl"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds\\ahb@uart_tb\\symbol.sb.info"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ahb@uart_tb\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds\\ahb@uart_tb\\symbol.sb.user"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ahb@uart_tb\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -369,27 +370,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds\\ahb@uart_tb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ahb@uart_tb"
 )
 (vvPair
 variable "d_logical"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds\\ahbUart_tb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ahbUart_tb"
 )
 (vvPair
 variable "date"
-value "20.05.2015"
+value "29.04.2019"
 )
 (vvPair
 variable "day"
-value "mer."
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "20"
+value "29"
 )
 (vvPair
 variable "designName"
@@ -416,12 +417,32 @@ variable "f_noext"
 value "symbol"
 )
 (vvPair
+variable "graphical_source_author"
+value "johan.chenaux"
+)
+(vvPair
+variable "graphical_source_date"
+value "29.04.2019"
+)
+(vvPair
+variable "graphical_source_group"
+value "UNKNOWN"
+)
+(vvPair
+variable "graphical_source_host"
+value "WEA30906"
+)
+(vvPair
+variable "graphical_source_time"
+value "14:02:50"
+)
+(vvPair
 variable "group"
 value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE3673"
+value "WEA30906"
 )
 (vvPair
 variable "language"
@@ -441,7 +462,7 @@ value "$SCRATCH_DIR/Libs/AhbLiteComponents_test/work"
 )
 (vvPair
 variable "mm"
-value "05"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -449,19 +470,19 @@ value "ahbUart_tb"
 )
 (vvPair
 variable "month"
-value "mai"
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "mai"
+value "avril"
 )
 (vvPair
 variable "p"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds\\ahb@uart_tb\\symbol.sb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ahb@uart_tb\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds\\ahbUart_tb\\symbol.sb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\ahbUart_tb\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -469,7 +490,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "hds-beamer"
+value "beamer"
 )
 (vvPair
 variable "series"
@@ -477,7 +498,7 @@ value "HDL Designer Series"
 )
 (vvPair
 variable "task_AsmPath"
-value "$HDS_LIBS_DIR\\NanoBlaze\\hdl"
+value "$HEI_LIBS_DIR\\NanoBlaze\\hdl"
 )
 (vvPair
 variable "task_DesignCompilerPath"
@@ -501,7 +522,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "$MODELSIM_HOME\\win32"
+value "$MODELSIM_HOME"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -533,7 +554,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "10:09:17"
+value "14:02:50"
 )
 (vvPair
 variable "unit"
@@ -541,11 +562,11 @@ value "ahbUart_tb"
 )
 (vvPair
 variable "user"
-value "francois"
+value "johan.chenaux"
 )
 (vvPair
 variable "version"
-value "2009.2 (Build 10)"
+value "2018.1 (Build 12)"
 )
 (vvPair
 variable "view"
@@ -553,15 +574,15 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2015"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "15"
+value "19"
 )
 ]
 )
-LanguageMgr "VhdlLangMgr"
+LanguageMgr "Vhdl2008LangMgr"
 uid 51,0
 optionalChildren [
 *51 (SymbolBody
@@ -1018,6 +1039,34 @@ visibleHeight 4600
 visibleWidth 14600
 )
 )
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "500,2150,1400,3150"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
+)
+)
 defaultPanel (Panel
 shape (RectFrame
 va (VaSet
@@ -1108,30 +1157,22 @@ stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
 )
-xt "0,750,1000,1750"
+xt "0,750,1400,1750"
 st "In0"
 blo "0,1550"
 tm "CptPortNameMgr"
 )
-s (Text
-va (VaSet
-isHidden 1
-)
-xt "0,1750,10100,2750"
-st "unsigned(15 DOWNTO 0)"
-blo "0,2550"
-tm "CptPortTypeMgr"
-)
 )
 dt (MLText
 va (VaSet
-font "Courier New,10,0"
+font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
+lang 11
 decl (Decl
 n "In0"
-t "unsigned"
+t "std_logic_vector"
 b "(15 DOWNTO 0)"
 o 0
 )
@@ -1153,31 +1194,23 @@ stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
 )
-xt "0,750,2400,1750"
+xt "0,750,2800,1750"
 st "Buffer0"
 blo "0,1550"
 tm "CptPortNameMgr"
 )
-s (Text
-va (VaSet
-isHidden 1
-)
-xt "0,1750,10100,2750"
-st "unsigned(15 DOWNTO 0)"
-blo "0,2550"
-tm "CptPortTypeMgr"
-)
 )
 dt (MLText
 va (VaSet
-font "Courier New,10,0"
+font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
+lang 11
 m 3
 decl (Decl
 n "Buffer0"
-t "unsigned"
+t "std_logic_vector"
 b "(15 DOWNTO 0)"
 o 0
 )
@@ -1241,5 +1274,7 @@ xt "0,3400,0,3400"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 159,0
+lastUid 182,0
+okToSyncOnLoad 1
+OkToSyncGenericsOnLoad 1
 )

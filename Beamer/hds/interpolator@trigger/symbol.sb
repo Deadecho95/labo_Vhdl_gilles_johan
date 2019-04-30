@@ -1,6 +1,7 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
+dialect 11
 dmPackageRefs [
 (DmPackageRef
 library "ieee"
@@ -15,8 +16,8 @@ libraryRefs [
 "ieee"
 ]
 )
-version "24.1"
-appVersion "2007.1a (Build 13)"
+version "26.1"
+appVersion "2018.1 (Build 12)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
@@ -422,23 +423,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "U:\\SEm_labs\\Prefs\\..\\Beamer\\hdl"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "U:\\SEm_labs\\Prefs\\..\\Beamer\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "U:\\SEm_labs\\Prefs\\..\\Beamer\\hds\\interpolator@trigger\\symbol.sb.info"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\interpolator@trigger\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "U:\\SEm_labs\\Prefs\\..\\Beamer\\hds\\interpolator@trigger\\symbol.sb.user"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\interpolator@trigger\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "U:\\SEm_labs\\Prefs\\..\\Beamer\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds"
 )
 (vvPair
 variable "appl"
@@ -449,24 +450,28 @@ variable "arch_name"
 value "symbol"
 )
 (vvPair
+variable "asm_file"
+value "beamer.asm"
+)
+(vvPair
 variable "concat_file"
-value "chronometer"
+value "concatenated"
 )
 (vvPair
 variable "config"
-value "%(unit)_config"
+value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "U:\\SEm_labs\\Prefs\\..\\Beamer\\hds\\interpolator@trigger"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\interpolator@trigger"
 )
 (vvPair
 variable "d_logical"
-value "U:\\SEm_labs\\Prefs\\..\\Beamer\\hds\\interpolatorTrigger"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\interpolatorTrigger"
 )
 (vvPair
 variable "date"
-value "25.01.2010"
+value "29.04.2019"
 )
 (vvPair
 variable "day"
@@ -478,7 +483,11 @@ value "lundi"
 )
 (vvPair
 variable "dd"
-value "25"
+value "29"
+)
+(vvPair
+variable "designName"
+value "$DESIGN_NAME"
 )
 (vvPair
 variable "entity_name"
@@ -501,12 +510,32 @@ variable "f_noext"
 value "symbol"
 )
 (vvPair
+variable "graphical_source_author"
+value "johan.chenaux"
+)
+(vvPair
+variable "graphical_source_date"
+value "29.04.2019"
+)
+(vvPair
+variable "graphical_source_group"
+value "UNKNOWN"
+)
+(vvPair
+variable "graphical_source_host"
+value "WEA30906"
+)
+(vvPair
+variable "graphical_source_time"
+value "14:03:07"
+)
+(vvPair
 variable "group"
 value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE3195"
+value "WEA30906"
 )
 (vvPair
 variable "language"
@@ -526,7 +555,7 @@ value "D:\\Users\\ELN_labs\\VHDL_comp"
 )
 (vvPair
 variable "library_downstream_ModelSimCompiler"
-value "D:/Labs/Sem/Beamer/work"
+value "$SCRATCH_DIR/SEm/Beamer/work"
 )
 (vvPair
 variable "library_downstream_SpyGlass"
@@ -534,7 +563,7 @@ value "U:\\SEm_curves\\Synthesis"
 )
 (vvPair
 variable "mm"
-value "01"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -542,19 +571,19 @@ value "interpolatorTrigger"
 )
 (vvPair
 variable "month"
-value "janv."
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "janvier"
+value "avril"
 )
 (vvPair
 variable "p"
-value "U:\\SEm_labs\\Prefs\\..\\Beamer\\hds\\interpolator@trigger\\symbol.sb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\interpolator@trigger\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "U:\\SEm_labs\\Prefs\\..\\Beamer\\hds\\interpolatorTrigger\\symbol.sb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\interpolatorTrigger\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -562,7 +591,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "hds"
+value "beamer"
 )
 (vvPair
 variable "series"
@@ -573,12 +602,24 @@ variable "task_ADMS"
 value "<TBD>"
 )
 (vvPair
+variable "task_AsmPath"
+value "$HEI_LIBS_DIR\\NanoBlaze\\hdl"
+)
+(vvPair
 variable "task_DesignCompilerPath"
 value "<TBD>"
 )
 (vvPair
+variable "task_HDSPath"
+value "$HDS_HOME"
+)
+(vvPair
+variable "task_ISEBinPath"
+value "$ISE_HOME"
+)
+(vvPair
 variable "task_ISEPath"
-value "D:\\Labs\\ElN\\Chronometer\\Board\\ise"
+value "$ISE_SCRATCH_WORK_DIR"
 )
 (vvPair
 variable "task_LeonardoPath"
@@ -586,7 +627,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "C:\\EDA\\Modelsim\\win32"
+value "$MODELSIM_HOME"
 )
 (vvPair
 variable "task_NC"
@@ -618,7 +659,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "15:56:34"
+value "14:03:07"
 )
 (vvPair
 variable "unit"
@@ -626,11 +667,11 @@ value "interpolatorTrigger"
 )
 (vvPair
 variable "user"
-value "cof"
+value "johan.chenaux"
 )
 (vvPair
 variable "version"
-value "2007.1a (Build 13)"
+value "2018.1 (Build 12)"
 )
 (vvPair
 variable "view"
@@ -638,15 +679,15 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2010"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "10"
+value "19"
 )
 ]
 )
-LanguageMgr "VhdlLangMgr"
+LanguageMgr "Vhdl2008LangMgr"
 uid 51,0
 optionalChildren [
 *61 (SymbolBody
@@ -923,7 +964,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,45500,49000"
+xt "36200,48000,48200,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1300,6 +1341,34 @@ visibleHeight 4600
 visibleWidth 14600
 )
 )
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "500,2150,1400,3150"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
+)
+)
 defaultPanel (Panel
 shape (RectFrame
 va (VaSet
@@ -1392,11 +1461,10 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "Verdana,9,0"
 )
-xt "0,750,1800,1950"
+xt "0,750,1400,1750"
 st "In0"
-blo "0,1750"
+blo "0,1550"
 tm "CptPortNameMgr"
 )
 )
@@ -1406,6 +1474,7 @@ font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
+lang 11
 decl (Decl
 n "In0"
 t "std_logic_vector"
@@ -1429,11 +1498,10 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "Verdana,9,0"
 )
-xt "0,750,3600,1950"
+xt "0,750,2800,1750"
 st "Buffer0"
-blo "0,1750"
+blo "0,1550"
 tm "CptPortNameMgr"
 )
 )
@@ -1443,6 +1511,7 @@ font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
+lang 11
 m 3
 decl (Decl
 n "Buffer0"
@@ -1510,6 +1579,6 @@ xt "0,9000,0,9000"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 166,0
+lastUid 212,0
 activeModelName "Symbol"
 )

@@ -9,220 +9,287 @@ VIEW struct.bd
 NO_GRAPHIC 14
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 0,0 18 2 
+GRAPHIC 0,0 19 2 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 1,0 21 0 
+GRAPHIC 1,0 22 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-NO_GRAPHIC 21
+NO_GRAPHIC 22
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12627,0 25 0 
+GRAPHIC 13892,0 29 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12563,0 26 0 
+GRAPHIC 12627,0 30 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12587,0 27 0 
+GRAPHIC 12563,0 31 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12579,0 28 0 
+GRAPHIC 12587,0 32 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12555,0 29 0 
+GRAPHIC 12579,0 33 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12571,0 30 0 
+GRAPHIC 12555,0 34 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12595,0 31 0 
+GRAPHIC 12571,0 35 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12611,0 32 0 
+GRAPHIC 12595,0 36 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12619,0 33 0 
+GRAPHIC 12611,0 37 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12603,0 34 0 
+GRAPHIC 12619,0 38 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 13645,0 35 0 
+GRAPHIC 12603,0 39 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 13637,0 36 0 
+GRAPHIC 13922,0 40 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 13629,0 37 0 
+GRAPHIC 13924,0 41 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-NO_GRAPHIC 38
+GRAPHIC 13645,0 42 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-NO_GRAPHIC 39
+GRAPHIC 13637,0 43 0 
+DESIGN ahb@beamer_tb
+VIEW struct.bd
+GRAPHIC 13896,0 44 0 
+DESIGN ahb@beamer_tb
+VIEW struct.bd
+GRAPHIC 13629,0 45 0 
+DESIGN ahb@beamer_tb
+VIEW struct.bd
+NO_GRAPHIC 46
+DESIGN ahb@beamer_tb
+VIEW struct.bd
+NO_GRAPHIC 47
 LIBRARY Beamer
 DESIGN ahb@beamer
 VIEW struct
-GRAPHIC 13781,0 41 0 
+GRAPHIC 13781,0 49 0 
 DESIGN ahb@beamer
 VIEW symbol.sb
-GRAPHIC 14,0 42 1 
+GRAPHIC 14,0 50 1 
 DESIGN ahb@beamer
 VIEW symbol.sb
-GRAPHIC 67,0 47 0 
+GRAPHIC 67,0 55 0 
 DESIGN ahb@beamer
 VIEW symbol.sb
-GRAPHIC 57,0 48 0 
+GRAPHIC 57,0 56 0 
 DESIGN ahb@beamer
 VIEW symbol.sb
-GRAPHIC 82,0 49 0 
+GRAPHIC 82,0 57 0 
 DESIGN ahb@beamer
 VIEW symbol.sb
-GRAPHIC 113,0 50 0 
+GRAPHIC 113,0 58 0 
 DESIGN ahb@beamer
 VIEW symbol.sb
-GRAPHIC 125,0 51 0 
+GRAPHIC 125,0 59 0 
 DESIGN ahb@beamer
 VIEW symbol.sb
-GRAPHIC 549,0 52 0 
+GRAPHIC 549,0 60 0 
 DESIGN ahb@beamer
 VIEW symbol.sb
-GRAPHIC 715,0 53 0 
+GRAPHIC 715,0 61 0 
 DESIGN ahb@beamer
 VIEW symbol.sb
-GRAPHIC 720,0 54 0 
+GRAPHIC 720,0 62 0 
 DESIGN ahb@beamer
 VIEW symbol.sb
-GRAPHIC 725,0 55 0 
+GRAPHIC 725,0 63 0 
 DESIGN ahb@beamer
 VIEW symbol.sb
-GRAPHIC 730,0 56 0 
+GRAPHIC 730,0 64 0 
 DESIGN ahb@beamer
 VIEW symbol.sb
-GRAPHIC 735,0 57 0 
+GRAPHIC 735,0 65 0 
 DESIGN ahb@beamer
 VIEW symbol.sb
-GRAPHIC 740,0 58 0 
+GRAPHIC 740,0 66 0 
 DESIGN ahb@beamer
 VIEW symbol.sb
-GRAPHIC 52,0 59 0 
+GRAPHIC 52,0 67 0 
 DESIGN ahb@beamer
 VIEW symbol.sb
-GRAPHIC 76,0 60 0 
+GRAPHIC 76,0 68 0 
 LIBRARY Beamer_test
-DESIGN ahb@beamert_tester
+DESIGN ahb@beamer_tester
 VIEW test
-GRAPHIC 12657,0 63 0 
-DESIGN ahb@beamert_tester
+GRAPHIC 12657,0 71 0 
+DESIGN ahb@beamer_tester
 VIEW interface
-GRAPHIC 14,0 64 1 
+GRAPHIC 14,0 72 1 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12589,0 68 0 
+GRAPHIC 12589,0 77 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12581,0 69 0 
+GRAPHIC 12581,0 78 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12573,0 70 0 
+GRAPHIC 12573,0 79 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 13647,0 71 0 
+GRAPHIC 13908,0 80 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 13639,0 72 0 
+GRAPHIC 13647,0 81 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12629,0 73 0 
+GRAPHIC 13639,0 82 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12565,0 74 0 
+GRAPHIC 13880,0 83 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12557,0 75 0 
+GRAPHIC 12629,0 84 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12597,0 76 0 
+GRAPHIC 12565,0 85 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12613,0 77 0 
+GRAPHIC 12557,0 86 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12621,0 78 0 
+GRAPHIC 12597,0 87 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12605,0 79 0 
+GRAPHIC 12613,0 88 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 13631,0 80 0 
+GRAPHIC 12621,0 89 0 
+DESIGN ahb@beamer_tb
+VIEW struct.bd
+GRAPHIC 12605,0 90 0 
+DESIGN ahb@beamer_tb
+VIEW struct.bd
+GRAPHIC 13886,0 91 0 
+DESIGN ahb@beamer_tb
+VIEW struct.bd
+GRAPHIC 13631,0 92 0 
+LIBRARY WaveformGenerator
+DESIGN lowpass
+VIEW student@version
+GRAPHIC 13849,0 95 0 
+DESIGN lowpass
+VIEW symbol.sb
+GRAPHIC 14,0 96 1 
+DESIGN lowpass
+VIEW symbol.sb
+GRAPHIC 57,0 101 0 
+DESIGN lowpass
+VIEW symbol.sb
+GRAPHIC 52,0 102 0 
+DESIGN lowpass
+VIEW symbol.sb
+GRAPHIC 76,0 103 0 
+DESIGN lowpass
+VIEW symbol.sb
+GRAPHIC 83,0 104 0 
 LIBRARY Beamer_test
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-NO_GRAPHIC 83
+NO_GRAPHIC 107
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 13781,0 86 0 
+GRAPHIC 13781,0 110 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12657,0 87 0 
+GRAPHIC 12657,0 111 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-NO_GRAPHIC 90
+GRAPHIC 13849,0 112 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-NO_GRAPHIC 92
+NO_GRAPHIC 115
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 13781,0 94 0 
+GRAPHIC 13840,0 118 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 13788,0 95 1 
+NO_GRAPHIC 120
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 13647,0 100 0 
+NO_GRAPHIC 121
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12629,0 101 0 
+GRAPHIC 13781,0 123 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 13639,0 102 0 
+GRAPHIC 13788,0 124 1 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12621,0 103 0 
+GRAPHIC 13647,0 129 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 13631,0 104 0 
+GRAPHIC 12629,0 130 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12589,0 106 0 
+GRAPHIC 13639,0 131 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12613,0 107 0 
+GRAPHIC 12621,0 132 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12605,0 108 0 
+GRAPHIC 13631,0 133 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12597,0 109 0 
+GRAPHIC 12589,0 135 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12581,0 110 0 
+GRAPHIC 12613,0 136 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12573,0 111 0 
+GRAPHIC 12605,0 137 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12565,0 112 0 
+GRAPHIC 12597,0 138 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12557,0 113 0 
+GRAPHIC 12581,0 139 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12657,0 115 0 
+GRAPHIC 12573,0 140 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-GRAPHIC 12664,0 116 1 
+GRAPHIC 12565,0 141 0 
 DESIGN ahb@beamer_tb
 VIEW struct.bd
-NO_GRAPHIC 135
+GRAPHIC 12557,0 142 0 
+DESIGN ahb@beamer_tb
+VIEW struct.bd
+GRAPHIC 12657,0 144 0 
+DESIGN ahb@beamer_tb
+VIEW struct.bd
+GRAPHIC 12664,0 145 1 
+DESIGN ahb@beamer_tb
+VIEW struct.bd
+GRAPHIC 13849,0 167 0 
+DESIGN ahb@beamer_tb
+VIEW struct.bd
+GRAPHIC 13856,0 168 1 
+DESIGN ahb@beamer_tb
+VIEW struct.bd
+GRAPHIC 13908,0 173 0 
+DESIGN ahb@beamer_tb
+VIEW struct.bd
+GRAPHIC 13880,0 174 0 
+DESIGN ahb@beamer_tb
+VIEW struct.bd
+GRAPHIC 13886,0 175 0 
+DESIGN ahb@beamer_tb
+VIEW struct.bd
+GRAPHIC 13874,0 176 0 
+DESIGN ahb@beamer_tb
+VIEW struct.bd
+NO_GRAPHIC 179

@@ -1,6 +1,7 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
+dialect 10
 dmPackageRefs [
 (DmPackageRef
 library "ieee"
@@ -186,8 +187,8 @@ libraryRefs [
 "ieee"
 ]
 )
-version "29.1"
-appVersion "2009.2 (Build 10)"
+version "31.1"
+appVersion "2018.1 (Build 12)"
 noEmbeddedEditors 1
 model (BlockDiag
 VExpander (VariableExpander
@@ -198,23 +199,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "D:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hdl"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "D:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "D:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds\\ahb@beamer@registers\\struct.bd.info"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\ahb@beamer@registers\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "D:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds\\ahb@beamer@registers\\struct.bd.user"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\ahb@beamer@registers\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "D:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds"
 )
 (vvPair
 variable "appl"
@@ -238,27 +239,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "D:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds\\ahb@beamer@registers"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\ahb@beamer@registers"
 )
 (vvPair
 variable "d_logical"
-value "D:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds\\ahbBeamerRegisters"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\ahbBeamerRegisters"
 )
 (vvPair
 variable "date"
-value "20.03.2015"
+value "29.04.2019"
 )
 (vvPair
 variable "day"
-value "ven."
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "vendredi"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "20"
+value "29"
 )
 (vvPair
 variable "designName"
@@ -285,12 +286,32 @@ variable "f_noext"
 value "struct"
 )
 (vvPair
+variable "graphical_source_author"
+value "johan.chenaux"
+)
+(vvPair
+variable "graphical_source_date"
+value "29.04.2019"
+)
+(vvPair
+variable "graphical_source_group"
+value "UNKNOWN"
+)
+(vvPair
+variable "graphical_source_host"
+value "WEA30906"
+)
+(vvPair
+variable "graphical_source_time"
+value "14:01:31"
+)
+(vvPair
 variable "group"
 value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE3673"
+value "WEA30906"
 )
 (vvPair
 variable "language"
@@ -318,7 +339,7 @@ value "U:\\SEm_curves\\Synthesis"
 )
 (vvPair
 variable "mm"
-value "03"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -326,19 +347,19 @@ value "ahbBeamerRegisters"
 )
 (vvPair
 variable "month"
-value "mars"
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "mars"
+value "avril"
 )
 (vvPair
 variable "p"
-value "D:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds\\ahb@beamer@registers\\struct.bd"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\ahb@beamer@registers\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "D:\\Labs\\SEm_labs\\Prefs\\..\\Beamer\\hds\\ahbBeamerRegisters\\struct.bd"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer\\hds\\ahbBeamerRegisters\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -346,7 +367,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "hds-beamer"
+value "beamer"
 )
 (vvPair
 variable "series"
@@ -355,6 +376,10 @@ value "HDL Designer Series"
 (vvPair
 variable "task_ADMS"
 value "<TBD>"
+)
+(vvPair
+variable "task_AsmPath"
+value "$HEI_LIBS_DIR\\NanoBlaze\\hdl"
 )
 (vvPair
 variable "task_DesignCompilerPath"
@@ -378,7 +403,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "$MODELSIM_HOME\\win32"
+value "$MODELSIM_HOME"
 )
 (vvPair
 variable "task_NC"
@@ -410,7 +435,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:47:54"
+value "14:01:31"
 )
 (vvPair
 variable "unit"
@@ -418,11 +443,11 @@ value "ahbBeamerRegisters"
 )
 (vvPair
 variable "user"
-value "francois"
+value "johan.chenaux"
 )
 (vvPair
 variable "version"
-value "2009.2 (Build 10)"
+value "2018.1 (Build 12)"
 )
 (vvPair
 variable "view"
@@ -430,15 +455,15 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2015"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "15"
+value "19"
 )
 ]
 )
-LanguageMgr "VhdlLangMgr"
+LanguageMgr "Vhdl2002LangMgr"
 uid 41,0
 optionalChildren [
 *1 (Grouping
@@ -462,7 +487,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "110200,197000,120700,198000"
+xt "110200,197000,122200,198000"
 st "
 by %user on %dd %month %year
 "
@@ -2187,16 +2212,16 @@ optionalChildren [
 uid 14859,0
 sl 0
 ro 270
-xt "109750,41625,111250,42375"
+xt "118750,41625,120250,42375"
 )
 (Line
 uid 14860,0
 sl 0
 ro 270
-xt "109250,42000,109750,42000"
+xt "118250,42000,118750,42000"
 pts [
-"109250,42000"
-"109750,42000"
+"118250,42000"
+"118750,42000"
 ]
 )
 ]
@@ -2211,9 +2236,9 @@ va (VaSet
 isHidden 1
 font "Verdana,12,0"
 )
-xt "112000,41300,114900,42700"
+xt "121000,41300,123900,42700"
 st "run"
-blo "112000,42500"
+blo "121000,42500"
 tm "WireNameMgr"
 )
 )
@@ -2275,16 +2300,16 @@ optionalChildren [
 uid 14871,0
 sl 0
 ro 270
-xt "109500,43625,111000,44375"
+xt "118500,43625,120000,44375"
 )
 (Line
 uid 14872,0
 sl 0
 ro 270
-xt "109000,44000,109500,44000"
+xt "118000,44000,118500,44000"
 pts [
-"109000,44000"
-"109500,44000"
+"118000,44000"
+"118500,44000"
 ]
 )
 ]
@@ -2299,9 +2324,9 @@ va (VaSet
 isHidden 1
 font "Verdana,12,0"
 )
-xt "112000,43300,122300,44700"
+xt "121000,43300,131300,44700"
 st "interpolateLin"
-blo "112000,44500"
+blo "121000,44500"
 tm "WireNameMgr"
 )
 )
@@ -6026,10 +6051,10 @@ uid 1351,0
 va (VaSet
 vasetType 3
 )
-xt "104000,42000,109250,42000"
+xt "113000,42000,118250,42000"
 pts [
-"104000,42000"
-"109250,42000"
+"113000,42000"
+"118250,42000"
 ]
 )
 end &69
@@ -6048,9 +6073,9 @@ uid 1355,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "106000,40600,108900,42000"
+xt "115000,40600,117900,42000"
 st "run"
-blo "106000,41800"
+blo "115000,41800"
 tm "WireNameMgr"
 )
 )
@@ -7811,10 +7836,10 @@ uid 8151,0
 va (VaSet
 vasetType 3
 )
-xt "104000,44000,109000,44000"
+xt "113000,44000,118000,44000"
 pts [
-"104000,44000"
-"109000,44000"
+"113000,44000"
+"118000,44000"
 ]
 )
 end &71
@@ -7833,9 +7858,9 @@ uid 8155,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "101000,42600,111300,44000"
+xt "110000,42600,120300,44000"
 st "interpolateLin"
-blo "101000,43800"
+blo "110000,43800"
 tm "WireNameMgr"
 )
 )
@@ -8706,8 +8731,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "109,34,1364,891"
-viewArea "-227,-510,146599,101105"
+windowSize "-7,0,967,1057"
+viewArea "86200,33933,156025,110360"
 cachedDiagramExtent "-7900,0,166900,198000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\ipp://ippsion.hevs.ch\\PREA309_HPLJ3005DN,winspool,"
@@ -8731,7 +8756,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 20703,0
+lastUid 20973,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -8754,6 +8779,34 @@ tm "CommentText"
 wrapOption 3
 visibleHeight 4600
 visibleWidth 14600
+)
+)
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "500,2150,1400,3150"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
 )
 )
 defaultPanel (Panel

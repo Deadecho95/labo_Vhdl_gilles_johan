@@ -1,6 +1,7 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
+dialect 11
 dmPackageRefs [
 (DmPackageRef
 library "ieee"
@@ -78,31 +79,31 @@ libraryRefs [
 "AhbLite"
 ]
 )
-version "29.1"
-appVersion "2009.2 (Build 10)"
+version "31.1"
+appVersion "2018.1 (Build 12)"
 noEmbeddedEditors 1
 model (BlockDiag
 VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hdl"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds\\uvm@ahb@agent@hw\\struct.bd.info"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\uvm@ahb@agent@hw\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds\\uvm@ahb@agent@hw\\struct.bd.user"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\uvm@ahb@agent@hw\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -126,27 +127,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds\\uvm@ahb@agent@hw"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\uvm@ahb@agent@hw"
 )
 (vvPair
 variable "d_logical"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds\\uvmAhbAgentHw"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\uvmAhbAgentHw"
 )
 (vvPair
 variable "date"
-value "18.06.2015"
+value "29.04.2019"
 )
 (vvPair
 variable "day"
-value "jeu."
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "jeudi"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "18"
+value "29"
 )
 (vvPair
 variable "designName"
@@ -173,12 +174,32 @@ variable "f_noext"
 value "struct"
 )
 (vvPair
+variable "graphical_source_author"
+value "johan.chenaux"
+)
+(vvPair
+variable "graphical_source_date"
+value "29.04.2019"
+)
+(vvPair
+variable "graphical_source_group"
+value "UNKNOWN"
+)
+(vvPair
+variable "graphical_source_host"
+value "WEA30906"
+)
+(vvPair
+variable "graphical_source_time"
+value "14:02:53"
+)
+(vvPair
 variable "group"
 value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE3673"
+value "WEA30906"
 )
 (vvPair
 variable "language"
@@ -194,7 +215,7 @@ value "$SCRATCH_DIR/Libs/AhbLiteComponents_test/work"
 )
 (vvPair
 variable "mm"
-value "06"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -202,19 +223,19 @@ value "uvmAhbAgentHw"
 )
 (vvPair
 variable "month"
-value "juin"
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "juin"
+value "avril"
 )
 (vvPair
 variable "p"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds\\uvm@ahb@agent@hw\\struct.bd"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\uvm@ahb@agent@hw\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds\\uvmAhbAgentHw\\struct.bd"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\uvmAhbAgentHw\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -222,7 +243,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "hds-beamer"
+value "beamer"
 )
 (vvPair
 variable "series"
@@ -230,7 +251,7 @@ value "HDL Designer Series"
 )
 (vvPair
 variable "task_AsmPath"
-value "$HDS_LIBS_DIR\\NanoBlaze\\hdl"
+value "$HEI_LIBS_DIR\\NanoBlaze\\hdl"
 )
 (vvPair
 variable "task_HDSPath"
@@ -246,7 +267,7 @@ value "$ISE_SCRATCH_WORK_DIR"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "$MODELSIM_HOME\\win32"
+value "$MODELSIM_HOME"
 )
 (vvPair
 variable "this_ext"
@@ -262,7 +283,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "10:40:52"
+value "14:02:53"
 )
 (vvPair
 variable "unit"
@@ -270,11 +291,11 @@ value "uvmAhbAgentHw"
 )
 (vvPair
 variable "user"
-value "francois"
+value "johan.chenaux"
 )
 (vvPair
 variable "version"
-value "2009.2 (Build 10)"
+value "2018.1 (Build 12)"
 )
 (vvPair
 variable "view"
@@ -282,15 +303,15 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2015"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "15"
+value "19"
 )
 ]
 )
-LanguageMgr "VhdlLangMgr"
+LanguageMgr "Vhdl2008LangMgr"
 uid 52,0
 optionalChildren [
 *1 (Grouping
@@ -945,8 +966,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,21800,33500,22600"
-st "hAddr              : unsigned( ahbAddressBitNb-1 DOWNTO 0 )
-"
+st "hAddr              : unsigned( ahbAddressBitNb-1 DOWNTO 0 )"
 )
 )
 *24 (PortIoIn
@@ -1009,8 +1029,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,18600,35500,19400"
-st "hRData             : std_ulogic_vector(ahbDataBitNb-1 DOWNTO 0)
-"
+st "hRData             : std_ulogic_vector(ahbDataBitNb-1 DOWNTO 0)"
 )
 )
 *26 (PortIoIn
@@ -1072,8 +1091,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,19400,19000,20200"
-st "hReady             : std_uLogic
-"
+st "hReady             : std_uLogic"
 )
 )
 *28 (PortIoIn
@@ -1135,8 +1153,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,20200,19000,21000"
-st "hResp              : std_uLogic
-"
+st "hResp              : std_uLogic"
 )
 )
 *30 (PortIoOut
@@ -1198,8 +1215,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,24200,19000,25000"
-st "hSel               : std_uLogic
-"
+st "hSel               : std_uLogic"
 )
 )
 *32 (PortIoOut
@@ -1262,8 +1278,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,25000,36000,25800"
-st "hTrans             : std_ulogic_vector(ahbTransBitNb-1 DOWNTO 0)
-"
+st "hTrans             : std_ulogic_vector(ahbTransBitNb-1 DOWNTO 0)"
 )
 )
 *34 (PortIoOut
@@ -1326,8 +1341,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,25800,35500,26600"
-st "hWData             : std_ulogic_vector(ahbDataBitNb-1 DOWNTO 0)
-"
+st "hWData             : std_ulogic_vector(ahbDataBitNb-1 DOWNTO 0)"
 )
 )
 *36 (PortIoOut
@@ -1389,8 +1403,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,26600,19000,27400"
-st "hWrite             : std_uLogic
-"
+st "hWrite             : std_uLogic"
 )
 )
 *38 (Net
@@ -1408,8 +1421,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,30200,34500,31000"
-st "SIGNAL driverTransaction  : string(1 TO ahbTransactionLength)
-"
+st "SIGNAL driverTransaction  : string(1 TO ahbTransactionLength)"
 )
 )
 *39 (Net
@@ -1427,8 +1439,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,31000,34500,31800"
-st "SIGNAL monitorTransaction : string(1 TO ahbTransactionLength)
-"
+st "SIGNAL monitorTransaction : string(1 TO ahbTransactionLength)"
 )
 )
 *40 (PortIoIn
@@ -1491,8 +1502,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,17800,19000,18600"
-st "clock              : std_ulogic
-"
+st "clock              : std_ulogic"
 )
 )
 *42 (PortIoOut
@@ -1554,8 +1564,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,22600,19000,23400"
-st "hClk               : std_uLogic
-"
+st "hClk               : std_uLogic"
 )
 )
 *44 (PortIoOut
@@ -1617,8 +1626,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,23400,19000,24200"
-st "hReset_n           : std_uLogic
-"
+st "hReset_n           : std_uLogic"
 )
 )
 *46 (PortIoIn
@@ -1681,8 +1689,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,21000,19000,21800"
-st "reset              : std_ulogic
-"
+st "reset              : std_ulogic"
 )
 )
 *48 (SaComponent
@@ -3723,7 +3730,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 1040,0
+lastUid 1067,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -3746,6 +3753,34 @@ tm "CommentText"
 wrapOption 3
 visibleHeight 4600
 visibleWidth 14600
+)
+)
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "500,2150,1400,3150"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
 )
 )
 defaultPanel (Panel

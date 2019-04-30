@@ -1,6 +1,7 @@
 DocumentHdrVersion "1.1"
 Header (DocumentHdr
 version 2
+dialect 11
 dmPackageRefs [
 (DmPackageRef
 library "ieee"
@@ -20,8 +21,8 @@ libraryRefs [
 "AhbLite"
 ]
 )
-version "24.1"
-appVersion "2009.2 (Build 10)"
+version "26.1"
+appVersion "2018.1 (Build 12)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
@@ -537,23 +538,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hdl"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds\\ahb@monitor\\symbol.sb.info"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\uvm@ahb@monitor\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds\\ahb@monitor\\symbol.sb.user"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\uvm@ahb@monitor\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -577,15 +578,15 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds\\ahb@monitor"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\uvm@ahb@monitor"
 )
 (vvPair
 variable "d_logical"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds\\ahbMonitor"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\uvmAhbMonitor"
 )
 (vvPair
 variable "date"
-value "15.06.2015"
+value "29.04.2019"
 )
 (vvPair
 variable "day"
@@ -597,7 +598,7 @@ value "lundi"
 )
 (vvPair
 variable "dd"
-value "15"
+value "29"
 )
 (vvPair
 variable "designName"
@@ -605,7 +606,7 @@ value "$DESIGN_NAME"
 )
 (vvPair
 variable "entity_name"
-value "ahbMonitor"
+value "uvmAhbMonitor"
 )
 (vvPair
 variable "ext"
@@ -624,12 +625,32 @@ variable "f_noext"
 value "symbol"
 )
 (vvPair
+variable "graphical_source_author"
+value "johan.chenaux"
+)
+(vvPair
+variable "graphical_source_date"
+value "29.04.2019"
+)
+(vvPair
+variable "graphical_source_group"
+value "UNKNOWN"
+)
+(vvPair
+variable "graphical_source_host"
+value "WEA30906"
+)
+(vvPair
+variable "graphical_source_time"
+value "14:02:47"
+)
+(vvPair
 variable "group"
 value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE3673"
+value "WEA30906"
 )
 (vvPair
 variable "language"
@@ -665,27 +686,27 @@ value "U:\\ELN_Board\\Synthesis"
 )
 (vvPair
 variable "mm"
-value "06"
+value "04"
 )
 (vvPair
 variable "module_name"
-value "ahbMonitor"
+value "uvmAhbMonitor"
 )
 (vvPair
 variable "month"
-value "juin"
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "juin"
+value "avril"
 )
 (vvPair
 variable "p"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds\\ahb@monitor\\symbol.sb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\uvm@ahb@monitor\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "D:\\Labs\\SEm_labs\\..\\Libs\\AhbLiteComponents_test\\hds\\ahbMonitor\\symbol.sb"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\AhbLiteComponents_test\\hds\\uvmAhbMonitor\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -693,7 +714,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "hds-beamer"
+value "beamer"
 )
 (vvPair
 variable "series"
@@ -705,7 +726,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_AsmPath"
-value "$HDS_LIBS_DIR\\NanoBlaze\\hdl"
+value "$HEI_LIBS_DIR\\NanoBlaze\\hdl"
 )
 (vvPair
 variable "task_DesignCompilerPath"
@@ -729,7 +750,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "$MODELSIM_HOME\\win32"
+value "$MODELSIM_HOME"
 )
 (vvPair
 variable "task_NC"
@@ -765,19 +786,19 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "13:12:41"
+value "14:02:47"
 )
 (vvPair
 variable "unit"
-value "ahbMonitor"
+value "uvmAhbMonitor"
 )
 (vvPair
 variable "user"
-value "francois"
+value "johan.chenaux"
 )
 (vvPair
 variable "version"
-value "2009.2 (Build 10)"
+value "2018.1 (Build 12)"
 )
 (vvPair
 variable "view"
@@ -785,15 +806,15 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2015"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "15"
+value "19"
 )
 ]
 )
-LanguageMgr "VhdlLangMgr"
+LanguageMgr "Vhdl2008LangMgr"
 uid 51,0
 optionalChildren [
 *73 (SymbolBody
@@ -1326,8 +1347,8 @@ second (Text
 uid 12,0
 va (VaSet
 )
-xt "47100,42700,51700,43700"
-st "ahbMonitor"
+xt "47100,42700,53100,43700"
+st "uvmAhbMonitor"
 blo "47100,43500"
 )
 )
@@ -1649,7 +1670,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "61200,64000,77600,65000"
+xt "61200,64000,76300,65000"
 st "
 %library/%unit/%view
 "
@@ -1725,8 +1746,7 @@ st "LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.all;
 LIBRARY AhbLite;
-  USE AhbLite.ahbLite.all;
-"
+  USE AhbLite.ahbLite.all;"
 tm "PackageList"
 )
 ]
@@ -1776,6 +1796,34 @@ tm "CommentText"
 wrapOption 3
 visibleHeight 4600
 visibleWidth 14600
+)
+)
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "500,2150,1400,3150"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
 )
 )
 defaultPanel (Panel
@@ -1868,11 +1916,10 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "Verdana,12,0"
 )
-xt "0,750,2900,2150"
+xt "0,750,1400,1750"
 st "In0"
-blo "0,1950"
+blo "0,1550"
 tm "CptPortNameMgr"
 )
 )
@@ -1882,9 +1929,10 @@ font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
+lang 11
 decl (Decl
 n "In0"
-t "unsigned"
+t "std_logic_vector"
 b "(15 DOWNTO 0)"
 o 0
 )
@@ -1905,11 +1953,10 @@ ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
 va (VaSet
-font "Verdana,12,0"
 )
-xt "0,750,5300,2150"
+xt "0,750,2800,1750"
 st "Buffer0"
-blo "0,1950"
+blo "0,1550"
 tm "CptPortNameMgr"
 )
 )
@@ -1919,10 +1966,11 @@ font "Courier New,8,0"
 )
 )
 thePort (LogicalPort
+lang 11
 m 3
 decl (Decl
 n "Buffer0"
-t "unsigned"
+t "std_logic_vector"
 b "(15 DOWNTO 0)"
 o 0
 )
@@ -1986,7 +2034,7 @@ xt "0,9400,0,9400"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 3076,0
+lastUid 3099,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

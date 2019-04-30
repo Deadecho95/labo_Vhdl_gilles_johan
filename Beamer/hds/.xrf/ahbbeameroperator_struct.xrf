@@ -114,7 +114,7 @@ VIEW struct.bd
 NO_GRAPHIC 59
 LIBRARY Beamer
 DESIGN @d@a@c
-VIEW order2
+VIEW student@version
 GRAPHIC 12229,0 61 0 
 DESIGN @d@a@c
 VIEW symbol.sb

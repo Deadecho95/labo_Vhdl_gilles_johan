@@ -22,11 +22,11 @@ libraryRefs [
 ]
 )
 version "26.1"
-appVersion "2015.2 (Build 5)"
+appVersion "2018.1 (Build 12)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 2131,0
+suid 2147,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -72,10 +72,10 @@ decl (Decl
 n "apbi"
 t "apb_slv_in_type"
 o 1
-suid 2124,0
+suid 2140,0
 )
 )
-uid 1527,0
+uid 1685,0
 )
 *15 (LogPort
 port (LogicalPort
@@ -83,10 +83,10 @@ decl (Decl
 n "apbo"
 t "apb_slv_out_type"
 o 2
-suid 2125,0
+suid 2141,0
 )
 )
-uid 1529,0
+uid 1687,0
 )
 *16 (LogPort
 port (LogicalPort
@@ -95,10 +95,10 @@ decl (Decl
 n "clock"
 t "std_ulogic"
 o 3
-suid 2126,0
+suid 2142,0
 )
 )
-uid 1531,0
+uid 1689,0
 )
 *17 (LogPort
 port (LogicalPort
@@ -106,10 +106,10 @@ decl (Decl
 n "outX"
 t "std_ulogic"
 o 6
-suid 2127,0
+suid 2143,0
 )
 )
-uid 1533,0
+uid 1691,0
 )
 *18 (LogPort
 port (LogicalPort
@@ -117,10 +117,10 @@ decl (Decl
 n "outY"
 t "std_ulogic"
 o 7
-suid 2128,0
+suid 2144,0
 )
 )
-uid 1535,0
+uid 1693,0
 )
 *19 (LogPort
 port (LogicalPort
@@ -129,10 +129,10 @@ decl (Decl
 n "reset"
 t "std_ulogic"
 o 8
-suid 2129,0
+suid 2145,0
 )
 )
-uid 1537,0
+uid 1695,0
 )
 *20 (LogPort
 port (LogicalPort
@@ -141,10 +141,10 @@ decl (Decl
 n "reset_n"
 t "std_ulogic"
 o 9
-suid 2130,0
+suid 2146,0
 )
 )
-uid 1539,0
+uid 1697,0
 )
 *21 (LogPort
 port (LogicalPort
@@ -153,10 +153,10 @@ decl (Decl
 n "selSinCos"
 t "std_ulogic"
 o 10
-suid 2131,0
+suid 2147,0
 )
 )
-uid 1541,0
+uid 1699,0
 )
 ]
 )
@@ -210,49 +210,49 @@ uid 235,0
 litem &14
 pos 0
 dimension 20
-uid 1528,0
+uid 1686,0
 )
 *28 (MRCItem
 litem &15
 pos 1
 dimension 20
-uid 1530,0
+uid 1688,0
 )
 *29 (MRCItem
 litem &16
 pos 2
 dimension 20
-uid 1532,0
+uid 1690,0
 )
 *30 (MRCItem
 litem &17
 pos 3
 dimension 20
-uid 1534,0
+uid 1692,0
 )
 *31 (MRCItem
 litem &18
 pos 4
 dimension 20
-uid 1536,0
+uid 1694,0
 )
 *32 (MRCItem
 litem &19
 pos 5
 dimension 20
-uid 1538,0
+uid 1696,0
 )
 *33 (MRCItem
 litem &20
 pos 6
 dimension 20
-uid 1540,0
+uid 1698,0
 )
 *34 (MRCItem
 litem &21
 pos 7
 dimension 20
-uid 1542,0
+uid 1700,0
 )
 ]
 )
@@ -527,23 +527,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hdl"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hds\\beamer@system_tester\\interface.info"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hds\\beamer@system_tester\\interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hds\\beamer@system_tester\\interface.user"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hds\\beamer@system_tester\\interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hds"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -567,27 +567,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hds\\beamer@system_tester"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hds\\beamer@system_tester"
 )
 (vvPair
 variable "d_logical"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hds\\beamerSystem_tester"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hds\\beamerSystem_tester"
 )
 (vvPair
 variable "date"
-value "16.02.2018"
+value "29.04.2019"
 )
 (vvPair
 variable "day"
-value "Fr"
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "Freitag"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "16"
+value "29"
 )
 (vvPair
 variable "designName"
@@ -615,11 +615,11 @@ value "interface"
 )
 (vvPair
 variable "graphical_source_author"
-value "oliver.gubler"
+value "johan.chenaux"
 )
 (vvPair
 variable "graphical_source_date"
-value "16.02.2018"
+value "29.04.2019"
 )
 (vvPair
 variable "graphical_source_group"
@@ -627,11 +627,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE5370"
+value "WEA30906"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:34:10"
+value "14:04:02"
 )
 (vvPair
 variable "group"
@@ -639,7 +639,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE5370"
+value "WEA30906"
 )
 (vvPair
 variable "language"
@@ -659,7 +659,7 @@ value "$SCRATCH_DIR/SEm/Beamer_test/work"
 )
 (vvPair
 variable "mm"
-value "02"
+value "04"
 )
 (vvPair
 variable "module_name"
@@ -667,19 +667,19 @@ value "beamerSystem_tester"
 )
 (vvPair
 variable "month"
-value "Feb"
+value "avr."
 )
 (vvPair
 variable "month_long"
-value "Februar"
+value "avril"
 )
 (vvPair
 variable "p"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hds\\beamer@system_tester\\interface"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hds\\beamer@system_tester\\interface"
 )
 (vvPair
 variable "p_logical"
-value "F:\\temp\\SEm_labs\\Prefs\\..\\Beamer_test\\hds\\beamerSystem_tester\\interface"
+value "C:\\Users\\johan.chenaux\\Desktop\\LAbVHDL\\Prefs\\..\\Beamer_test\\hds\\beamerSystem_tester\\interface"
 )
 (vvPair
 variable "package_name"
@@ -759,7 +759,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "14:34:10"
+value "14:04:02"
 )
 (vvPair
 variable "unit"
@@ -767,11 +767,11 @@ value "beamerSystem_tester"
 )
 (vvPair
 variable "user"
-value "oliver.gubler"
+value "johan.chenaux"
 )
 (vvPair
 variable "version"
-value "2015.2 (Build 5)"
+value "2018.1 (Build 12)"
 )
 (vvPair
 variable "view"
@@ -779,11 +779,11 @@ value "interface"
 )
 (vvPair
 variable "year"
-value "2018"
+value "2019"
 )
 (vvPair
 variable "yy"
-value "18"
+value "19"
 )
 ]
 )
@@ -794,10 +794,10 @@ optionalChildren [
 uid 8,0
 optionalChildren [
 *74 (CptPort
-uid 1487,0
+uid 1645,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 1488,0
+uid 1646,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -805,11 +805,11 @@ fg "0,65535,0"
 xt "22625,5250,23375,6000"
 )
 tg (CPTG
-uid 1489,0
+uid 1647,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 1490,0
+uid 1648,0
 ro 270
 va (VaSet
 )
@@ -821,7 +821,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 1491,0
+uid 1649,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -835,15 +835,15 @@ decl (Decl
 n "apbi"
 t "apb_slv_in_type"
 o 1
-suid 2124,0
+suid 2140,0
 )
 )
 )
 *75 (CptPort
-uid 1492,0
+uid 1650,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 1493,0
+uid 1651,0
 ro 180
 va (VaSet
 vasetType 1
@@ -852,11 +852,11 @@ fg "0,65535,0"
 xt "24625,5250,25375,6000"
 )
 tg (CPTG
-uid 1494,0
+uid 1652,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 1495,0
+uid 1653,0
 ro 270
 va (VaSet
 )
@@ -868,7 +868,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 1496,0
+uid 1654,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -881,15 +881,15 @@ decl (Decl
 n "apbo"
 t "apb_slv_out_type"
 o 2
-suid 2125,0
+suid 2141,0
 )
 )
 )
 *76 (CptPort
-uid 1497,0
+uid 1655,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 1498,0
+uid 1656,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -897,11 +897,11 @@ fg "0,65535,0"
 xt "28625,5250,29375,6000"
 )
 tg (CPTG
-uid 1499,0
+uid 1657,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 1500,0
+uid 1658,0
 ro 270
 va (VaSet
 )
@@ -913,7 +913,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 1501,0
+uid 1659,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -927,15 +927,15 @@ decl (Decl
 n "clock"
 t "std_ulogic"
 o 3
-suid 2126,0
+suid 2142,0
 )
 )
 )
 *77 (CptPort
-uid 1502,0
+uid 1660,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 1503,0
+uid 1661,0
 ro 180
 va (VaSet
 vasetType 1
@@ -944,11 +944,11 @@ fg "0,65535,0"
 xt "64625,5250,65375,6000"
 )
 tg (CPTG
-uid 1504,0
+uid 1662,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 1505,0
+uid 1663,0
 ro 270
 va (VaSet
 )
@@ -960,7 +960,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 1506,0
+uid 1664,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -973,15 +973,15 @@ decl (Decl
 n "outX"
 t "std_ulogic"
 o 6
-suid 2127,0
+suid 2143,0
 )
 )
 )
 *78 (CptPort
-uid 1507,0
+uid 1665,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 1508,0
+uid 1666,0
 ro 180
 va (VaSet
 vasetType 1
@@ -990,11 +990,11 @@ fg "0,65535,0"
 xt "62625,5250,63375,6000"
 )
 tg (CPTG
-uid 1509,0
+uid 1667,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 1510,0
+uid 1668,0
 ro 270
 va (VaSet
 )
@@ -1006,7 +1006,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 1511,0
+uid 1669,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -1019,15 +1019,15 @@ decl (Decl
 n "outY"
 t "std_ulogic"
 o 7
-suid 2128,0
+suid 2144,0
 )
 )
 )
 *79 (CptPort
-uid 1512,0
+uid 1670,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 1513,0
+uid 1671,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -1035,11 +1035,11 @@ fg "0,65535,0"
 xt "70625,5250,71375,6000"
 )
 tg (CPTG
-uid 1514,0
+uid 1672,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 1515,0
+uid 1673,0
 ro 270
 va (VaSet
 )
@@ -1051,7 +1051,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 1516,0
+uid 1674,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -1065,15 +1065,15 @@ decl (Decl
 n "reset"
 t "std_ulogic"
 o 8
-suid 2129,0
+suid 2145,0
 )
 )
 )
 *80 (CptPort
-uid 1517,0
+uid 1675,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 1518,0
+uid 1676,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -1081,11 +1081,11 @@ fg "0,65535,0"
 xt "30625,5250,31375,6000"
 )
 tg (CPTG
-uid 1519,0
+uid 1677,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 1520,0
+uid 1678,0
 ro 270
 va (VaSet
 )
@@ -1097,7 +1097,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 1521,0
+uid 1679,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -1111,15 +1111,15 @@ decl (Decl
 n "reset_n"
 t "std_ulogic"
 o 9
-suid 2130,0
+suid 2146,0
 )
 )
 )
 *81 (CptPort
-uid 1522,0
+uid 1680,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 1523,0
+uid 1681,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -1127,11 +1127,11 @@ fg "0,65535,0"
 xt "58625,5250,59375,6000"
 )
 tg (CPTG
-uid 1524,0
+uid 1682,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 1525,0
+uid 1683,0
 ro 270
 va (VaSet
 )
@@ -1143,7 +1143,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 1526,0
+uid 1684,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -1157,7 +1157,7 @@ decl (Decl
 n "selSinCos"
 t "std_ulogic"
 o 10
-suid 2131,0
+suid 2147,0
 )
 )
 )
@@ -1265,7 +1265,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,47800,49000"
+xt "36200,48000,48200,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1866,6 +1866,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1542,0
+lastUid 1700,0
 activeModelName "Symbol:GEN"
 )

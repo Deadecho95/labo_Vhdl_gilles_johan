@@ -46,7 +46,7 @@ settingsMap [
 "GlitchGeneration"
 "1"
 "InitCmd"
-"$SIMULATION_DIR/ahbUart.do"
+"C:/Users/johan.chenaux/Desktop/LAbVHDL/Simulation/ahbBeamer.do"
 "LogFile"
 ""
 "RemoteHost"
